@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: flex;
+}
+
+.container {
+    flex-basis: 50%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+}
+
+li {
+    list-style: none;
+    scroll-snap-align: start;
+    /* border: 3px solid green; */
+}
+
+.overview {
+    top: 27%;
+}
+
+
+/* down */
+
+iframe {
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    height: 55vh;
+    width: 100vh;
+    left: calc((100vw - 100vh)/2);
+}
+
+#doku h1 {
+    top: 20%;
+}
+
+#git a {
+    color: white;
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 15pt;
+}

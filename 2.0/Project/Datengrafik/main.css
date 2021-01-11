@@ -1,0 +1,38 @@
+.globe {
+    border: 2px solid dodgerblue;
+    border-radius: 50%;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+    width: 40vh;
+}
+
+svg {
+    width: calc(40vh*127%);
+    height: 40vh;
+    animation: rotation 5s linear 0s infinite;
+}
+
+path {
+    stroke: dodgerblue;
+    stroke-width: 1;
+    fill: darkblue;
+    fill-rule: nonzero;
+    opacity: 0.3;
+}
+
+@keyframes rotation {
+    from {
+        transform: translateX(0);
+    }
+    from {
+        transform: translateX(-50%);
+    }
+}
+
+.overview {
+    top: 90%;
+}

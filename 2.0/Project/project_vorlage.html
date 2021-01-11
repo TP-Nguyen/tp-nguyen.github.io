@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <title>Nguyen Thao</title>
+
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body onload="arrow()">
+    <!-- partial:index.partial.html -->
+    <div class="site">
+        <div class="wrap animate--shrink">
+            <!-- class="panel-wrap animate--none" -->
+            <!--MAIN-->
+            <div class="panel" data-x-pos="0" data-y-pos="0">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2>!</h2></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2>!</h2></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2>!</h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <span class="overview js-zoom">OVERVIEW</span>
+                <h1>Main</h1>
+            </div>
+            <!--UP-->
+            <div class="panel" data-x-pos="0" data-y-pos="1">
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2>!</h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Up</h1>
+            </div>
+            <!-- UP L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="1">
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Up Left</h1>
+            </div>
+            <!-- UP R -->
+            <div class="panel" data-x-pos="1" data-y-pos="1">
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Up Right</h1>
+            </div>
+            <!-- L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="0">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2>!</h2></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Left</h1>
+            </div>
+            <!-- R -->
+            <div class="panel" data-x-pos="1" data-y-pos="0">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2>!</h2></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Right</h1>
+            </div>
+            <!-- DOWN -->
+            <div class="panel" data-x-pos="0" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2>!</h2></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2>!</h2></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"><h2>!</h2></span></span>
+                <h1>Down</h1>
+            </div>
+            <!-- DOWN L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2>!</h2></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"><h2>!</h2></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2>!</h2></span></span>
+                <h1>Down Left</h1>
+            </div>
+            <!-- DOWN R -->
+            <div class="panel" data-x-pos="1" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2>!</h2></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"><h2>!</h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2>!</h2></span></span>
+                <h1>Down Right</h1>
+            </div>
+            <!-- DOWN 2-->
+            <div class="panel" data-x-pos="0" data-y-pos="-2">
+                <span class="field field-up          js-up">             <span class="arrow up"><h2>!</h2></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2>!</h2></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2>!</h2></span></span>
+                <h1>Down 2</h1>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="./project.js"></script>
+
+</body>
+
+</html>

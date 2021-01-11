@@ -1,0 +1,102 @@
+
+@media (max-width:950px){
+    #diamond ul{ 
+        transform: rotate(90deg);
+    }
+}
+/*DIAMOND*/
+#diamond ul{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    height: 300px;
+}
+#diamond ul li {
+    list-style: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: -100px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    transition: .5s;
+    opacity: .5;
+    border: 1px gray solid;
+}
+#diamond ul li:hover{
+    opacity: 1;
+}
+/* PLACEMENT */
+#diamond ul li.item:nth-child(1){
+    top:0;
+    left:0;
+}
+#diamond ul li.item:nth-child(2){
+    top:0;
+    left:50%;
+    transform: rotate(45deg);
+}
+#diamond ul li.item:nth-child(3){
+    top:0;
+    left:100%;
+}
+#diamond ul li.item:nth-child(4){
+    bottom:50%;
+    left:25%;
+}
+#diamond ul li.item:nth-child(5){
+    bottom:50%;
+    left:75%;
+}
+#diamond ul li.item:nth-child(6){
+    bottom:0;
+    left:0%;
+}
+#diamond ul li.item:nth-child(7){
+    bottom:0;
+    left:50%;
+}
+#diamond ul li.item:nth-child(8){
+    bottom:0;
+    left:100%;
+}
+/* BACKGROUND */
+#diamond ul li .bg{
+    width: 100%;
+    height:100%;
+    transform: rotate(-45deg)scale(1.3);
+    /* background: url(img/1080p-HD-Japan-Wallpaper.jpg); */
+    background-size: cover;
+}
+#diamond ul li.item:nth-child(1) .bg{
+    transform: rotate(-45deg)scale(1.5);
+    background-image: url(img/Stressed.png);
+}
+#diamond ul li.item:nth-child(2) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+    transform: rotate(-45deg)scale(1.4);
+}
+#diamond ul li.item:nth-child(3) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+}
+#diamond ul li.item:nth-child(4) .bg{
+    transform: rotate(-45deg)scale(0.7);
+    background-image: url(img/zphere.png);
+}
+#diamond ul li.item:nth-child(5) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+}
+#diamond ul li.item:nth-child(6) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+}
+#diamond ul li.item:nth-child(7) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+}
+#diamond ul li.item:nth-child(8) .bg{
+    background-image: url(img/ThrowbackDeckblatt.jpg);
+}
