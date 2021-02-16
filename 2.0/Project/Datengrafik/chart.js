@@ -1,22 +1,23 @@
 var kurve = '#4A00E0';
 var options = {
     chart: {
+        foreColor: 'whitesmoke',
         height: 500,
         type: "area",
         // stacked: true
 
         toolbar: {
-            show: false,
-            // show: true,
+            // show: false,
+            show: true,
             offsetX: -'90vw',
             offsetY: -30,
             tools: {
                 download: false, //'<img src="/static/icons/download.png" class="ico-download" width="20">'
                 selection: true,
                 zoom: true,
-                zoomin: true,
-                zoomout: true,
-                pan: true,
+                zoomin: false,
+                zoomout: false,
+                pan: false,
                 reset: true | '<img class="fas fa-undo">',
                 // customIcons: []
             },
@@ -54,10 +55,24 @@ var options = {
     grid: {
         show: false,
     },
+    annotations: {
+        position: "back",
+        yaxis: [{
+            y: 80,
+            // strokeDashArray: 0, //linie
+            strokeDashArray: 7, //linie
+            borderColor: "#707070",
+        }],
+    },
+    tooltip: {
+        theme: 'dark',
+    },
     yaxis: {
-        show: false,
+        show: true,
+        opposite: true,
     },
     xaxis: {
+        tooltip: 'false',
         categories: [
             "1990",
             "1995",
@@ -67,6 +82,7 @@ var options = {
             "2015",
             "2020"
         ],
+        // max: 5,
         axisBorder: { //breite
             show: true,
             color: '#707070',

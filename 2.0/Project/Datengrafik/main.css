@@ -6,12 +6,20 @@ body {
 h1,
 h2,
 h3 {
-    display: none;
+    /* display: none; */
     font-family: 'Bebas Neue', cursive;
 }
 
 .overview {
     top: 90%;
+}
+
+.apexcharts-tooltip {
+    box-shadow: 0 0 0 0 #000;
+}
+
+.chartfont {
+    color: whitesmoke;
 }
 
 .arrow {
@@ -39,6 +47,14 @@ h3 {
 .page-content {
     height: 100%;
     width: 100%;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title,
+.chart .apexcharts-tooltip,
+.chart .apexcharts-tooltip-title {
+    /* color: #FFFFFF;
+    background: #1c1c1c;
+    opacity: 0.7; */
 }
 
 .chart {
@@ -75,6 +91,7 @@ h3 {
 }
 
 .Words {
+    display: none;
     margin: auto;
     height: 500px;
     width: 500px;

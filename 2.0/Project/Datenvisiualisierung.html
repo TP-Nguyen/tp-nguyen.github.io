@@ -48,7 +48,7 @@
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <h1>Up</h1>
+                <!-- <h1>Up</h1> -->
             </div>
             <!-- UP L -->
             <div class="panel" data-x-pos="-1" data-y-pos="1">
@@ -63,13 +63,13 @@
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <h1>Up Right</h1>
+                <!-- <h1>Up Right</h1> -->
             </div>
             <!-- L -->
             <div class="panel" data-x-pos="-1" data-y-pos="0">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"> </span></span>
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
                 <!-- <h1>Left</h1> -->
@@ -82,7 +82,7 @@
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <h1>Right</h1>
+                <!-- <h1>Right</h1> -->
             </div>
             <!-- DOWN -->
             <div id="down" class="panel" data-x-pos="0" data-y-pos="-1">
@@ -140,7 +140,7 @@
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <!-- <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span> -->
-                <h1>Down Right</h1>
+                <!-- <h1>Down Right</h1> -->
 
             </div>
             <!-- DOWN 2-->
@@ -148,7 +148,7 @@
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <!-- <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span> -->
                 <!-- <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span> -->
-                <h1>Doku</h1>
+                <!-- <h1>Doku</h1> -->
             </div>
         </div>
     </div>
@@ -163,162 +163,6 @@
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
-
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-map.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
-    <script src="https://cdn.anychart.com/geodata/latest/custom/world/world.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
-    <script type="text/javascript">
-        anychart.onDocumentReady(function() {
-            // The data used in this sample can be obtained from the CDN
-            // https://cdn.anychart.com/samples/maps-general-features/world-choropleth-map/data.json
-            anychart.data.loadJsonFile(
-                'https://cdn.anychart.com/samples/maps-general-features/world-choropleth-map/data.json',
-                function(data) {
-                    var map = anychart.map();
-
-                    map
-                        .credits()
-                        .enabled(true)
-                        .url(
-                            'https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_population_density'
-                        )
-                        .logoSrc('https://en.wikipedia.org/static/favicon/wikipedia.ico')
-                        .text(
-                            'Data source: https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_population_density'
-                        );
-
-                    map
-                        .title()
-                        .enabled(true)
-                        .useHtml(true)
-                        .padding([10, 0, 10, 0])
-                        .text(
-                            'Population Density (people per km&#178)<br/>' +
-                            '<span  style="color:#929292; font-size: 12px;">(Data source: Wikipedia, 2015)</span>'
-                        );
-
-                    map.geoData('anychart.maps.world');
-                    map.interactivity().selectionMode('none');
-                    map.padding(0);
-
-                    var dataSet = anychart.data.set(data);
-                    var densityData = dataSet.mapAs({
-                        value: 'density'
-                    });
-                    var series = map.choropleth(densityData);
-
-                    series.labels(false);
-
-                    series
-                        .hovered()
-                        .fill('#f48fb1')
-                        .stroke(anychart.color.darken('#f48fb1'));
-
-                    series
-                        .selected()
-                        .fill('#c2185b')
-                        .stroke(anychart.color.darken('#c2185b'));
-
-                    series
-                        .tooltip()
-                        .useHtml(true)
-                        .format(function() {
-                            return (
-                                '<span style="color: #d9d9d9">Density</span>: ' +
-                                parseFloat(this.value).toLocaleString() +
-                                ' pop./km&#178 <br/>' +
-                                '<span style="color: #d9d9d9">Population</span>: ' +
-                                parseInt(this.getData('population')).toLocaleString() +
-                                '<br/>' +
-                                '<span style="color: #d9d9d9">Area</span>: ' +
-                                parseInt(this.getData('area')).toLocaleString() +
-                                ' km&#178'
-                            );
-                        });
-
-                    var scale = anychart.scales.ordinalColor([{
-                        less: 10
-                    }, {
-                        from: 10,
-                        to: 30
-                    }, {
-                        from: 30,
-                        to: 50
-                    }, {
-                        from: 50,
-                        to: 100
-                    }, {
-                        from: 100,
-                        to: 200
-                    }, {
-                        from: 200,
-                        to: 300
-                    }, {
-                        from: 300,
-                        to: 500
-                    }, {
-                        from: 500,
-                        to: 1000
-                    }, {
-                        greater: 1000
-                    }]);
-                    scale.colors([
-                        '#81d4fa',
-                        '#4fc3f7',
-                        '#29b6f6',
-                        '#039be5',
-                        '#0288d1',
-                        '#0277bd',
-                        '#01579b',
-                        '#014377',
-                        '#000000'
-                    ]);
-
-                    var colorRange = map.colorRange();
-                    colorRange.enabled(true).padding([0, 0, 20, 0]);
-                    colorRange
-                        .ticks()
-                        .enabled(true)
-                        .stroke('3 #ffffff')
-                        .position('center')
-                        .length(7);
-                    colorRange.colorLineSize(5);
-                    colorRange.marker().size(7);
-                    colorRange
-                        .labels()
-                        .fontSize(11)
-                        .padding(3, 0, 0, 0)
-                        .format(function() {
-                            var range = this.colorRange;
-                            var name;
-                            if (isFinite(range.start + range.end)) {
-                                name = range.start + ' - ' + range.end;
-                            } else if (isFinite(range.start)) {
-                                name = 'More than ' + range.start;
-                            } else {
-                                name = 'Less than ' + range.end;
-                            }
-                            return name;
-                        });
-
-                    series.colorScale(scale);
-
-                    // create zoom controls
-                    var zoomController = anychart.ui.zoom();
-                    zoomController.render(map);
-
-                    // set container id for the chart
-                    map.container('container');
-                    // initiate chart drawing
-                    map.draw();
-                }
-            );
-        });
-    </script>
 </body>
 
 </html>
