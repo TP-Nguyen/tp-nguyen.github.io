@@ -6,6 +6,7 @@ async function linechart() {
         chart: {
             height: 550,
             type: "line",
+            foreColor: 'whitesmoke',
             // foreColor: '#6D6D6D',
 
             toolbar: {
@@ -72,7 +73,9 @@ async function linechart() {
             },
         },
         yaxis: {
-            show: false,
+            // show: false,
+            show: true,
+            opposite: true,
         },
         tooltip: {
             theme: 'dark',

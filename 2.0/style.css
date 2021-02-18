@@ -244,51 +244,27 @@ section {
 
 /* SKILL */
 
+
+/* 
 #skill {
     width: 100%;
     padding: 5% 0%;
     background: url ();
     background-size: cover;
     /*    display: flex;*/
-}
 
-#skill img {
-    margin: 1.5%;
-    height: 10%;
-    filter: grayscale(100%);
-}
 
-#skill img:hover {
-    filter: grayscale(0%);
-}
-
-.skillcontent a:hover {
-    color: dodgerblue;
-}
-
-.skillcontent a {
-    color: firebrick;
-}
-
-.skillcontent {
-    display: none;
-    width: 70%;
-    height: 65%;
-    margin: auto;
-    padding: 3%;
-    /* background-color: whitesmoke; */
-    box-sizing: border-box;
-    overflow: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+/* 
 #project {
     width: 70%;
     padding: 5% 15%;
     /* height: auto; */
-    /*    display: flex;*/
-}
 
+
+/*    display: flex;*/
+
+
+}
 .caption {
     position: absolute;
     padding: 0 3.5%;
@@ -301,21 +277,17 @@ section {
     color: white;
     font-size: 10pt;
 }
-
 .caption p {
     padding: 0 3%;
 }
-
 .caption:hover {
     opacity: 1;
 }
-
 .term:hover,
 .term a:hover {
     background-color: dodgerblue;
     color: whitesmoke;
 }
-
 .term {
     bottom: 0;
     position: relative;
@@ -324,10 +296,10 @@ section {
     padding: 1.5vh 0;
     /*    height: 10%;*/
     /*    padding: 2% 0px;*/
+    
     margin: 0;
     text-align: center;
 }
-
 .projectLink {
     padding: 0;
     height: 50%;
@@ -339,7 +311,6 @@ section {
     display: block;
     position: relative;
 }
-
 
 /* 
 #slideshow {
@@ -456,14 +427,11 @@ section {
         left: -200%;
     }
 } */
-
 footer {
     height: 10vh;
 }
 
-
 /* ARROW */
-
 .arrow {
     display: block;
     border-left: 3px solid #fff;
@@ -472,67 +440,52 @@ footer {
     height: 30px;
     margin: 15px;
 }
-
 .arrow h2 {
     margin: 0 10px;
     text-align: center;
     /* left: 50%; */
     /* transform: translateX(-50%) translateY(-50%); */
 }
-
 .r {
     transform: rotate(225deg);
 }
-
 .r h2 {
     transform: rotate(-225deg);
 }
-
 .l {
     transform: rotate(45deg);
 }
-
 .l h2 {
     transform: rotate(-45deg);
 }
-
 .up {
     transform: rotate(135deg);
 }
-
 .up h2 {
     transform: rotate(-135deg);
 }
-
 .upr {
     transform: rotate(180deg);
 }
-
 .upr h2 {
     position: absolute;
     transform: rotate(180deg);
 }
-
 .upl {
     transform: rotate(90deg);
 }
-
 .upl h2 {
     transform: rotate(-90deg);
 }
-
 .down {
     transform: rotate(-45deg);
 }
-
 .down h2 {
     transform: rotate(45deg);
 }
-
 .downr {
     transform: rotate(270deg);
 }
-
 .downr h2 {
     transform: rotate(-270deg);
 }
