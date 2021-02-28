@@ -1,8 +1,8 @@
 var Navigation = `<nav class="menu"><ul>
                 <li><a href="index.html" onclick="hidden()">Home</a></li>
                 <li><a href="aboutme.html">About me</a></li>
-                <li><a href="projectoverview.html">Projekt</a></li>
-                <li><a href="index.html#projectoverview">Projekt</a></li>
+                <li><a href="index.html#skill">Experience</a></li>
+                <li><a href="index.html#projectoverview">Project</a></li>
             </ul></nav>
             <div id="smallLogo">NGUYEN</div>
             <div id="menu"><i class="fas fa-bars"></i></div>`;
