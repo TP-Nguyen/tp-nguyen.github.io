@@ -1,19 +1,22 @@
-var Navigation = `<ul>
-                <li><a href="#home" onclick="hidden()">Home</a></li>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href="#project">Projekt</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-            </ul>`;
-var test ="test";
-function navi(){ 
-document.getElementById('placeholder').innerHTML = Navigation;
+var Navigation = `<nav class="menu"><ul>
+                <li><a href="index.html" onclick="hidden()">Home</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="index.html#skill">Experience</a></li>
+                <li><a href="index.html#projectoverview">Project</a></li>
+            </ul></nav>
+            <div id="smallLogo">NGUYEN</div>
+            <div id="menu"><i class="fas fa-bars"></i></div>`;
+
+var scrollbar = `<div id="rightscroll" class="scrollbar"> </div> <div id="leftscroll"  class="scrollbar"></div>`;
+
+function placeholder() {
+    //document.getElementById('placeholder').onload = function(){ 
+    document.getElementById('navi-placeholder').innerHTML = Navigation;
+    document.getElementById('scrollbar-placeholder').innerHTML = scrollbar;
 }
 
-
-
 //Gib Navigation nach scrollen Hintergrund
-$(window).scroll(function () {
+$(window).scroll(function() {
     if ($(window).scrollTop()) {
         $('header').addClass('black');
     } else {
@@ -22,20 +25,20 @@ $(window).scroll(function () {
 })
 
 //Aktiviert Navigationsort an
-$(window).scroll(function () {
-    var scrollDistance = $(window).scrollTop();
+// $(window).scroll(function () {
+//     var scrollDistance = $(window).scrollTop();
 
-    $('section').each(function (i) {
-        if ($(this).position().top <= scrollDistance + 3) {
-            $('nav a.active').removeClass('active');
-            $('nav a').eq(i).addClass('active');
-        }
-    });
-}).scroll();
+//     $('section').each(function (i) {
+//         if ($(this).position().top <= scrollDistance + 3) {
+//             $('nav a.active').removeClass('active');
+//             $('nav a').eq(i).addClass('active');
+//         }
+//     });
+// }).scroll();
 
 //Hamburgermenü
-$(document).ready(function () {
-    $('#menu').click(function () {
+$(document).ready(function() {
+    $('#menu').click(function() {
         $('nav').toggleClass('menu');
         $('header').toggleClass('back');
     })
@@ -44,8 +47,8 @@ $(document).ready(function () {
 function hidden() {
     document.getElementsByClassName("menue").style.display = "none";
 }
-$(document).ready(function () {
-    $('nav').click(function () {
+$(document).ready(function() {
+    $('nav').click(function() {
         $('nav').toggleClass('menu');
         if ($(window).scrollTop() == $('header').position().top) {
             $('header').removeClass('back');
@@ -55,7 +58,7 @@ $(document).ready(function () {
 
 
 //smallLogo
-$(window).scroll(function () {
+$(window).scroll(function() {
 
     var Speed = ($('#smallLogo').height() / $('#home').height());
 
@@ -71,7 +74,7 @@ $(window).scroll(function () {
 })
 
 //bigLogo
-$(window).scroll(function () {
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     $('#home').css({
         filter: "blur(" + (scroll / 100) + "px)"
