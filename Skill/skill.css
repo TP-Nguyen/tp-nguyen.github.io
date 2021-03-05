@@ -31,7 +31,7 @@
     align-items: center;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 5px;
+    grid-gap: 10px;
     filter: grayscale(0.7);
     /* background-color: dodgerblue; */
     /* animation: neon 5s linear infinite; */

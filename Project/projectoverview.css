@@ -141,44 +141,63 @@
 }
 
 @media (max-width:530px) {
+    #diamond ul li {
+        list-style: none;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        overflow: hidden;
+        /* transform: rotate(45deg); */
+        transition: .5s;
+        opacity: .5;
+        border: 1px gray solid;
+        cursor: pointer;
+    }
+    #diamond ul li:hover:before {
+        width: 130px;
+        height: 130px;
+        border: 10px solid dodgerblue;
+        /* box-shadow: 0 0 5px dodgerblue; */
+        animation: neon 5s linear infinite;
+    }
     #lastMinute {
-        top: 00%;
-        left: 39%;
+        top: 0%;
+        left: 35%;
     }
     #throwback {
-        top: 50%;
-        left: 64%;
+        top: 0%;
+        left: 75%;
         transform: rotate(45deg);
     }
     #eshop {
         background: black;
-        top: 100%;
-        left: 39%;
+        top: 40%;
+        left: 55%;
     }
     #survival {
-        top: 150%;
-        left: 64%;
+        top: 80%;
+        left: 75%;
         background: black;
     }
     #eatabroad {
-        top: 200%;
-        left: 39%;
+        top: 80%;
+        left: 35%;
         background: white;
         background-color: white;
     }
     #zphere {
-        top: 250%;
+        top: 120%;
         background: black;
-        left: 64%;
-    }
-    #lagom {
-        top: 300%;
-        left: 39%;
-        background: black;
+        left: 55%;
     }
     #internet {
-        top: 350%;
-        left: 64%;
+        top: 160%;
+        left: 75%;
+    }
+    #lagom {
+        top: 160%;
+        left: 35%;
+        background: black;
     }
 }
 
@@ -194,6 +213,13 @@
         opacity: .5;
         border: 1px gray solid;
         cursor: pointer;
+    }
+    #diamond ul li:hover:before {
+        width: 90px;
+        height: 90px;
+        border: 10px solid dodgerblue;
+        /* box-shadow: 0 0 5px dodgerblue; */
+        animation: neon 5s linear infinite;
     }
     #lastMinute {
         top: 0%;

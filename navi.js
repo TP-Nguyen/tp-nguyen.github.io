@@ -1,18 +1,18 @@
-var Navigation = `<nav class="menu"><ul>
+var Navigation = `<nav class=""><ul>
                 <li><a href="index.html" onclick="hidden()">Home</a></li>
                 <li><a href="aboutme.html">About me</a></li>
                 <li><a href="index.html#skill">Experience</a></li>
                 <li><a href="index.html#projectoverview">Project</a></li>
             </ul></nav>
             <div id="smallLogo">NGUYEN</div>
-            <div id="menu"><i class="fas fa-bars"></i></div>`;
+            <div id="menu" onclick="showNav()" ><i class="fas fa-bars"></i></div>`;
 
 var scrollbar = `<div id="rightscroll" class="scrollbar"> </div> <div id="leftscroll"  class="scrollbar"></div>`;
 
 function placeholder() {
     //document.getElementById('placeholder').onload = function(){ 
     document.getElementById('navi-placeholder').innerHTML = Navigation;
-    document.getElementById('scrollbar-placeholder').innerHTML = scrollbar;
+    // document.getElementById('scrollbar-placeholder').innerHTML = scrollbar;
 }
 
 //Gib Navigation nach scrollen Hintergrund
@@ -22,7 +22,7 @@ $(window).scroll(function() {
     } else {
         $('header').removeClass('black');
     }
-})
+});
 
 //Aktiviert Navigationsort an
 // $(window).scroll(function () {
@@ -37,12 +37,18 @@ $(window).scroll(function() {
 // }).scroll();
 
 //Hamburgermenü
-$(document).ready(function() {
-    $('#menu').click(function() {
-        $('nav').toggleClass('menu');
-        $('header').toggleClass('back');
-    })
-})
+// $(document).ready(function() {
+//     $('#menu').click(function() {
+//         $('nav').toggleClass('menu');
+//         $('header').addClass('black');
+//         console.log("menu click");
+//     });
+// });
+function showNav() {
+    $('nav').toggleClass('menu');
+    $('header').addClass('black');
+    console.log("menu click");
+}
 
 function hidden() {
     document.getElementsByClassName("menue").style.display = "none";
@@ -51,27 +57,11 @@ $(document).ready(function() {
     $('nav').click(function() {
         $('nav').toggleClass('menu');
         if ($(window).scrollTop() == $('header').position().top) {
-            $('header').removeClass('back');
+            // $('header').removeClass('black');
+            $('header').toggleClass('black');
         }
-    })
-})
-
-
-//smallLogo
-$(window).scroll(function() {
-
-    var Speed = ($('#smallLogo').height() / $('#home').height());
-
-    var y = ($(window).scrollTop() * Speed);
-
-    var Padding = $('header').height() - y;
-    if (Padding > 0) {
-        $('#smallLogo').addClass('hidden');
-    }
-    if (Padding < 0) {
-        $('#smallLogo').removeClass('hidden');
-    }
-})
+    });
+});
 
 //bigLogo
 $(window).scroll(function() {
@@ -79,4 +69,4 @@ $(window).scroll(function() {
     $('#home').css({
         filter: "blur(" + (scroll / 100) + "px)"
     });
-})
+});

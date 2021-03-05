@@ -1,21 +1,58 @@
-#contact {
-    max-height: 100vh;
+#contactInfo {
+    display: grid;
+    justify-items: center;
+    width: 98vw;
+    grid-auto-flow: column;
     height: auto;
-    width: 70%;
-    margin: 0 auto;
-    padding: 0 15%;
-    /* background-color: white; */
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
+}
+
+@media (min-width:700px) {
+    #contact {
+        grid-auto-flow: column;
+        height: auto;
+    }
+}
+
+@media (max-width:415px) {
+    #contactInfo #contact {
+        margin-top: 80px;
+    }
+    #contactInfo #contact .box .icon .fas {
+        font-size: 50px;
+    }
+    #contactInfo #contact .box h3,
+    #contactInfo #contact .box h4 {
+        color: #fff;
+    }
+    #contactInfo #contact .box {
+        text-align: center;
+        width: auto;
+        height: 150px;
+    }
+    #contactInfo {
+        min-height: 100vh;
+        max-height: 110vh;
+    }
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, auto));
     color: #fff;
-    margin-top: 50px;
-    /* border-bottom:1px solid #fff; */
+    margin-top: 20vh;
+    grid-gap: 3%;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+#contact .box:nth-child(3) {
+    margin-bottom: 1%;
 }
 
 #contact .box {
     text-align: center;
-    margin: 3%;
+    width: 255px;
+    height: 240px;
 }
 
 #contact .box .icon .fas {
@@ -270,7 +307,9 @@ h2 {
     border-radius: 0.25em;
     padding: 1em;
     /* box-shadow: 0 3px 0 #d7e4ed; */
-    box-shadow: 0 3px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 0 dodgerblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* rgba(255, 255, 255, 0.2) */
+    animation: neon 5s linear infinite;
 }
 
 .timeline-content::after {
@@ -280,7 +319,9 @@ h2 {
 }
 
 .timeline-content h2 {
-    color: #303e49;
+    color: #fff;
+    /* dodgerblue; */
+    /* #303e49; */
 }
 
 .timeline-content p,
@@ -304,7 +345,7 @@ h2 {
 .timeline-content .read-more {
     float: right;
     padding: .8em 1em;
-    background: #acb7c0;
+    background: dodgerblue;
     color: #ffffff;
     border-radius: 0.25em;
 }

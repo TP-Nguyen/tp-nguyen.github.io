@@ -12,15 +12,23 @@
 
     <title>Nguyen Thao</title>
 
-    <script type="text/javascript" src="main.js"></script>
-    <script type="text/javascript" src="skill.js"></script>
-    <script type="text/javascript" src="navi.js"></script>
-
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="navi.css">
     <link rel="stylesheet" type="text/css" href="Skill/skill.css">
     <link rel="stylesheet" type="text/css" href="AboutMe/aboutme.css">
     <link rel="stylesheet" type="text/css" href="Project/projectoverview.css">
+
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="skill.js"></script>
+    <script type="text/javascript" src="navi.js">
+        $(document).ready(function() {
+            $('#menu').click(function() {
+                $('nav').toggleClass('menu');
+                $('header').addClass('black');
+                console.log("menu click");
+            });
+        });
+    </script>
 
 </head>
 
@@ -46,7 +54,7 @@
                 <!-- <br> -->
                 Mein Name ist Phuong Thao Nguyen.
                 <br> Zurzeit studiere ich an der Hochschule Bremen den Studiengang Internationale Medieninformatik.
-                <!-- Dort befinde ich mich im zweiten Semester meines Studiums.  -->
+                <!-- Dort befinde ich mich im sechsten Semester meines Studiums.  -->
                 Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.
                 <br><br> Aufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein
                 Wissen genutzt und erweitert. <br><br>
