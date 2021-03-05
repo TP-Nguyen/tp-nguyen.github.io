@@ -100,126 +100,138 @@
 
 @media (max-width:870px) {
     #lastMinute {
-        top: -50%;
+        top: 0%;
         left: 25%;
     }
     #throwback {
-        top: -50%;
+        top: 0%;
         left: 75%;
         transform: rotate(45deg);
     }
     #eshop {
         background: black;
-        top: 0;
+        top: 50%;
         left: 50%;
     }
-    #zphere {
-        bottom: 50%;
-        background: black;
-        left: 25%;
-    }
     #survival {
-        bottom: 50%;
+        top: 100%;
         left: 75%;
         background: black;
     }
-    #internet {
-        bottom: -50%;
-        left: 25%;
-    }
     #eatabroad {
-        bottom: 0;
-        left: 50%;
+        top: 100%;
+        left: 25%;
         background: white;
         background-color: white;
     }
-    #lagom {
-        bottom: -50%;
+    #zphere {
+        top: 150%;
+        background: black;
+        left: 50%;
+    }
+    #internet {
+        top: 200%;
         left: 75%;
+    }
+    #lagom {
+        top: 200%;
+        left: 25%;
         background: black;
     }
 }
 
 @media (max-width:530px) {
     #lastMinute {
-        top: -50%;
-        left: 50%;
+        top: 00%;
+        left: 39%;
     }
     #throwback {
-        top: -50%;
-        left: 75%;
+        top: 50%;
+        left: 64%;
         transform: rotate(45deg);
     }
     #eshop {
         background: black;
-        top: 0;
-        left: 50%;
-    }
-    #zphere {
-        bottom: 50%;
-        background: black;
-        left: 25%;
+        top: 100%;
+        left: 39%;
     }
     #survival {
-        bottom: 50%;
-        left: 75%;
+        top: 150%;
+        left: 64%;
         background: black;
     }
-    #internet {
-        bottom: -50%;
-        left: 25%;
-    }
     #eatabroad {
-        bottom: 0;
-        left: 50%;
+        top: 200%;
+        left: 39%;
         background: white;
         background-color: white;
     }
-    #lagom {
-        bottom: -50%;
-        left: 75%;
+    #zphere {
+        top: 250%;
         background: black;
+        left: 64%;
+    }
+    #lagom {
+        top: 300%;
+        left: 39%;
+        background: black;
+    }
+    #internet {
+        top: 350%;
+        left: 64%;
     }
 }
 
 @media (max-width:375px) {
+    #diamond ul li {
+        list-style: none;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        /* transform: rotate(45deg); */
+        transition: .5s;
+        opacity: .5;
+        border: 1px gray solid;
+        cursor: pointer;
+    }
     #lastMinute {
         top: 0%;
-        left: 50%;
+        left: 43%;
     }
     #throwback {
-        top: 100%;
-        left: 50%;
+        top: 0%;
+        left: 73%;
         transform: rotate(45deg);
     }
     #eshop {
         background: black;
-        top: 200%;
-        left: 50%;
-    }
-    #zphere {
         top: 30%;
-        background: black;
-        left: 50%;
+        left: 58%;
     }
     #survival {
-        top: 400%;
-        left: 50%;
+        top: 60%;
+        left: 73%;
         background: black;
     }
-    #internet {
-        top: 500%;
-        left: 50%;
-    }
     #eatabroad {
-        top: 600%;
-        left: 50%;
+        top: 60%;
+        left: 43%;
         background: white;
         background-color: white;
     }
+    #zphere {
+        top: 90%;
+        background: black;
+        left: 58%;
+    }
+    #internet {
+        top: 120%;
+        left: 73%;
+    }
     #lagom {
-        top: 700%;
-        left: 50%;
+        top: 120%;
+        left: 43%;
         background: black;
     }
 }
