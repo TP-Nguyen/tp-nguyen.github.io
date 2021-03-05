@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>services/software</title>
+    <desc>Created with Sketch.</desc>
+    <g id="services/software" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M55,83 C71.9868205,83 80,63.9868205 80,43 C80,22.0131795 65.9868205,7 45,7 C24.0131795,7 10,18.0131795 10,39 C10,59.9868205 38.0131795,83 55,83 Z" id="Oval" fill="#E6FFFF"></path>
+        <circle id="Oval" stroke="#0EC0CA" stroke-width="1.5" cx="45" cy="12" r="2"></circle>
+        <circle id="Oval-Copy" stroke="#0EC0CA" stroke-width="1.5" cx="64" cy="12" r="2"></circle>
+        <circle id="Oval-Copy-2" stroke="#0EC0CA" stroke-width="1.5" cx="26" cy="12" r="2"></circle>
+        <rect id="Rectangle" stroke="#2F3033" stroke-width="1.5" x="10" y="21" width="70" height="46" rx="3"></rect>
+        <rect id="Rectangle-Copy" stroke="#2F3033" stroke-width="1.5" x="14" y="25" width="62" height="38" rx="1"></rect>
+        <rect id="Rectangle-Copy-2" fill="#E6FFFF" x="34" y="16" width="22" height="11"></rect>
+        <path d="M25,77.5 L65.1835938,77.5" id="Path-6" stroke="#2F3033" stroke-width="1.5" stroke-linecap="round"></path>
+        <path d="M35.8190918,67 C34.8527832,74 32.2464193,77.5 28,77.5" id="Path-7" stroke="#2F3033" stroke-width="1.5"></path>
+        <path d="M61.9990918,67 C61.0327832,74 58.4264193,77.5 54.18,77.5" id="Path-7-Copy" stroke="#2F3033" stroke-width="1.5" transform="translate(58.089546, 72.250000) scale(-1, 1) translate(-58.089546, -72.250000) "></path>
+        <polygon id="Path-3" stroke="#0EC0CA" stroke-width="1.5" stroke-linejoin="round" points="31.9095459 33.9074402 45 27.4658813 58.0895459 33.9074402 45 40.2961426"></polygon>
+        <polygon id="Path-8" stroke="#0EC0CA" stroke-width="1.5" stroke-linejoin="round" points="31.9095459 33.8810119 45.0917969 40.2961426 45.0917969 57.3696289 31.9095459 51.1186523"></polygon>
+        <polygon id="Path-9" stroke="#0EC0CA" stroke-width="1.5" stroke-linejoin="round" points="44.9995459 40.2961426 58.0895459 33.8810119 58.0895459 51.3300781 44.9995459 57.3696289"></polygon>
+        <path d="M45.0917969,14 L45.0917969,27.4658813" id="Path-10" stroke="#0EC0CA" stroke-width="1.5"></path>
+        <polyline id="Path-11" stroke="#0EC0CA" stroke-width="1.5" points="53.3884277 31.3754883 53.3884277 17.7080078 64.0371094 17.7080078 64.0371094 14"></polyline>
+        <polyline id="Path-11-Copy" stroke="#0EC0CA" stroke-width="1.5" transform="translate(31.464341, 22.687744) scale(-1, 1) translate(-31.464341, -22.687744) " points="26.14 31.3754883 26.14 17.7080078 36.7886816 17.7080078 36.7886816 14"></polyline>
+    </g>
+</svg>
