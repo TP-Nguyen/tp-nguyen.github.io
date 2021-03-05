@@ -1,10 +1,3 @@
-@media (max-width:950px) {
-    #diamond ul {
-        transform: rotate(90deg);
-    }
-}
-
-
 /*DIAMOND*/
 
 #diamond ul {
@@ -63,51 +56,172 @@
 
 /* PLACEMENT */
 
-#lastMinute {
-    top: 0;
-    left: 0;
+@media (min-width:870px) {
+    #lastMinute {
+        top: 0;
+        left: 0;
+    }
+    #throwback {
+        top: 0;
+        left: 50%;
+        transform: rotate(45deg);
+    }
+    #eshop {
+        top: 0;
+        background: black;
+        left: 100%;
+    }
+    #zphere {
+        bottom: 50%;
+        background: black;
+        left: 25%;
+    }
+    #survival {
+        bottom: 50%;
+        left: 75%;
+        background: black;
+    }
+    #internet {
+        bottom: 0;
+        left: 0%;
+    }
+    #eatabroad {
+        bottom: 0;
+        left: 50%;
+        background: white;
+        background-color: white;
+    }
+    #lagom {
+        bottom: 0;
+        left: 100%;
+        background: black;
+    }
 }
 
-#throwback {
-    top: 0;
-    left: 50%;
-    transform: rotate(45deg);
+@media (max-width:870px) {
+    #lastMinute {
+        top: -50%;
+        left: 25%;
+    }
+    #throwback {
+        top: -50%;
+        left: 75%;
+        transform: rotate(45deg);
+    }
+    #eshop {
+        background: black;
+        top: 0;
+        left: 50%;
+    }
+    #zphere {
+        bottom: 50%;
+        background: black;
+        left: 25%;
+    }
+    #survival {
+        bottom: 50%;
+        left: 75%;
+        background: black;
+    }
+    #internet {
+        bottom: -50%;
+        left: 25%;
+    }
+    #eatabroad {
+        bottom: 0;
+        left: 50%;
+        background: white;
+        background-color: white;
+    }
+    #lagom {
+        bottom: -50%;
+        left: 75%;
+        background: black;
+    }
 }
 
-#eshop {
-    top: 0;
-    background: black;
-    left: 100%;
+@media (max-width:530px) {
+    #lastMinute {
+        top: -50%;
+        left: 50%;
+    }
+    #throwback {
+        top: -50%;
+        left: 75%;
+        transform: rotate(45deg);
+    }
+    #eshop {
+        background: black;
+        top: 0;
+        left: 50%;
+    }
+    #zphere {
+        bottom: 50%;
+        background: black;
+        left: 25%;
+    }
+    #survival {
+        bottom: 50%;
+        left: 75%;
+        background: black;
+    }
+    #internet {
+        bottom: -50%;
+        left: 25%;
+    }
+    #eatabroad {
+        bottom: 0;
+        left: 50%;
+        background: white;
+        background-color: white;
+    }
+    #lagom {
+        bottom: -50%;
+        left: 75%;
+        background: black;
+    }
 }
 
-#zphere {
-    bottom: 50%;
-    background: black;
-    left: 25%;
-}
-
-#survival {
-    bottom: 50%;
-    left: 75%;
-    background: black;
-}
-
-#internet {
-    bottom: 0;
-    left: 0%;
-}
-
-#eatabroad {
-    bottom: 0;
-    left: 50%;
-    background: white;
-    background-color: white;
-}
-
-#lagom {
-    bottom: 0;
-    left: 100%;
-    background: black;
+@media (max-width:375px) {
+    #lastMinute {
+        top: 0%;
+        left: 50%;
+    }
+    #throwback {
+        top: 100%;
+        left: 50%;
+        transform: rotate(45deg);
+    }
+    #eshop {
+        background: black;
+        top: 200%;
+        left: 50%;
+    }
+    #zphere {
+        top: 30%;
+        background: black;
+        left: 50%;
+    }
+    #survival {
+        top: 400%;
+        left: 50%;
+        background: black;
+    }
+    #internet {
+        top: 500%;
+        left: 50%;
+    }
+    #eatabroad {
+        top: 600%;
+        left: 50%;
+        background: white;
+        background-color: white;
+    }
+    #lagom {
+        top: 700%;
+        left: 50%;
+        background: black;
+    }
 }
 
 
