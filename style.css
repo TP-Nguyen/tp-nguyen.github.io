@@ -7,7 +7,6 @@ body {
     /* #282a2d; */
     /* background-color: black; */
     scrollbar-width: none;
-    overflow-x: hidden;
     /* overflow: hidden;
     -webkit-overflow-scrolling: auto; */
 }
@@ -115,10 +114,12 @@ a {
 }
 
 section {
-    width: calc(100% - 30px);
+    /* width: calc(100vw - 20px); */
     height: auto;
+    max-width: 100vw;
     min-height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 #top {
@@ -229,11 +230,17 @@ section {
         box-shadow: 0 0 0 0 #fff;
         margin: auto;
     }
+    body {
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width:400px) {
     #aboutme img {
         margin: 1% 500px;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
 
