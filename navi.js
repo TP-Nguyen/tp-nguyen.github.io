@@ -47,7 +47,6 @@ $(window).scroll(function() {
 function showNav() {
     $('nav').toggleClass('menu');
     $('header').addClass('black');
-    console.log("menu click");
 }
 
 function hidden() {

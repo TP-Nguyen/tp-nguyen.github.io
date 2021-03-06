@@ -4,7 +4,7 @@ header {
     left: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     z-index: 10000;
 }

@@ -198,7 +198,7 @@
     .skillbox:nth-child(1) img {
         filter: none;
         height: auto;
-        max-height: 90px;
+        max-height: 80px;
     }
     .skillbox:nth-child(3) img,
     .skillbox:nth-child(4) img {
