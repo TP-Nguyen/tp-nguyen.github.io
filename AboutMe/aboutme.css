@@ -14,22 +14,17 @@
 }
 
 @media (max-width:415px) {
-    /* #contactInfo */
-    #contact {
+    #contactInfo #contact {
         margin-top: 80px;
     }
-    /* #contactInfo  */
-    #contact .box .icon .fas {
+    #contactInfo #contact .box .icon .fas {
         font-size: 50px;
     }
-    /* #contactInfo */
-    #contact .box h3,
-    /* #contactInfo */
-    #contact .box h4 {
+    #contactInfo #contact .box h3,
+    #contactInfo #contact .box h4 {
         color: #fff;
     }
-    /* #contactInfo */
-    #contact .box {
+    #contactInfo #contact .box {
         text-align: center;
         width: auto;
         height: 150px;
@@ -56,7 +51,7 @@
 
 #contact .box {
     text-align: center;
-    width: 255px;
+    width: 260px;
     height: 240px;
 }
 
