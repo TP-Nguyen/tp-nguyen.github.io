@@ -6,16 +6,17 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="AboutMe/aboutme.css">
-    <link rel="stylesheet" type="text/css" href="navi.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="navi.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="navi.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body onload="placeholder()">
-    <header id="navi-placeholder"></header>
+    <header id="navi-placeholder" class="black"></header>
     <!-- <div id="rightscroll" class="scrollbar"></div>
     <div id="leftscroll" class="scrollbar"></div> -->
     <div id="contactInfo">
@@ -166,19 +167,19 @@
         </div> -->
 
     </section>
-    <div class="anlagen" id="BBS1J">
+    <div class="anlagen" onclick="hiddenPDF('BBS1J') " id="BBS1J">
         <div onclick="hiddenPDF('BBS1J') " class="hidePDF "> CLOSE </div>
         <iframe src="anlagen/BBS_2014.pdf#zoom=60 "></iframe>
     </div>
-    <div class="anlagen" id="2J">
+    <div onclick="hiddenPDF('2J') " class="anlagen" id="2J">
         <div onclick="hiddenPDF('2J') " class="hidePDF "> CLOSE </div>
         <iframe src="anlagen/BBS_2017.pdf"></iframe>
     </div>
-    <div class="anlagen" id="FOS">
+    <div onclick="hiddenPDF('FOS') " class="anlagen" id="FOS">
         <div onclick="hiddenPDF('FOS') " class="hidePDF "> CLOSE </div>
         <iframe src="anlagen/FOS.pdf#zoom=60 "></iframe>
     </div>
-    <div class="anlagen" id="Praktikum">
+    <div onclick="hiddenPDF('Praktikum')" class="anlagen" id="Praktikum">
         <div onclick="hiddenPDF('Praktikum') " class="hidePDF "> CLOSE </div>
         <iframe src="anlagen/Praktikum.pdf#zoom=60 "></iframe>
     </div>

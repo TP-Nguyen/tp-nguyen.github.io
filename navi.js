@@ -22,6 +22,7 @@ $(window).scroll(function() {
     } else {
         $('header').removeClass('black');
     }
+    console.log("black");
 });
 
 //Aktiviert Navigationsort an
