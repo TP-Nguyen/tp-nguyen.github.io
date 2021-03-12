@@ -122,41 +122,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-.anlagen {
-    width: 100vw;
-    height: 100vh;
-    /* border: 1px solid #fff; */
-    position: fixed;
-    top: 0%;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 7;
-    background-color: rgba(0, 0, 0, 0.7);
-    visibility: hidden;
-    /* align-items: center; */
-}
-
-.anlagen .hidePDF {
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 30px;
-    font-size: 20pt;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: dodgerblue;
-    animation: neon 5s linear infinite;
-}
-
-.anlagen iframe {
-    margin: auto;
-    width: 80%;
-    height: 80%;
-    border: none;
-}
-
 .container {
     /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
     width: 90%;

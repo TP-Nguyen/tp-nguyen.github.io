@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="Skill/skill.css">
     <link rel="stylesheet" type="text/css" href="AboutMe/aboutme.css">
     <link rel="stylesheet" type="text/css" href="Project/projectoverview.css">
+    <link rel="stylesheet" type="text/css" href="Project/eShop/eshop.css">
 
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="skill.js"></script>
@@ -159,7 +160,7 @@
                         <div class="bg"></div>
                     </li>
                 </a>
-                <a>
+                <a onclick="showPDF('eshopContent')">
                     <!-- href="" -->
 
                     <li class="item" id="eshop" target="_blank">
@@ -167,7 +168,6 @@
                         <div class="bg">eshop</div>
                     </li>
                 </a>
-
                 <a href="Project/zphere.html" target="_blank">
                     <li class="item" id="zphere">
                         <!-- zphere -->
@@ -197,6 +197,85 @@
                     </li>
                 </a> -->
             </ul>
+        </div>
+        <div class="anlagen" id="eshopContent">
+            <div onclick="hiddenPDF('eshopContent') " class="hidePDF "> CLOSE </div>
+            <!-- <iframe src="anlagen/Praktikum.pdf#zoom=60 "></iframe> -->
+            <div class="anlagencontent">
+                <h3>eShop</h3>
+                <p>Zusammen mit meinen Kommilitonen Lars Obist und Yuliya Litvin einen elektronischen Onlineshop gebaut.
+                    <br>Hier kam dann Java als Programmiersprache zum Einsatz. Die GUI (graphical user interface) und die Datenbank sind von einander getrennt und mit einer Verwaltung kommunizieren sie miteinander. Damit mehrere Nutzer das Programm gleichzeitig
+                    verwenden können, wurden mit Sockets gearbeitet. <br><br>Gerne kannst du den eShop persönlich auf Github angucken und testen.
+
+                </p>
+                <a href="https://github.com/larsobist/E-SHOP" target="_blank">hier zum eShop</a>
+                <div id="slider">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+                    <input type="radio" name="slider" id="slide7">
+                    <input type="radio" name="slider" id="slide8">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="inner">
+                                <div class="slide slide_1">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/home.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_2">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/artikelAnsichtMitarbeiter.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_3">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/benutzerAnsichtMitarbeiter.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_4">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/kundenAnsichtArtikel.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_5">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/warenkorb.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_6">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/rechnung.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_7">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/historie.PNG">
+                                    </div>
+                                </div>
+                                <div class="slide slide_8">
+                                    <div class="slide-content">
+                                        <img src="Project/eShop/historieEinArtikel.PNG">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bullets">
+                        <label for="slide1"></label>
+                        <label for="slide2"></label>
+                        <label for="slide3"></label>
+                        <label for="slide4"></label>
+                        <label for="slide5"></label>
+                        <label for="slide6"></label>
+                        <label for="slide7"></label>
+                        <label for="slide8"></label>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
