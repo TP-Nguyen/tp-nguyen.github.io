@@ -2,7 +2,7 @@ var kurve = '#4A00E0';
 var options = {
     chart: {
         foreColor: 'whitesmoke',
-        height: 500,
+        height: '80%',
         type: "area",
         // stacked: true
 
@@ -15,14 +15,18 @@ var options = {
                 download: false, //'<img src="/static/icons/download.png" class="ico-download" width="20">'
                 selection: true,
                 zoom: true,
-                zoomin: false,
-                zoomout: false,
-                pan: false,
+                zoomin: true,
+                zoomout: true,
+                pan: true,
                 reset: true | '<img class="fas fa-undo">',
                 // customIcons: []
             },
         },
     },
+    title: {
+        text: 'Basic line'
+    },
+
     dataLabels: {
         enabled: false,
     },
@@ -55,15 +59,15 @@ var options = {
     grid: {
         show: false,
     },
-    annotations: {
-        position: "back",
-        yaxis: [{
-            y: 80,
-            // strokeDashArray: 0, //linie
-            strokeDashArray: 7, //linie
-            borderColor: "#707070",
-        }],
-    },
+    // annotations: {
+    //     position: "back",
+    //     yaxis: [{
+    //         y: 80,
+    //         // strokeDashArray: 0, //linie
+    //         strokeDashArray: 7, //linie
+    //         borderColor: "#707070",
+    //     }],
+    // },
     tooltip: {
         theme: 'dark',
     },
