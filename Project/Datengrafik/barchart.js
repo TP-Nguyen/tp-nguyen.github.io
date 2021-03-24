@@ -3,6 +3,7 @@ async function barchart() {
     const data = await getdailyData();
     var options = {
         chart: {
+            fontFamily: 'Libre Franklin, sans-serif',
             foreColor: 'whitesmoke',
             height: '80%',
             type: "bar",
@@ -24,7 +25,7 @@ async function barchart() {
             },
         },
         title: {
-            text: 'Tägliche Geräte nutzung'
+            text: 'Tägliche Geräte Nutzung'
         },
         dataLabels: {
             enabled: false,
@@ -47,7 +48,7 @@ async function barchart() {
             //   return '<span class="custom-marker"><i class="fas fa-chart-pie"></i></span>'
             // }
         },
-        colors: ['#8E2DE2', '#4A00E0'], //'#8E2DE2'
+        colors: ['#4A00E0', '#6b16e1', '#8E2DE2'], //'#8E2DE2'
         series: [{
             name: "Mobile",
             data: data.xs,
@@ -97,10 +98,7 @@ async function getdailyData() {
     const ys = [];
     const zs = [];
 
-    // const fetch = require("node-fetch");
     const response = await fetch('./Datengrafik/data/daily-hours-spent-with-digital-media-per-adult-user.csv');
-    // const response = await fetch('./Datengrafik/data/users-by-social-media-platform.csv');
-    // const response = await fetch('http://127.0.0.1:5500/Project/Datengrafik/data/API_IT.NET.USER.csv');
     const daily_data = await response.text();
 
     const table = daily_data.split('\n').slice(1);

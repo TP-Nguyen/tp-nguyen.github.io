@@ -1,13 +1,21 @@
-treemap();
-async function treemap() {
-    // const data = await getData();
-    // const data = await getData();
-    // console.log(data);
-    // const platform = data.xs;
-    // const user = data.zs;
+var selectsocialmedia = "2018";
+const slideValue = document.getElementById("sliderValue");
+const inputValue = document.getElementById("inputValue");
+inputValue.oninput = (() => {
+    let value = inputValue.value;
+    slideValue.textContent = value;
+    selectsocialmedia = inputValue.value;
+    updateTreemap();
+    // slideValue.style.left = (value / 2) + "%";
+})
 
+treemap();
+var treemapchart;
+async function treemap() {
+    const data = await getsocialmediaData();
     var options = {
         chart: {
+            fontFamily: 'Libre Franklin, sans-serif',
             height: '80%',
             type: "treemap",
             foreColor: 'whitesmoke',
@@ -30,7 +38,7 @@ async function treemap() {
         },
         title: {
             text: 'Social Media Plattformen',
-            align: 'center'
+            // align: 'center'
         },
         stroke: {
             show: true,
@@ -38,41 +46,59 @@ async function treemap() {
         },
         tooltip: {
             theme: 'dark',
+            custom: function({ series, seriesIndex, dataPointIndex, w }) {
+                anzahl = series[seriesIndex][dataPointIndex]
+
+                function numberWithCommas(anzahl) {
+                    return anzahl.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                }
+
+                return (
+                    '<div class="tooltip">' +
+                    "Monatliche Nutzer: <br>" +
+                    numberWithCommas(anzahl) +
+                    "</div>"
+                );
+            }
+        },
+        xaxis: {
+            type: 'category'
         },
         series: [{
-            data: [
-                // platform,
-                // user,
-                {
-                    x: 'New Delhi',
-                    y: 218
-                },
-                {
-                    x: 'Kolkata',
-                    y: 149
-                },
-                {
-                    x: 'Mumbai',
-                    y: 184
-                },
-                {
-                    x: 'Ahmedabad',
-                    y: 55
-                },
-                // {
-                //     x: data.xs[0],
-                //     y: data.ys[0]
-                // }, {
-                //     x: data.xs[1],
-                //     y: data.ys[1]
-                // }, {
-                //     x: data.xs[2],
-                //     y: data.ys[2]
-                // }, {
-                //     x: data.xs[3],
-                //     y: data.ys[3]
-                // },
-            ]
+            data: [{
+                x: data.xs[0],
+                y: data.zs[0]
+            }, {
+                x: data.xs[1],
+                y: data.zs[1]
+            }, {
+                x: data.xs[2],
+                y: data.zs[2]
+            }, {
+                x: data.xs[3],
+                y: data.zs[3]
+            }, {
+                x: data.xs[4],
+                y: data.zs[4]
+            }, {
+                x: data.xs[5],
+                y: data.zs[5]
+            }, {
+                x: data.xs[6],
+                y: data.zs[6]
+            }, {
+                x: data.xs[7],
+                y: data.zs[7]
+            }, {
+                x: data.xs[8],
+                y: data.zs[8]
+            }, {
+                x: data.xs[9],
+                y: data.zs[9]
+            }, {
+                x: data.xs[11],
+                y: data.zs[11]
+            }, ]
         }],
         fill: {
             type: "gradient",
@@ -95,28 +121,76 @@ async function treemap() {
         },
     };
 
-    var chart = new ApexCharts(document.querySelector("#treemapchart"), options);
-    chart.render();
+    treemapchart = new ApexCharts(document.querySelector("#treemapchart"), options);
+    treemapchart.render();
 }
 
-async function getData() {
+async function getsocialmediaData() {
+
     const xs = []; //name
     const ys = []; //jahr
     const zs = []; //nutzer
-    const fetch = require("node-fetch");
-    const response = await fetch('./data/users-by-social-media-platform.csv');
-    // const response = await fetch('http://127.0.0.1:5500/Project/Datengrafik/data/users-by-social-media-platform.csv');
+    const response = await fetch('./Datengrafik/data/users-by-social-media-platform.csv');
     const socialmedia_data = await response.text();
 
     const table = socialmedia_data.split('\n').slice(1);
+    // const ws = table.trim();
     table.forEach(row => {
         const columns = row.split(',');
-        const name = columns[0];
-        xs.push(name);
-        const year = columns[1];
-        ys.push(year);
-        const user = columns[2].trim();
-        zs.push(user);
+        if (columns[1] == selectsocialmedia) {
+            const name = columns[0];
+            xs.push(name);
+            const year = columns[1];
+            ys.push(year);
+            const user = columns[2].trim();
+            zs.push(user);
+        }
     });
-    return { table, xs, ys, zs };
+    while (xs.length < 12) {
+        const name = "";
+        xs.push(name);
+        const user = 0;
+        zs.push(user);
+    }
+    return { xs, ys, zs };
 }
+
+async function updateTreemap() {
+    const data = await getsocialmediaData();
+    treemapchart.updateSeries([{
+        data: [{
+            x: data.xs[0],
+            y: data.zs[0]
+        }, {
+            x: data.xs[1],
+            y: data.zs[1]
+        }, {
+            x: data.xs[2],
+            y: data.zs[2]
+        }, {
+            x: data.xs[3],
+            y: data.zs[3]
+        }, {
+            x: data.xs[4],
+            y: data.zs[4]
+        }, {
+            x: data.xs[5],
+            y: data.zs[5]
+        }, {
+            x: data.xs[6],
+            y: data.zs[6]
+        }, {
+            x: data.xs[7],
+            y: data.zs[7]
+        }, {
+            x: data.xs[8],
+            y: data.zs[8]
+        }, {
+            x: data.xs[9],
+            y: data.zs[9]
+        }, {
+            x: data.xs[11],
+            y: data.zs[11]
+        }, ]
+    }]);
+};

@@ -300,11 +300,11 @@
 }
 
 #survival .bg {
-    background-image: url(img/Sof.PNG);
-    transform: rotate(-45deg)scale(1.0);
+    background-image: url(img/survival.PNG);
+    transform: rotate(-45deg)scale(1.5);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 100%;
 }
 
 #internet .bg {

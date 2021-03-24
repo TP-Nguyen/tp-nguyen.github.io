@@ -1,5 +1,6 @@
 var options = {
     chart: {
+        fontFamily: 'Libre Franklin, sans-serif',
         height: '80%',
         type: "line",
         foreColor: 'whitesmoke',
@@ -31,7 +32,11 @@ var options = {
     },
     series: [{
         name: "Internetnutzer in Prozent ",
-        data: [0.0492353738271775, 0.079180967646696, 0.125363365753077, 0.178899794597585, 0.359900150378578, 0.681457389339993, 1.32348902047915, 2.0366761962719, 3.13637403370571, 4.6299241908147, 6.52593166807701, 8.05900120761762, 10.6587267487701, 12.3110785889919, 14.1868248322306, 15.6730476793268, 17.3404618768159, 20.411719882308, 22.8706746362527, 25.2665719017729, 28.7057189055048, 31.148164313188, 34.2076105099855, 36.6393781741143, 39.735505464686, 41.5462411450631, 44.5531056811902, 49.5556513703621, 50.7630811714937]
+        data: [0.049, 0.079, 0.125, 0.178, 0.359, 0.681, 1.323,
+            2.036, 3.136, 4.629, 6.525, 8.059, 10.658,
+            12.311, 14.186, 15.673, 17.340, 20.411,
+            22.870, 25.266, 28.705, 31.148, 34.207, 36.639, 39.735, 41.546, 44.553, 49.555, 50.763
+        ]
     }],
     fill: {
         type: "gradient",
@@ -80,13 +85,52 @@ var options = {
         theme: 'dark',
     },
     annotations: {
-        position: "back",
+        // position: "back",
         xaxis: [{
-            x: '2005',
+            x: '1991',
             // strokeDashArray: 0, //linie
             strokeDashArray: 7, //linie
-            borderColor: "#707070",
-        }],
+            borderColor: "#8E2DE2",
+            label: {
+                borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    // background: '#4A00E0',
+                    // background: '#6b16e1',
+                    background: '#8E2DE2',
+                },
+                // orientation: "horizontal",
+                text: "X Axis Anno Horizonal"
+            },
+        }, {
+            x: '1992',
+            strokeDashArray: 0,
+            borderColor: "#8E2DE2",
+            label: {
+                borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    // background: '#4A00E0',
+                    // background: '#6b16e1',
+                    background: '#8E2DE2',
+                },
+                text: "X Axis Anno Vertical"
+            }
+        }, {
+            x: '1993',
+            strokeDashArray: 0,
+            borderColor: "#8E2DE2",
+            label: {
+                borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    background: '#4A00E0',
+                    background: '#6b16e1',
+                    background: '#8E2DE2',
+                },
+                text: "X Axis Anno Vertical"
+            }
+        }, ],
     },
     xaxis: {
         tooltip: 'false',

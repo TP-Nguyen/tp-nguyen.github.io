@@ -127,7 +127,7 @@ section {
     width: 100%;
     position: relative;
     box-sizing: border-box;
-    /* background: url(img/pier-sonnenuntergang-brucke-see.jpg); */
+    background: url(random/img/pier-sonnenuntergang-brucke-see.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;

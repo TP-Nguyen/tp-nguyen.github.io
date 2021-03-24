@@ -7,9 +7,15 @@ window.onscroll = function() {
 
 function showPDF(x) {
     document.getElementById(x).style.visibility = "visible";
-    console.log(x);
 }
 
 function hiddenPDF(x) {
     document.getElementById(x).style.visibility = "hidden";
 }
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    $('#top').css({
+        filter: "blur(" + (scroll / 100) + "px)"
+    });
+})

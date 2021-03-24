@@ -13,6 +13,7 @@ var options = {
         data: [30, 55, 36, 30, 45, 35, 64, 52, 59, 36, 39]
     }],
     chart: {
+        fontFamily: 'Source Sans Pro',
         type: 'line',
         stacked: false,
         foreColor: 'whitesmoke',
@@ -37,7 +38,7 @@ var options = {
             },
         },
     },
-    colors: ['#8E2DE2', '#4A00E0'],
+    colors: ['#4A00E0', '#6b16e1', '#8E2DE2'],
     stroke: {
         width: [0, 2, 5],
         curve: 'smooth'

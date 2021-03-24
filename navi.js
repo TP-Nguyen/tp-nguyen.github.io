@@ -1,5 +1,5 @@
 var Navigation = `<nav class=""><ul>
-                <li><a href="index.html" onclick="hidden()">Home</a></li>
+                <li><a href="index.html#top" onclick="hidden()">Home</a></li>
                 <li><a href="aboutme.html">About me</a></li>
                 <li><a href="index.html#skill">Experience</a></li>
                 <li><a href="index.html#projectoverview">Project</a></li>

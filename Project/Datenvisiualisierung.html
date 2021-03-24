@@ -17,23 +17,23 @@
 
 </head>
 
-<body>
+<body onload="placeCountry()">
     <!-- partial:index.partial.html -->
     <div class="site">
         <div class="wrap animate--shrink">
             <!-- class="panel-wrap animate--none" -->
             <!--MAIN-->
-            <div class="panel" data-x-pos="0" data-y-pos="0">
+            <div class="panel" data-x-pos="0" data-y-pos="0" id="main">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-right       js-right">          <span class="arrow r"></span></span>
-                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <!-- <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span> -->
+                <!-- <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span> -->
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
                 <span class="overview js-zoom">OVERVIEW</span>
-                <h1>Internet</h1>
+                <h1 class="text">Internet</h1>
                 <div class="page-content"></div>
             </div>
             <!--UP-->
@@ -50,38 +50,14 @@
                 <span class="field field-right       js-right">          <span class="arrow r"></span></span>
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <div class="selectYear">
-                    <select name="splineYear" id="splineYear">
-                        <option selected disabled>Wähle ein Jahr aus</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                        <option value="2009">2009</option>
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select>
-                </div>
-                <div id="linechartmobile" class="chart"></div>
+                <div id="highlightchart" class="chart"></div>
             </div>
             <!-- UP R -->
             <div class="panel" data-x-pos="1" data-y-pos="1">
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <div id="highlightchart" class="chart"></div>
+                <div id="bar" class="chart"></div>
             </div>
             <!-- L -->
             <div class="panel" data-x-pos="-1" data-y-pos="0">
@@ -89,29 +65,15 @@
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-right       js-right">          <span class="arrow r"> </span></span>
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <div class="selectYear">
-                    <select name="lineYear" id="lineYear">
-                        <option selected disabled>Wähle ein Jahr aus</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                        <option value="2009">2009</option>
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
+                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
+                <div class="selectSpline">
+                    <select onchange="selectNewCountry()" name="selectSpline" id="selectSpline">
+                        <option selected disabled>Choose a country</option>
+                    </select>
+                </div>
+                <div class="selectSpline2">
+                    <select onchange="selectNewCountry()" name="selectSpline2" id="selectSpline2">
+                        <option selected disabled>Choose a country</option>
                     </select>
                 </div>
                 <div id="spline" class="chart"></div>
@@ -122,18 +84,24 @@
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <div id="bar" class="chart"></div>
+                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
+                <div id="sliderValue">2013</div>
+                <div class="chooseYear">
+                    <div id="valueL">2004</div>
+                    <input id="inputValue" type="range" min="2004" max="2020" value="2013" steps="1">
+                    <div id="valueR">2018</div>
+                </div>
+                <div id="treemapchart" class="chart"></div>
             </div>
             <!-- DOWN -->
             <div id="down" class="panel" data-x-pos="0" data-y-pos="-1">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
+                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-down        js-down"> 
-                <ul class="Words">
+                <ul class="Words" onclick="showDoku()">
                     <li class="Words-line">
                         <p>&nbsp;</p>
                         <p>Datengrafik</p>
@@ -167,76 +135,43 @@
                 </span>
             </div>
             <!-- DOWN L -->
-            <div class="panel" data-x-pos="-1" data-y-pos="-1">
+            <!-- <div class="panel" data-x-pos="-1" data-y-pos="-1">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-right       js-right">          <span class="arrow r"></span></span>
-                <div class="selectYear">
-                    <select name="splineYear" id="splineYear">
-                        <option selected disabled>Wähle ein Jahr aus</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                        <option value="2009">2009</option>
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select>
-                </div>
-                <div id="linechart" class="chart"></div>
-                <!-- <h1>Down Left</h1> -->
-            </div>
+
+            </div> -->
             <!-- DOWN R -->
-            <div class="panel" data-x-pos="1" data-y-pos="-1">
+            <!-- <div class="panel" data-x-pos="1" data-y-pos="-1">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                <div class="selectYear">
-                    <select name="TreemapYear" id="TreemapYear">
-                        <option selected disabled>Wähle ein Jahr aus</option>
-                        <option value="2002">2002</option>
-                        <option value="2003">2003</option>
-                        <option value="2004">2004</option>
-                        <option value="2005">2005</option>
-                        <option value="2006">2006</option>
-                        <option value="2007">2007</option>
-                        <option value="2008">2008</option>
-                        <option value="2009">2009</option>
-                        <option value="2010">2010</option>
-                        <option value="2011">2011</option>
-                        <option value="2012">2012</option>
-                        <option value="2013">2013</option>
-                        <option value="2014">2014</option>
-                        <option value="2015">2015</option>
-                        <option value="2016">2016</option>
-                        <option value="2017">2017</option>
-                        <option value="2018">2018</option>
-                        <option value="2019">2019</option>
-                        <option value="2020">2020</option>
-                    </select>
-                </div>
-                <div id="treemapchart" class="chart"></div>
-            </div>
+                
+            </div> -->
             <!-- DOWN 2-->
-            <div class="panel" data-x-pos="0" data-y-pos="-2">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <iframe src="Datengrafik/INTERNET_Dokumentation.pdf#zoom=60"></iframe>
+            <div class="panel" data-x-pos="0" data-y-pos="-2" id="dokuPanel">
+                <span class="field field-up          js-up">             <span class="arrow up" onclick="hideDoku()"></span></span>
+                <iframe id="doku" src="Datengrafik/INTERNET_Dokumentation.pdf#zoom=60"></iframe>
             </div>
         </div>
     </div>
-    <!-- partial -->
+    <script src="./Datengrafik/scramble.js"></script>
+    <script>
+        const phrases = ['INTERNET'];
+        const el = document.querySelector('.text');
+        const fx = new TextScramble(el);
+        let counter = 0;
+
+        const next = () => {
+            fx.setText(phrases[counter]).then(() => {
+                setTimeout(next, 3600);
+            });
+            counter = (counter + 1) % phrases.length;
+        };
+
+        next();
+    </script>
+
     <script src="./project.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
     <script src="./Datengrafik/script.js"></script>
