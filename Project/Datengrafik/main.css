@@ -3,8 +3,8 @@
     }
     
     .site.show-all {
-        transform: scale(0.2);
-        padding-top: 5%;
+        transform: scale(0.25);
+        /* padding-top: 5%; */
     }
     
     h1,
@@ -16,6 +16,22 @@
         font-family: 'Source Sans Pro';
         font-weight: 700;
         /* letter-spacing: -1px; */
+    }
+    
+    h2,
+    h3 {
+        font-size: 32px;
+        position: absolute;
+        top: 90px;
+        left: 80px;
+    }
+    
+    #treemapchart {
+        top: 30px;
+    }
+    
+    .left2 {
+        left: 90px;
     }
     
     .overview {
@@ -57,9 +73,9 @@
         width: 100%;
     }
     
-    .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title,
-    .chart .apexcharts-tooltip,
-    .chart .apexcharts-tooltip-title {
+    #rPanel.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title,
+    #rPanel .chart .apexcharts-tooltip,
+    #rPanel .chart .apexcharts-tooltip-title {
         font-family: 'Source Sans Pro';
         padding: 5px;
         /* color: #FFFFFF;

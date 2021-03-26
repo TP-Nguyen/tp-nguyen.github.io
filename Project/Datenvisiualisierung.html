@@ -10,7 +10,6 @@
     <title>Nguyen Thao</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-    <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
     <link rel="stylesheet" href="./project.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="Datengrafik/main.css">
@@ -18,86 +17,70 @@
 </head>
 
 <body onload="placeCountry()">
-    <!-- partial:index.partial.html -->
     <div class="site">
         <div class="wrap animate--shrink">
             <!-- class="panel-wrap animate--none" -->
             <!--MAIN-->
             <div class="panel" data-x-pos="0" data-y-pos="0" id="main">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <!-- <span class="field field-up          js-up">             <span class="arrow up"></span></span> -->
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
-                <!-- <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span> -->
-                <!-- <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span> -->
+                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
+                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
                 <span class="overview js-zoom">OVERVIEW</span>
                 <h1 class="text">Internet</h1>
                 <div class="page-content"></div>
             </div>
             <!--UP-->
-            <div class="panel" data-x-pos="0" data-y-pos="1">
+            <!-- <div class="panel" data-x-pos="0" data-y-pos="1">
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-right       js-right">          <span class="arrow r"></span></span>
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <h2 class="left2">everything at a glance - Top 3 2019</h2>
                 <div id="mixed" class="chart"></div>
-            </div>
+            </div> -->
             <!-- UP L -->
             <div class="panel" data-x-pos="-1" data-y-pos="1">
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
+                <h2 class="left2">technology milestones worldwide</h2>
                 <div id="highlightchart" class="chart"></div>
             </div>
             <!-- UP R -->
             <div class="panel" data-x-pos="1" data-y-pos="1">
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
+                <h2 class="left2">Daily hours spent online </h2>
                 <div id="bar" class="chart"></div>
             </div>
             <!-- L -->
-            <div class="panel" data-x-pos="-1" data-y-pos="0">
+            <!-- <div class="panel" data-x-pos="-1" data-y-pos="0">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-right       js-right">          <span class="arrow r"> </span></span>
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
-                <div class="selectSpline">
-                    <select onchange="selectNewCountry()" name="selectSpline" id="selectSpline">
-                        <option selected disabled>Choose a country</option>
-                    </select>
-                </div>
-                <div class="selectSpline2">
-                    <select onchange="selectNewCountry()" name="selectSpline2" id="selectSpline2">
-                        <option selected disabled>Choose a country</option>
-                    </select>
-                </div>
-                <div id="spline" class="chart"></div>
-            </div>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+            </div> -->
             <!-- R -->
-            <div class="panel" data-x-pos="1" data-y-pos="0">
+            <!-- <div class="panel" data-x-pos="1" data-y-pos="0">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
                 <span class="field field-left        js-left">           <span class="arrow l"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
-                <div id="sliderValue">2013</div>
-                <div class="chooseYear">
-                    <div id="valueL">2004</div>
-                    <input id="inputValue" type="range" min="2004" max="2020" value="2013" steps="1">
-                    <div id="valueR">2018</div>
-                </div>
-                <div id="treemapchart" class="chart"></div>
-            </div>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+            </div> -->
             <!-- DOWN -->
             <div id="down" class="panel" data-x-pos="0" data-y-pos="-1">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
-                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <!-- <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span> -->
+                <!-- <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span> -->
                 <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
                 <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-down        js-down"> 
@@ -134,24 +117,44 @@
                           <!-- <span class="arrow down"></span> -->
                 </span>
             </div>
-            <!-- DOWN L -->
-            <!-- <div class="panel" data-x-pos="-1" data-y-pos="-1">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
-
-            </div> -->
-            <!-- DOWN R -->
-            <!-- <div class="panel" data-x-pos="1" data-y-pos="-1">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                
-            </div> -->
             <!-- DOWN 2-->
             <div class="panel" data-x-pos="0" data-y-pos="-2" id="dokuPanel">
                 <span class="field field-up          js-up">             <span class="arrow up" onclick="hideDoku()"></span></span>
                 <iframe id="doku" src="Datengrafik/INTERNET_Dokumentation.pdf#zoom=60"></iframe>
+            </div>
+            <!-- DOWN L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="-1">
+                <!-- <span class="field field-up          js-up">             <span class="arrow up"><h2></h2></span></span> -->
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2></h2></span></span>
+                <!-- <span class="field field-right       js-right">          <span class="arrow r"><h2></h2></span></span> -->
+                <!-- <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2></h2></span></span> -->
+                <h2 class="left2">Internet User in percent</h2>
+                <div class="selectSpline">
+                    <select onchange="selectNewCountry()" name="selectSpline" id="selectSpline">
+                        <!-- <option selected disabled>Choose a country</option> -->
+                    </select>
+                </div>
+                <div class="selectSpline2">
+                    <select onchange="selectNewCountry()" name="selectSpline2" id="selectSpline2" placeholder="Germany">
+                        <!-- <option selected disabled>Choose a country</option> -->
+                    </select>
+                </div>
+                <div id="spline" class="chart"></div>
+            </div>
+            <!-- DOWN R -->
+            <div class="panel" data-x-pos="1" data-y-pos="-1" id="rPanel">
+                <!-- <span class="field field-up          js-up">             <span class="arrow up"><h2></h2></span></span> -->
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2></h2></span></span>
+                <!-- <span class="field field-left        js-left">           <span class="arrow l"><h2></h2></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2></h2></span></span> -->
+                <h2>user on social media</h2>
+                <div id="sliderValue">2013</div>
+                <div class="chooseYear">
+                    <div id="valueL">2004</div>
+                    <input id="inputValue" type="range" min="2004" max="2019" value="2013" steps="1">
+                    <div id="valueR">2019</div>
+                </div>
+                <div id="treemapchart" class="chart"></div>
             </div>
         </div>
     </div>
@@ -175,13 +178,10 @@
     <script src="./project.js"></script>
     <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
     <script src="./Datengrafik/script.js"></script>
-    <script src="./Datengrafik/linechartmobile.js"></script>
     <script src="./Datengrafik/barchart.js"></script>
     <script src="./Datengrafik/treemapchart.js"></script>
-    <script src="./Datengrafik/linechart.js"></script>
     <script src="./Datengrafik/splinechart.js"></script>
     <script src="./Datengrafik/highlight.js"></script>
-    <script src="./Datengrafik/mixed.js"></script>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>

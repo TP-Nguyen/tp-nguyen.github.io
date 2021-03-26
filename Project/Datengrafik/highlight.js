@@ -10,28 +10,25 @@ var options = {
             // show: false,
             show: true,
             offsetX: -'90vw',
-            offsetY: -30,
+            offsetY: 30,
             tools: {
                 download: false, //'<img src="/static/icons/download.png" class="ico-download" width="20">'
-                selection: true,
-                zoom: true,
-                zoomin: true,
-                zoomout: true,
-                pan: true,
-                reset: true | '<img class="fas fa-undo">',
-                // customIcons: []
+                selection: '<img src="Datengrafik/select.png" height="20" style="filter:invert(100%)">',
+                zoom: '<img src="Datengrafik/select.png" height="20"  style="filter:invert(100%)">',
+                zoomin: '<img src="Datengrafik/maximal.png" height="20"  style="filter:invert(100%)">',
+                zoomout: '<img src="Datengrafik/minimal.png" height="20"  style="filter:invert(100%)">',
+                pan: '<img src="Datengrafik/move.png" width="25"  style="filter:invert(100%)">',
+                reset: '<img src="Datengrafik/undo.png" height="20"  style="filter:invert(100%)">',
             },
         },
     },
-    title: {
-        text: 'meilensteine'
-    },
+
     stroke: {
         show: true,
         curve: 'smooth',
     },
     series: [{
-        name: "Internetnutzer in Prozent ",
+        name: "Internet user worldwide in percent ",
         data: [0.049, 0.079, 0.125, 0.178, 0.359, 0.681, 1.323,
             2.036, 3.136, 4.629, 6.525, 8.059, 10.658,
             12.311, 14.186, 15.673, 17.340, 20.411,
@@ -63,19 +60,6 @@ var options = {
     dataLabels: {
         enabled: false,
     },
-    legend: {
-        // showForSingleSeries: true,
-        show: true,
-        position: 'top',
-        horizontalAlign: 'left',
-        fontSize: '18px',
-        offsetX: -23,
-        offsetY: 0,
-        labels: {
-            colors: '#fff',
-            useSeriesColors: false
-        },
-    },
     yaxis: {
         // show: false,
         show: true,
@@ -86,8 +70,9 @@ var options = {
     },
     annotations: {
         // position: "back",
-        xaxis: [{
+        points: [{
             x: '1991',
+            y: '0.079',
             // strokeDashArray: 0, //linie
             strokeDashArray: 7, //linie
             borderColor: "#8E2DE2",
@@ -100,37 +85,381 @@ var options = {
                     background: '#8E2DE2',
                 },
                 // orientation: "horizontal",
-                text: "X Axis Anno Horizonal"
+                text: "first web page and browser"
             },
         }, {
-            x: '1992',
+            x: '1995',
+            y: '0.0681',
+            strokeDashArray: 7,
+            borderColor: "#8E2DE2",
+            label: {
+                borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    background: '#8E2DE2',
+                },
+                text: "Ebay & Amazon.com"
+            }
+        }, {
+            x: '1997',
+            y: '2.036',
             strokeDashArray: 0,
             borderColor: "#8E2DE2",
             label: {
                 borderColor: "#8E2DE2",
                 style: {
                     color: "#fff",
-                    // background: '#4A00E0',
-                    // background: '#6b16e1',
                     background: '#8E2DE2',
                 },
-                text: "X Axis Anno Vertical"
+                text: "Google search"
             }
         }, {
-            x: '1993',
+            x: '1998',
+            y: '3.136',
             strokeDashArray: 0,
             borderColor: "#8E2DE2",
             label: {
                 borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    background: '#8E2DE2',
+                },
+                text: "PayPal"
+            }
+        }, {
+            x: '2001',
+            y: '8.059',
+            strokeDashArray: 0,
+            borderColor: "#8E2DE2",
+            label: {
+                borderColor: "#8E2DE2",
+                style: {
+                    color: "#fff",
+                    background: '#8E2DE2',
+                },
+                orientation: "horizontal",
+                text: "Wikipedia"
+            }
+        }, {
+            x: '2004',
+            y: '14.186',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "Facebook"
+            }
+        }, {
+            x: '2005',
+            y: '15.673',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "YouTube & Google Maps"
+            }
+        }, {
+            x: '2007',
+            y: '20.411',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "iPhone"
+            }
+        }, {
+            x: '2008',
+            y: '22.870',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "Spotify "
+            }
+        }, {
+            x: '2009',
+            y: '25.266',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "Bitcoin"
+            }
+        }, {
+            x: '2010',
+            y: '28.705',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "Instagram"
+            }
+        }, {
+            x: '2012',
+            y: '34.207',
+            strokeDashArray: 0,
+            borderColor: "#6b16e1",
+            label: {
+                borderColor: "#6b16e1",
+                style: {
+                    color: "#fff",
+                    background: '#6b16e1',
+                },
+                text: "Tesla Model S"
+            }
+        }, {
+            x: '2013',
+            y: '36.639',
+            strokeDashArray: 0,
+            borderColor: "#4A00E0",
+            label: {
+                borderColor: "#4A00E0",
                 style: {
                     color: "#fff",
                     background: '#4A00E0',
-                    background: '#6b16e1',
-                    background: '#8E2DE2',
+                    // background: '#6b16e1',
+                    // background: '#8E2DE2',
                 },
-                text: "X Axis Anno Vertical"
-            }
+                text: "Playstation 4 & xbox one"
+            },
+        }, {
+            x: '2014',
+            y: '39.735',
+            strokeDashArray: 0,
+            borderColor: "#4A00E0",
+            label: {
+                borderColor: "#4A00E0",
+                style: {
+                    color: "#fff",
+                    background: '#4A00E0',
+                    // background: '#6b16e1',
+                    // background: '#8E2DE2',
+                },
+                text: "Alexa, Windows 10, Apple watch"
+            },
+        }, {
+            x: '2016',
+            y: '44.553',
+            strokeDashArray: 0,
+            borderColor: "#4A00E0",
+            label: {
+                borderColor: "#4A00E0",
+                style: {
+                    color: "#fff",
+                    background: '#4A00E0',
+                    // background: '#6b16e1',
+                    // background: '#8E2DE2',
+                },
+                text: "Microsoft HoloLens "
+            },
+        }, {
+            x: '2017',
+            y: '49.555',
+            strokeDashArray: 0,
+            borderColor: "#4A00E0",
+            label: {
+                borderColor: "#4A00E0",
+                style: {
+                    color: "#fff",
+                    background: '#4A00E0',
+                    // background: '#6b16e1',
+                    // background: '#8E2DE2',
+                },
+                text: "AMD Ryzen"
+            },
+        }, {
+            x: '2019',
+            y: '44.553',
+            strokeDashArray: 0,
+            borderColor: "#4A00E0",
+            label: {
+                borderColor: "#4A00E0",
+                style: {
+                    color: "#fff",
+                    background: '#4A00E0',
+                    // background: '#6b16e1',
+                    // background: '#8E2DE2',
+                },
+                text: "Apple TV+ & Disney+"
+            },
         }, ],
+        // xaxis: [{
+        //     //     x: '1991',
+        //     //     y: '0.079',
+        //     //     // strokeDashArray: 0, //linie
+        //     //     strokeDashArray: 7, //linie
+        //     //     borderColor: "#8E2DE2",
+        //     //     label: {
+        //     //         borderColor: "#8E2DE2",
+        //     //         style: {
+        //     //             color: "#fff",
+        //     //             // background: '#4A00E0',
+        //     //             // background: '#6b16e1',
+        //     //             background: '#8E2DE2',
+        //     //         },
+        //     //         // orientation: "horizontal",
+        //     //         text: "first web page and browser"
+        //     //     },
+        //     // }, {
+        //     x: '1995',
+        //     strokeDashArray: 7,
+        //     borderColor: "#8E2DE2",
+        //     label: {
+        //         borderColor: "#8E2DE2",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#8E2DE2',
+        //         },
+        //         text: "Ebay & Amazon.com"
+        //     }
+        // }, {
+        //     x: '1997',
+        //     strokeDashArray: 0,
+        //     borderColor: "#8E2DE2",
+        //     label: {
+        //         borderColor: "#8E2DE2",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#8E2DE2',
+        //         },
+        //         text: "Google search"
+        //     }
+        // }, {
+        //     x: '1998',
+        //     strokeDashArray: 0,
+        //     borderColor: "#8E2DE2",
+        //     label: {
+        //         borderColor: "#8E2DE2",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#8E2DE2',
+        //         },
+        //         text: "PayPal"
+        //     }
+        // }, {
+        //     x: '2001',
+        //     strokeDashArray: 0,
+        //     borderColor: "#8E2DE2",
+        //     label: {
+        //         borderColor: "#8E2DE2",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#8E2DE2',
+        //         },
+        //         orientation: "horizontal",
+        //         text: "Wikipedia"
+        //     }
+        // }, {
+        //     x: '2004',
+        //     strokeDashArray: 0,
+        //     borderColor: "#6b16e1",
+        //     label: {
+        //         borderColor: "#6b16e1",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#6b16e1',
+        //         },
+        //         text: "Facebook"
+        //     }
+        // }, {
+        //     x: '2005',
+        //     strokeDashArray: 0,
+        //     borderColor: "#6b16e1",
+        //     label: {
+        //         borderColor: "#6b16e1",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#6b16e1',
+        //         },
+        //         text: "YouTube & Google Maps"
+        //     }
+        // }, {
+        //     x: '2007',
+        //     strokeDashArray: 0,
+        //     borderColor: "#6b16e1",
+        //     label: {
+        //         borderColor: "#6b16e1",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#6b16e1',
+        //         },
+        //         text: "iPhone"
+        //     }
+        // }, {
+        //     x: '2008',
+        //     strokeDashArray: 0,
+        //     borderColor: "#6b16e1",
+        //     label: {
+        //         borderColor: "#6b16e1",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#6b16e1',
+        //         },
+        //         text: "Spotify "
+        //     }
+        // }, {
+        //     x: '2009',
+        //     strokeDashArray: 0,
+        //     borderColor: "#6b16e1",
+        //     label: {
+        //         borderColor: "#6b16e1",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#6b16e1',
+        //         },
+        //         text: "Bitcoin"
+        //     }
+        // }, {
+        //     x: '2010',
+        //     strokeDashArray: 0,
+        //     borderColor: "#4A00E0",
+        //     label: {
+        //         borderColor: "#4A00E0",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#4A00E0',
+        //         },
+        //         text: "Instagram"
+        //     }
+        // }, {
+        //     x: '2013',
+        //     strokeDashArray: 0,
+        //     borderColor: "#4A00E0",
+        //     label: {
+        //         borderColor: "#4A00E0",
+        //         style: {
+        //             color: "#fff",
+        //             background: '#4A00E0',
+        //             // background: '#6b16e1',
+        //             // background: '#8E2DE2',
+        //         },
+        //         text: "Playstation 4 & xbox one"
+        //     }
+        // }, ],
     },
     xaxis: {
         tooltip: 'false',

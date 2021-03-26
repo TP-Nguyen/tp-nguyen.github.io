@@ -1,4 +1,4 @@
-var selectsocialmedia = "2018";
+var selectsocialmedia = "2013";
 const slideValue = document.getElementById("sliderValue");
 const inputValue = document.getElementById("inputValue");
 inputValue.oninput = (() => {
@@ -36,10 +36,6 @@ async function treemap() {
                 },
             },
         },
-        title: {
-            text: 'Social Media Plattformen',
-            // align: 'center'
-        },
         stroke: {
             show: true,
             curve: 'smooth',
@@ -55,7 +51,7 @@ async function treemap() {
 
                 return (
                     '<div class="tooltip">' +
-                    "Monatliche Nutzer: <br>" +
+                    "Monthly active users : <br>" +
                     numberWithCommas(anzahl) +
                     "</div>"
                 );

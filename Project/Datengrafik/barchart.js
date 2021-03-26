@@ -24,9 +24,6 @@ async function barchart() {
                 },
             },
         },
-        title: {
-            text: 'Tägliche Geräte Nutzung'
-        },
         dataLabels: {
             enabled: false,
         },
@@ -37,18 +34,14 @@ async function barchart() {
             horizontalAlign: 'left',
             fontSize: '18px',
             offsetX: -23,
-            offsetY: 0,
+            offsetY: 30,
             labels: {
                 colors: '#fff',
-                // foreColor: ['#8E2DE2', '#4A00E0'],
                 useSeriesColors: false
             },
-            // markers: 
-            // customHTML: function() {
-            //   return '<span class="custom-marker"><i class="fas fa-chart-pie"></i></span>'
-            // }
+
         },
-        colors: ['#4A00E0', '#6b16e1', '#8E2DE2'], //'#8E2DE2'
+        colors: ['#4A00E0', '#6b16e1', '#8E2DE2'],
         series: [{
             name: "Mobile",
             data: data.xs,
@@ -56,7 +49,7 @@ async function barchart() {
             name: "PC/Laptop",
             data: data.ys
         }, {
-            name: "Andere",
+            name: "other Devices",
             data: data.zs,
         }],
         grid: {

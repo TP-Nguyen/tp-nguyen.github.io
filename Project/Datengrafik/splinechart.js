@@ -2,34 +2,28 @@ splinechart();
 async function splinechart() {
     const dataInet2 = await getInet2Data();
     const dataInet = await getInetData();
-
     var options = {
         chart: {
             fontFamily: 'Libre Franklin, sans-serif',
             foreColor: 'whitesmoke',
             height: '80%',
             type: "area",
-            // stacked: true
-
             toolbar: {
                 // show: false,
                 show: true,
                 offsetX: -'90vw',
-                offsetY: -30,
+                offsetY: 55,
                 tools: {
                     download: false, //'<img src="/static/icons/download.png" class="ico-download" width="20">'
-                    selection: true,
-                    zoom: true,
-                    zoomin: true,
-                    zoomout: true,
-                    pan: true,
-                    reset: true | '<img class="fas fa-undo">',
-                    // customIcons: []
+                    selection: '<img src="Datengrafik/select.png" height="20" style="filter:invert(100%)">',
+                    zoom: '<img src="Datengrafik/select.png" height="20"  style="filter:invert(100%)">',
+                    zoomin: '<img src="Datengrafik/maximal.png" height="20"  style="filter:invert(100%)">',
+                    zoomout: '<img src="Datengrafik/minimal.png" height="20"  style="filter:invert(100%)">',
+                    pan: '<img src="Datengrafik/move.png" width="25"  style="filter:invert(100%)">',
+                    reset: '<img src="Datengrafik/undo.png" height="20"  style="filter:invert(100%)">',
                 },
+
             },
-        },
-        title: {
-            text: 'Vergleich'
         },
 
         dataLabels: {
@@ -42,7 +36,7 @@ async function splinechart() {
             horizontalAlign: 'left',
             fontSize: '18px',
             offsetX: -23,
-            offsetY: 0,
+            offsetY: 30,
             labels: {
                 colors: '#fff',
                 // foreColor: ['#8E2DE2', '#4A00E0'],
@@ -62,6 +56,15 @@ async function splinechart() {
         },
         tooltip: {
             theme: 'dark',
+            y: {
+                formatter: function(y) {
+                    if (typeof y !== "undefined") {
+                        return y.toFixed(0) + "%";
+                    }
+                    return y;
+
+                }
+            }
         },
         yaxis: {
             show: true,
@@ -69,7 +72,7 @@ async function splinechart() {
         },
         xaxis: {
             tooltip: 'false',
-            categories: dataInet.zs,
+            categories: dataInet2.zs,
             // max: 5,
             axisBorder: { //breite
                 show: true,
@@ -92,15 +95,13 @@ async function splinechart() {
 }
 var splineChart;
 var country = [];
-var selectSpline;
-var selectSpline2;
+var selectSpline = "";
+var selectSpline2 = " Germany ";
 var countryOption = "<option selected disabled>Choose a country</option>";
 
 function selectNewCountry() {
     selectSpline = document.getElementById("selectSpline").value;
     selectSpline2 = document.getElementById("selectSpline2").value;
-    console.log(selectSpline);
-    console.log(selectSpline2);
     updateSpline();
 
 }
@@ -127,129 +128,13 @@ async function updateSpline() {
         }],
     })
 };
-// async function getMobileData() {
-//     const xs = [];
-//     const ys = [];
 
-//     // const fetch = require("node-fetch");
-//     const response = await fetch('./Datengrafik/data/API_IT.CEL.SETS.csv');
-//     // const response = await fetch('./Datengrafik/data/users-by-social-media-platform.csv');
-//     // const response = await fetch('http://127.0.0.1:5500/Project/Datengrafik/data/API_IT.NET.USER.csv');
-//     const ITNET_data = await response.text();
-
-//     const table = ITNET_data.split('\n'); //.slice(1);
-//     table.forEach(row => {
-//         const columns = row.split(',');
-//         const land = columns[0];
-//         xs.push(land);
-//         if (columns[0] == selectSpline) {
-//             var year;
-//             year = columns[34];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[35];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[36];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[37];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[38];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[39];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[40];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[41];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[42];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[43];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[44];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[45];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[46];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[47];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[48];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[49];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[50];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[51];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[52];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[53];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[54];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[55];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[56];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[57];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[58];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[59];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[60];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[61];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[62];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             year = columns[63];
-//             year = Math.round(year * 100) / 100;
-//             ys.push(year);
-//             // year = columns[64].trim();
-//             // year = Math.round(year * 100) / 100;
-//             // ys.push(year);
-//         };
-//     });
-//     return { xs, ys };
-// }
 async function getInetData() {
     const xs = [];
     const ys = [];
     const zs = [];
 
-    // const fetch = require("node-fetch");
     const response = await fetch('./Datengrafik/data/API_IT.NET.USER.csv');
-    // const response = await fetch('./Datengrafik/data/users-by-social-media-platform.csv');
-    // const response = await fetch('http://127.0.0.1:5500/Project/Datengrafik/data/API_IT.NET.USER.csv');
     const ITNET_data = await response.text();
 
     const table = ITNET_data.split('\n').slice(1);
