@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+
+    <title>Nguyen Thao</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="Datengrafik/main.css">
+
+</head>
+
+<body onload="placeCountry()">
+    <div class="site">
+        <div class="wrap animate--shrink">
+            <!-- class="panel-wrap animate--none" -->
+            <!--MAIN-->
+            <div class="panel" data-x-pos="0" data-y-pos="0" id="main">
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <span class="overview js-zoom">OVERVIEW</span>
+                <h1 class="text">Internet</h1>
+                <div class="page-content"></div>
+            </div>
+            <!-- UP L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="1">
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <h2 class="left2">technology milestones worldwide</h2>
+                <div id="highlightchart" class="chart"></div>
+            </div>
+            <!-- UP R -->
+            <div class="panel" data-x-pos="1" data-y-pos="1">
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <h2 class="left2">Daily hours spent online </h2>
+                <div id="bar" class="chart"></div>
+            </div>
+            <!-- DOWN -->
+            <div id="down" class="panel" data-x-pos="0" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-down        js-down"> 
+                <ul class="Words" onclick="showDoku()">
+                    <li class="Words-line">
+                        <p>&nbsp;</p>
+                        <p>Datengrafik</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>Datengrafik</p>
+                        <p>INTERNET</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>INTERNET</p>
+                        <p>WORLDWIDE</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>WORLDWIDE</p>
+                        <p>by</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>by</p>
+                        <p>P. Thao</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>P. Thao</p>
+                        <p>Nguyen</p>
+                    </li>
+                    <li class="Words-line">
+                        <p>Nguyen</p>
+                        <p>&nbsp;</p>
+                    </li>
+                </ul>
+                </span>
+            </div>
+            <!-- DOWN 2-->
+            <div class="panel" data-x-pos="0" data-y-pos="-2" id="dokuPanel">
+                <span class="field field-up          js-up">             <span class="arrow up" onclick="hideDoku()"></span></span>
+                <iframe id="doku" src="Datengrafik/INTERNET_Dokumentation.pdf#zoom=60"></iframe>
+            </div>
+            <!-- DOWN L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="-1">
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2></h2></span></span>
+                <h2 class="left2">Internet User in percent</h2>
+                <div class="selectSpline">
+                    <select onchange="selectNewCountry()" name="selectSpline" id="selectSpline">
+                    </select>
+                </div>
+                <div class="selectSpline2">
+                    <select onchange="selectNewCountry()" name="selectSpline2" id="selectSpline2" placeholder="Germany">
+                    </select>
+                </div>
+                <div id="spline" class="chart"></div>
+            </div>
+            <!-- DOWN R -->
+            <div class="panel" data-x-pos="1" data-y-pos="-1" id="rPanel">
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2></h2></span></span>
+                <h2>user on social media</h2>
+                <div id="sliderValue">2013</div>
+                <div class="chooseYear">
+                    <div id="valueL">2004</div>
+                    <input id="inputValue" type="range" min="2004" max="2019" value="2013" steps="1">
+                    <div id="valueR">2019</div>
+                </div>
+                <div id="treemapchart" class="chart"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Datengrafik/scramble.js"></script>
+    <script>
+        const phrases = ['INTERNET'];
+        const el = document.querySelector('.text');
+        const fx = new TextScramble(el);
+        let counter = 0;
+
+        const next = () => {
+            fx.setText(phrases[counter]).then(() => {
+                setTimeout(next, 3600);
+            });
+            counter = (counter + 1) % phrases.length;
+        };
+
+        next();
+    </script>
+
+    <script src="./project.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
+    <script src="./Datengrafik/script.js"></script>
+    <script src="./Datengrafik/barchart.js"></script>
+    <script src="./Datengrafik/treemapchart.js"></script>
+    <script src="./Datengrafik/splinechart.js"></script>
+    <script src="./Datengrafik/highlight.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
+</body>
+
+</html>

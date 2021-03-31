@@ -22,11 +22,8 @@
             <!-- class="panel-wrap animate--none" -->
             <!--MAIN-->
             <div class="panel" data-x-pos="0" data-y-pos="0" id="main">
-                <!-- <span class="field field-up          js-up">             <span class="arrow up"></span></span> -->
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
-                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
-                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
                 <span class="field field-down        js-down">           <span class="arrow down"></span></span>
@@ -34,55 +31,21 @@
                 <h1 class="text">Internet</h1>
                 <div class="page-content"></div>
             </div>
-            <!--UP-->
-            <!-- <div class="panel" data-x-pos="0" data-y-pos="1">
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
-                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-                <h2 class="left2">everything at a glance - Top 3 2019</h2>
-                <div id="mixed" class="chart"></div>
-            </div> -->
             <!-- UP L -->
             <div class="panel" data-x-pos="-1" data-y-pos="1">
-                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
                 <h2 class="left2">technology milestones worldwide</h2>
                 <div id="highlightchart" class="chart"></div>
             </div>
             <!-- UP R -->
             <div class="panel" data-x-pos="1" data-y-pos="1">
-                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
                 <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <!-- <span class="field field-down        js-down">           <span class="arrow down"></span></span> -->
                 <h2 class="left2">Daily hours spent online </h2>
                 <div id="bar" class="chart"></div>
             </div>
-            <!-- L -->
-            <!-- <div class="panel" data-x-pos="-1" data-y-pos="0">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
-                <span class="field field-right       js-right">          <span class="arrow r"> </span></span>
-                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-            </div> -->
-            <!-- R -->
-            <!-- <div class="panel" data-x-pos="1" data-y-pos="0">
-                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
-                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
-                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
-                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
-            </div> -->
             <!-- DOWN -->
             <div id="down" class="panel" data-x-pos="0" data-y-pos="-1">
                 <span class="field field-up          js-up">             <span class="arrow up"></span></span>
-                <!-- <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span> -->
-                <!-- <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span> -->
-                <!-- <span class="field field-left        js-left">           <span class="arrow l"></span></span> -->
-                <!-- <span class="field field-right       js-right">          <span class="arrow r"></span></span> -->
                 <span class="field field-down        js-down"> 
                 <ul class="Words" onclick="showDoku()">
                     <li class="Words-line">
@@ -114,7 +77,6 @@
                         <p>&nbsp;</p>
                     </li>
                 </ul>
-                          <!-- <span class="arrow down"></span> -->
                 </span>
             </div>
             <!-- DOWN 2-->
@@ -124,29 +86,21 @@
             </div>
             <!-- DOWN L -->
             <div class="panel" data-x-pos="-1" data-y-pos="-1">
-                <!-- <span class="field field-up          js-up">             <span class="arrow up"><h2></h2></span></span> -->
                 <span class="field field-right-top   js-up js-right">    <span class="arrow upr"><h2></h2></span></span>
-                <!-- <span class="field field-right       js-right">          <span class="arrow r"><h2></h2></span></span> -->
-                <!-- <span class="field field-right-down  js-down js-right">  <span class="arrow downr"><h2></h2></span></span> -->
                 <h2 class="left2">Internet User in percent</h2>
                 <div class="selectSpline">
                     <select onchange="selectNewCountry()" name="selectSpline" id="selectSpline">
-                        <!-- <option selected disabled>Choose a country</option> -->
                     </select>
                 </div>
                 <div class="selectSpline2">
                     <select onchange="selectNewCountry()" name="selectSpline2" id="selectSpline2" placeholder="Germany">
-                        <!-- <option selected disabled>Choose a country</option> -->
                     </select>
                 </div>
                 <div id="spline" class="chart"></div>
             </div>
             <!-- DOWN R -->
             <div class="panel" data-x-pos="1" data-y-pos="-1" id="rPanel">
-                <!-- <span class="field field-up          js-up">             <span class="arrow up"><h2></h2></span></span> -->
                 <span class="field field-left-top    js-up js-left">     <span class="arrow upl"><h2></h2></span></span>
-                <!-- <span class="field field-left        js-left">           <span class="arrow l"><h2></h2></span></span>
-                <span class="field field-left-down   js-down js-left">   <span class="arrow "><h2></h2></span></span> -->
                 <h2>user on social media</h2>
                 <div id="sliderValue">2013</div>
                 <div class="chooseYear">

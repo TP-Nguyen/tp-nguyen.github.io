@@ -89,7 +89,7 @@ var options = {
             },
         }, {
             x: '1995',
-            y: '0.0681',
+            y: '0.681',
             strokeDashArray: 7,
             borderColor: "#8E2DE2",
             label: {
