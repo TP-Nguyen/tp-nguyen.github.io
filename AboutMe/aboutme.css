@@ -143,6 +143,7 @@ h2 {
 
 .timeline-content a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #banner {
