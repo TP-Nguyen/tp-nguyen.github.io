@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <title>Nguyen Thao</title>
+
+    <link rel="stylesheet" href="./project.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="zphere/main.css">
+    <link rel="stylesheet" href="zphere/style.css">
+    <script src="zphere/script.js"></script>
+</head>
+
+<body onload="arrow()">
+    <!-- partial:index.partial.html -->
+    <div class="site">
+        <div class="wrap animate--shrink">
+            <!-- class="panel-wrap animate--none" -->
+            <!--MAIN-->
+            <div class="panel" data-x-pos="0" data-y-pos="0" id="main">
+
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <span class="overview js-zoom">OVERVIEW</span>
+                <div class="cont">
+                    <div class="slider" id="Grundlagen"></div>
+                    <ul class="nav" id="navGrundlagen"></ul>
+                </div>
+                <!-- <h1>Main</h1> -->
+            </div>
+            <!--UP-->
+            <div class="panel" data-x-pos="0" data-y-pos="1">
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Up</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="zielgruppe"></div>
+                    <ul class="nav" id="navzielgruppe"></ul>
+                </div>
+            </div>
+            <!-- UP L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="1">
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Up Left</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="sportartern"></div>
+                    <ul class="nav" id="navsportartern"></ul>
+                </div>
+            </div>
+            <!-- UP R -->
+            <div class="panel" data-x-pos="1" data-y-pos="1">
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Up Right</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="konkurrenz"></div>
+                    <ul class="nav" id="navkonkurrenz"></ul>
+                </div>
+            </div>
+            <!-- L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="0">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Left</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="designReal"></div>
+                    <ul class="nav" id="navdesignReal"></ul>
+                </div>
+            </div>
+            <!-- R -->
+            <div class="panel" data-x-pos="1" data-y-pos="0">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Right</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="branding"></div>
+                    <ul class="nav" id="navbranding"></ul>
+                </div>
+            </div>
+            <!-- DOWN -->
+            <div class="panel" data-x-pos="0" data-y-pos="-1" id="doku">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-down        js-down">           <span class="arrow down"></span></span>
+                <!-- <h1>Dokumentation</h1>
+                <iframe src="zphere/zphere_Doku.pdf"></iframe> -->
+                <div class="cont">
+                    <div class="slider animation" id="appdesign"></div>
+                    <ul class="nav" id="navappdesign"></ul>
+                </div>
+            </div>
+            <!-- DOWN L -->
+            <div class="panel" data-x-pos="-1" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <span class="field field-right       js-right">          <span class="arrow r"></span></span>
+                <span class="field field-right-down  js-down js-right">  <span class="arrow downr"></span></span>
+                <!-- <h1>Down Left</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="cdesign"></div>
+                    <ul class="nav" id="navcdesign"></ul>
+                </div>
+            </div>
+            <!-- DOWN R -->
+            <div class="panel" data-x-pos="1" data-y-pos="-1">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-left        js-left">           <span class="arrow l"></span></span>
+                <span class="field field-left-down   js-down js-left">   <span class="arrow "></span></span>
+                <!-- <h1>Down Right</h1> -->
+                <div class="cont">
+                    <div class="slider animation" id="struktur"></div>
+                    <ul class="nav" id="navstruktur"></ul>
+                </div>
+            </div>
+            <!-- DOWN 2-->
+            <div class="panel" data-x-pos="0" data-y-pos="-2" id="git">
+                <span class="field field-up          js-up">             <span class="arrow up"></span></span>
+                <span class="field field-left-top    js-up js-left">     <span class="arrow upl"></span></span>
+                <span class="field field-right-top   js-up js-right">    <span class="arrow upr"></span></span>
+                <!-- <h1>Github</h1>
+                <a href="https://github.com/TabSchu/TabSchu.github.io">Hier zum Projekt!</a> -->
+                <div class="cont">
+                    <div class="slider animation" id="prototyp"></div>
+                    <ul class="nav" id="navprototyp"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="./project.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="zphere/script.js"></script>
+
+
+</body>
+
+</html>

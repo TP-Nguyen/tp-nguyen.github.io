@@ -1,0 +1,304 @@
+    body {
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    
+    .site.show-all {
+        transform: scale(0.25);
+        /* padding-top: 5%; */
+    }
+    
+    h1,
+    h2,
+    h3 {
+        text-transform: uppercase;
+        /* display: none; */
+        /* font-family: 'Bebas Neue', cursive; */
+        font-family: 'Source Sans Pro';
+        font-weight: 700;
+        /* letter-spacing: -1px; */
+    }
+    
+    h2,
+    h3 {
+        font-size: 32px;
+        position: absolute;
+        top: 90px;
+        left: 80px;
+    }
+    
+    #treemapchart {
+        top: 30px;
+    }
+    
+    .left2 {
+        left: 90px;
+    }
+    
+    .overview {
+        /* top: 90%; */
+    }
+    
+    .apexcharts-tooltip {
+        box-shadow: 0 0 0 0 #000;
+    }
+    
+    #main .field {
+        opacity: 1;
+    }
+    
+    .arrow {
+        display: block;
+        border-left: 3px solid dodgerblue;
+        border-bottom: 3px solid dodgerblue;
+        width: 30px;
+        height: 30px;
+        margin: 15px;
+        animation: neon 5s linear infinite;
+    }
+    
+    @keyframes neon {
+        0%,
+        100% {
+            filter: hue-rotate(0deg);
+            /* filter: invert(0%); */
+        }
+        50% {
+            filter: hue-rotate(50deg);
+            /* filter: invert(100%); */
+        }
+    }
+    
+    .page-content {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #rPanel.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title,
+    #rPanel .chart .apexcharts-tooltip,
+    #rPanel .chart .apexcharts-tooltip-title {
+        font-family: 'Source Sans Pro';
+        padding: 5px;
+        /* color: #FFFFFF;
+    background: #1c1c1c;
+    opacity: 0.7; */
+    }
+    
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0 !important;
+        background: #4b00e0;
+        background-image: none;
+    }
+    /* Remove IE arrow */
+    
+    select::-ms-expand {
+        display: none;
+    }
+    /* Custom Select */
+    
+    .selectSpline,
+    .selectSpline2 {
+        top: 60px;
+        right: 80px;
+        position: absolute;
+        /* opacity: 0.3; */
+        display: flex;
+        width: 13em;
+        height: 3em;
+        line-height: 3;
+        background: dodgerblue;
+        /* background: #4A00E0; */
+        animation: neon 5s linear infinite;
+        overflow: hidden;
+        border-radius: .25em;
+    }
+    
+    .selectSpline2 {
+        right: calc(100px + 13em)
+    }
+    
+    select {
+        flex: 1;
+        position: relative;
+        padding: 0 .5em;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: "libre Franklin";
+    }
+    /* Input */
+    
+    .selectSpline::after,
+    .selectSpline2::after {
+        content: '\25BC';
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 1em;
+        background: #4A00E0;
+        cursor: pointer;
+        pointer-events: none;
+        -webkit-transition: .25s all ease;
+        -o-transition: .25s all ease;
+        transition: .25s all ease;
+    }
+    
+    .chooseYear {
+        bottom: 30px;
+        transform: translate(-50%);
+        left: 50%;
+        width: 80vw;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .chooseYear input {
+        width: 80%;
+        animation: neon 5s linear infinite;
+    }
+    
+    #valueL,
+    #valueR {}
+    
+    #sliderValue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .25em;
+        width: 208px;
+        height: 48px;
+        top: 60px;
+        right: 80px;
+        position: absolute;
+        color: white;
+        background-color: #4A00E0;
+        animation: neon 5s linear infinite;
+        font-size: 14px;
+        font-family: "libre Franklin";
+    }
+    /* Hover */
+    
+    .selectSpline:hover::after {
+        color: #8d2ce2;
+    }
+    
+    .selectSpline:hover {
+        opacity: 1;
+    }
+    
+    .chart {
+        min-width: 750px;
+        width: calc(100vw - 160px);
+        /* min-height: 40vh; */
+        height: calc(100vh - 160px);
+        margin: 80px;
+        /* margin-top: 20%; */
+        color: black;
+        bottom: 60px;
+        position: absolute;
+        margin-bottom: 0;
+    }
+    /*doku*/
+    
+    #down {
+        color: #FFFFFF;
+        display: flex;
+    }
+    
+    #down .field-down {
+        top: calc((100vh - 350px)/2);
+    }
+    
+    iframe {
+        height: 80%;
+        width: 80%;
+        margin: 5% 10%;
+    }
+    
+    #dokuPanel {
+        visibility: hidden;
+    }
+    
+    .show-all #dokuPanel:hover:before {
+        background-color: transparent;
+        /* rgba(255, 255, 255, 0.1); */
+        cursor: context-menu;
+    }
+    
+    .Words {
+        margin: auto;
+        height: 500px;
+        width: 500px;
+        font-family: "Source Sans Pro";
+        font-size: 70px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+        transform: translate3d(0, 0, 0);
+        /* display: none; */
+    }
+    
+    .Words-line {
+        height: 50px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .Words-line:nth-child(odd) {
+        transform: skew(60deg, -30deg) scaleY(0.66667);
+    }
+    
+    .Words-line:nth-child(even) {
+        transform: skew(0deg, -30deg) scaleY(1.33333);
+    }
+    
+    .Words-line:nth-child(1) {
+        left: 29px;
+    }
+    
+    .Words-line:nth-child(2) {
+        left: 58px;
+    }
+    
+    .Words-line:nth-child(3) {
+        left: 87px;
+    }
+    
+    .Words-line:nth-child(4) {
+        left: 116px;
+    }
+    
+    .Words-line:nth-child(5) {
+        left: 145px;
+    }
+    
+    .Words-line:nth-child(6) {
+        left: 174px;
+    }
+    
+    .Words-line:nth-child(7) {
+        left: 203px;
+    }
+    
+    p {
+        height: 50px;
+        line-height: 45px;
+        padding: 0 10px;
+        transition: all 0.4s ease-in-out;
+        transform: translate3d(0, 0, 0);
+        vertical-align: top;
+        white-space: nowrap;
+        opacity: 0.5;
+    }
+    
+    .Words:hover p {
+        opacity: 1;
+        transform: translate3d(0, -50px, 0);
+    }

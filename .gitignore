@@ -1,7 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-Project/eatabroad/img/Kyoto/somenV.mp4
-anlagen/Bewerbung.indd
-anlagen/Bewerbung2.0.indd
-node_modules/node-fetch/package.json
-node_modules/node-fetch/package.json
-Project/Datengrafik/~doku~ouu4$p.idlk
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
