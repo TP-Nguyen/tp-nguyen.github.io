@@ -1,0 +1,308 @@
+{
+    "GENERAL": {
+        "NAME": "Nguyen",
+        "FIRSTNAME": "Phuong Thao",
+        "EXPERIENCE": "Erfahrung",
+        "PROJECT": "Projekt",
+        "CONTACT": "Kontakt",
+        "ABOUTME": "Über mich"
+    },
+    "ABOUTME": {
+        "INTRODUCTION": "Hey! Mein Name ist Phuong Thao Nguyen. ",
+        "CURRENTSTATUS": "Zurzeit studiere ich an der Hochschule Bremen den Studiengang Internationale Medieninformatik. Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.",
+        "AFTERWORDS": "Aufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein Wissen genutzt und erweitert.",
+        "LOOKAROUND": "Sieh dich mal etwas um. ",
+        "CATCH": "Hier kannst du unter anderem etwas über meine Fähigkeiten und Projekte erfahren."
+    },
+    "EXPERIENCE": {
+        "QUOTE": "No one knows what the future holds ",
+        "SUBQUOTE": "Thats why the future is unlimited and potential is infinite ",
+        "BBS": {
+            "DATE": "08/2015 - 06/2017",
+            "IMG": "../../../public/logo/BBS.png",
+            "TITLE": "Berufsbildende Schulen des Landkreises Oldenburg",
+            "SUBTITLE": "Staatlich geprüfte kaufmännische Assistentin - Schwerpunkt Informationsverarbeitung",
+            "CONTENT": {
+                "0": "▪︎ Projekte planen, durchführen und betreuen",
+                "1": "▪︎ Anwendungssoftware und Datenbanksysteme entwickeln",
+                "2": "▪︎ Webanwendungen entwickeln und bereitstellen",
+                "3": "▪︎ IT-Systeme auswählen, betreuen und gestalten",
+                "4": "▪︎ Werteströme erfassen sowie Betriebsergebnis analysieren",
+                "5": "▪︎ Absatzprozesse/Beschaffungsprozesse bearbeiten, analysieren und bearbeiten"
+            }
+        },
+        "OL": {
+            "DATE": "10/2016 - 11/2016",
+            "IMG": "../../../public/logo/OL.png",
+            "TITLE": "Landkreis Oldenburg - Land Niedersachsen",
+            "SUBTITLE": "IT-Assistent",
+            "CONTENT": {
+                "0": "▪︎ Austausch von PC-Hardware",
+                "1": "▪︎ Projektumsetzung 'PC-Tausch2016'",
+                "2": "▪︎ Aufbau/lnstandsetzung von Technik",
+                "3": "Umsetzung 'NetAlarm' - hausinternes Alarmierungssystem",
+                "4": "▪︎ allgemeine Anwendungsaktualisierung",
+                "5": "▪︎ Recherche zu Hard- und Softwareanfragen"
+            }
+        },
+        "WWS": {
+            "DATE": "08/2017 - 06/2018",
+            "IMG": "../../../public/logo/WWS.png",
+            "TITLE": "Wilhelm Wagenfeldschule",
+            "SUBTITLE": "Fachhochschulreife, Gestaltung - Schwerpunkt Kunst, Design und Medien",
+            "CONTENT": {
+                "0": " ▪︎ Farbdramaturgie",
+                "1": "▪︎ Gestaltungstechnik",
+                "2": "▪︎ Zeichenlehre",
+                "3": "▪︎ Storyboard",
+                "4": "▪︎ Kameraperspektiven",
+                "5": "▪︎ Kamerabewegungen"
+            }
+
+        },
+        "HSB": {
+            "DATE": "09/2018 - 09/2023",
+            "IMG": "../../../public/logo/HSB.png",
+            "TITLE": "Hochschule Bremen",
+            "SUBTITLE": "Bachelor of Science - Internationaler Studiengang Medieninformatik",
+            "CONTENT": {
+                "0": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen",
+                "1": "▪︎ Mensch-Computer-Interaktion",
+                "2": "▪︎ Datenbankbasierte Web-Anwendungen",
+                "3": "▪︎ Motion Design",
+                "4": "▪︎ Game Design",
+                "5": "▪︎ Interaktive Datenvisualisierung"
+            }
+        },
+        "RB": {
+            "DATE": "10/2019 - 08/2020",
+            "IMG": "../../../public/logo/RB.png",
+            "TITLE": "Radio Bremen",
+            "SUBTITLE": "Bachelorprojekt 'Zphere' mit Bremedia",
+            "CONTENT": {
+                "0": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen",
+                "1": "▪︎ Mensch-Computer-Interaktion",
+                "2": "▪︎ Datenbankbasierte Web-Anwendungen",
+                "3": "▪︎ Motion Design",
+                "4": "▪︎ Game Design",
+                "5": "▪︎ Interaktive Datenvisualisierung"
+            },
+            "SKILL": {
+                "0": "../../../public/Skill/LogoReact.png",
+                "1": "../../../public/Skill/node.png",
+                "2": "../../../public/Skill/MariaDB.png",
+                "3": "../../../public/Skill/xd.png",
+                "4": "../../../public/Skill/LogoGithub.png",
+                "TOOLTIP": {
+                    "0": "React",
+                    "1": "Node",
+                    "2": "MariaDB",
+                    "3": "Adobe XD",
+                    "4": "Github"
+                }
+            }
+        },
+        "EATHAPPY": {
+            "DATE": "07/2019 - 09/2020",
+            "IMG": "../../../public/logo/EATHAPPY.png",
+            "TITLE": "EAT HAPPY GROUP",
+            "SUBTITLE": "Promotionsspezialist",
+            "CONTENT": {
+                "0": "Promotion und  Marketing",
+                "1": "Unterstützung des Teams",
+                "2": "Vertiebsorte",
+                "3": "▪︎ Bremen",
+                "4": "▪︎ Vechta",
+                "5": "▪︎ Wildeshausen"
+            }
+        },
+        "28APPS": {
+            "DATE": "05/2021 - 07/2022",
+            "IMG": "../../../public/logo/28APPS.png",
+            "TITLE": "28Apps Software GmbH",
+            "SUBTITLE": "Software Entwickler",
+            "CONTENT": {
+                "0": "Werkstudent",
+                "1": "praxissemester praktikum ",
+                "2": "▪︎ Web- und Softwareentwicklung ",
+                "3": "▪︎ Pflegen der Projekte ",
+                "4": "▪︎ Wartung von responsive Design",
+                "5": "▪︎ Erweiterungen von Funktionalitäten"
+            },
+            "SKILL": {
+                "0": "../../../public/Skill/vue.png",
+                "1": "../../../public/Skill/TypeScript.png",
+                "2": "../../../public/Skill/Jira.png",
+                "3": "../../../public/Skill/Git.png",
+                "4": "../../../public/Skill/sass.png",
+                "TOOLTIP": {
+                    "0": "Vue",
+                    "1": "TypeScript",
+                    "2": "Jira",
+                    "3": "Git",
+                    "4": "SASS"
+                }
+
+            }
+        },
+        "SEOULTECH": {
+            "DATE": "02/2022 - 06/2022",
+            "IMG": "../../../public/logo/SEOULTECH.png",
+            "TITLE": "Seoul National University of Science and Technology",
+            "SUBTITLE": "Auslandssemester",
+            "CONTENT": {
+                "0": "Aktivitäten und Verbände: Kendo club ",
+                "1": "▪︎ Koreanisch Sprachkurs",
+                "2": "▪︎ Design Research ",
+                "3": "▪︎ Computer Programming ",
+                "4": "▪︎ Mobile UX Experience Design ",
+                "5": "▪︎ Figma"
+            }
+        },
+        "NEW": {
+            "DATE": "",
+            "IMG": "../../../public/logo/.png",
+            "TITLE": "",
+            "SUBTITLE": "",
+            "CONTENT": {
+                "0": "▪︎",
+                "1": "",
+                "2": "▪︎ ",
+                "3": "▪︎ ",
+                "4": "▪︎ ",
+                "5": "▪︎ "
+            },
+            "SKILL": {
+                "0": "",
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "TOOLTIP": {
+                    "0": "",
+                    "1": "",
+                    "2": "",
+                    "3": "",
+                    "4": "",
+                    "5": ""
+                }
+
+            }
+        }
+    },
+    "PROJECT": {
+        "INTRODUCTION": " Im Studium konnte ich mein Wissen in den Bereichen Mathematik und Informatik erweitern und vertiefen. Zum Beispiel habe ich kleine Systeme in verschiedenen Projekten programmiert. Dazu gehören bereits auch eigene Websites und browserbasierte Spiele entwickelt.",
+        "LASTMINUTE": {
+            "TITLE": "last minute",
+            "TOOLTIP": "browserbasiertes Klickspiel",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+
+        },
+        "LAGOM": {
+            "TITLE": "lagom",
+            "TOOLTIP": "Datenbankbasierte Webanwendung",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "THROWBACK": {
+            "TITLE": "throwback",
+            "TOOLTIP": "browserbasiertes Jump n' Run",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "ZPHERE": {
+            "TITLE": "zphere",
+            "TOOLTIP": "Webapp in zusammenarbeit mit Radio Bremen",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "SURVIVAL": {
+            "TITLE": "Survival of the fittest",
+            "TOOLTIP": "Motion Video",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "MYANIMELIST": {
+            "TITLE": "MyAnimeList",
+            "TOOLTIP": "Bachelorthesis über Redesign",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "INTERNET": {
+            "TITLE": "Internet Worldwide",
+            "TOOLTIP": "Interaktive Datenvisualierung",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "EATABROAD": {
+            "TITLE": "eatabroad",
+            "TOOLTIP": "Website",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        },
+        "NEW": {
+            "TITLE": "",
+            "TOOLTIP": "",
+            "DESCRIPTION": "",
+            "TECH": {
+                "0": ""
+            }
+        }
+    },
+    "PROGRAMM": {
+        "VUE": {
+            "TITLE": "Vue.js",
+            "IMG": "../../../public/Skill/vue.png"
+        },
+        "TYPE": {
+            "TITLE": "TypeScript",
+            "IMG": "../../../public/Skill/TypeScript.png"
+        },
+        "GIT": {
+            "TITLE": "Git",
+            "IMG": "../../../public/Skill/Git.png"
+        },
+        "SASS": {
+            "TITLE": "SASS",
+            "IMG": "../../../public/Skill/sass.png"
+        },
+        "REACT": {
+            "TITLE": "React",
+            "IMG": "../../../public/Skill/LogoReact.png"
+        },
+        "NODE": {
+            "TITLE": "Node",
+            "IMG": "../../../public/Skill/node.png"
+        },
+        "XD": {
+            "TITLE": "Adobe XD",
+            "IMG": "../../../public/Skill/xd.png"
+        },
+        "GITHUB": {
+            "TITLE": "Github",
+            "IMG": "../../../public/Skill/LogoGithub.png"
+        },
+        "": {
+            "TITLE": "",
+            "IMG": "../../../public/Skill/.png"
+        }
+    }
+}

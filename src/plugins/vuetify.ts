@@ -5,14 +5,14 @@ import 'vuetify/styles';
 
 import { aliases, fa } from "vuetify/iconsets/fa";
 import { mdi } from "vuetify/lib/iconsets/mdi";
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
+// import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import { md } from 'vuetify/iconsets/md'
-import { custom } from '../assets/customIcon'
+// import { custom } from '../assets/customIcon'
 const vuetify = createVuetify({
      components,
      directives,
      theme: {
-          defaultTheme: 'light',
+          defaultTheme: 'dark',
           themes: {
                light: {
                     dark: false,
@@ -36,17 +36,17 @@ const vuetify = createVuetify({
                          textSecondary:'#D5D5D5',
                          genre:'424242',
                          review:'#131313',
-                         cube:'#212121',
+                         cube:'#2222222',
                          background:'#303030',
                     }
                }
           }
      },
      icons: {
-          defaultSet: 'custom',
+          defaultSet: 'fa',
           aliases,
           sets: {
-               custom,
+               // custom,
             fa,
             mdi,
             md,

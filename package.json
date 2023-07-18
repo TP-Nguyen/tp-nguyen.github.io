@@ -11,10 +11,12 @@
   "dependencies": {
     "@mdi/font": "^7.2.96",
     "@types/node": "^20.3.2",
+    "node": "^14.18.3",
     "sass": "^1.63.6",
     "vue": "^3.2.47",
     "vue-i18n": "^9.2.2",
-    "vuetify": "^3.3.5"
+    "vuetify": "^3.3.5",
+    "vuetify-loader": "^1.9.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
