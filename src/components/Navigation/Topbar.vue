@@ -5,23 +5,25 @@
         color="deep-purple-accent-4"
         align-tabs="end"
         grow
+        @click="scrollToSection('aboutme')"
   >
-    <v-tab>
+  <v-tab href="aboutme" >
       {{ $t('GENERAL.ABOUTME') }}
     </v-tab>
-    <v-tab>
+    <v-tab href="experience">
       {{ $t('GENERAL.EXPERIENCE') }}
     </v-tab>    
-    <v-tab>
+    <v-tab href="project">
       {{ $t('GENERAL.PROJECT') }}
     </v-tab>    
-    <v-tab>
+    <v-tab href="aboutme">
       {{ $t('GENERAL.CONTACT') }}
     </v-tab>
   </v-tabs>
        </div>
    </template>
-<script lang="ts"></script>
+<script lang="ts">
+</script>
 <style lang="scss" scoped>
 .navi {
   position: sticky;

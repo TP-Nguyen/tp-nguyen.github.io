@@ -1,63 +1,41 @@
 {
     "GENERAL": {
-        "NAME": "Nguyen",
+        "LASTNAME": "Nguyen",
         "FIRSTNAME": "Phuong Thao",
+        "ADDRESS": " Bargloyer Heide 43\n27793 Wildeshausen",
         "EXPERIENCE": "Erfahrung",
         "PROJECT": "Projekt",
         "CONTACT": "Kontakt",
-        "ABOUTME": "Über mich"
+        "ABOUTME": "Über mich",
+        "NGUYEN": "nʏʁn"
+
     },
     "ABOUTME": {
-        "INTRODUCTION": "Hey! Mein Name ist Phuong Thao Nguyen. ",
-        "CURRENTSTATUS": "Zurzeit studiere ich an der Hochschule Bremen den Studiengang Internationale Medieninformatik. Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.",
-        "AFTERWORDS": "Aufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein Wissen genutzt und erweitert.",
-        "LOOKAROUND": "Sieh dich mal etwas um. ",
-        "CATCH": "Hier kannst du unter anderem etwas über meine Fähigkeiten und Projekte erfahren."
+        "INTRO": "Ein Entwickler realisiert im Team alle Informations- und Kommunikationslösungen \nund vernetzt die verschiedenen Hardware- und Softwarekomponenten zu komplexen Systemen.",
+        "INTRODUCTION": "Hey! Mein Name ist Phuong Thao Nguyen.\nAn der Hochschule Bremen studierte ich den Internationalen Studiengang Medieninformatik. Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.\nAufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein Wissen genutzt und erweitert.\n\nSieh dich mal etwas um. \nHier kannst du unter anderem etwas über meine Fähigkeiten und Projekte erfahren."
     },
     "EXPERIENCE": {
-        "QUOTE": "No one knows what the future holds ",
-        "SUBQUOTE": "Thats why the future is unlimited and potential is infinite ",
+        "QUOTE": "No one knows what the future holds\nThats why the future is unlimited and potential is infinite",
         "BBS": {
             "DATE": "08/2015 - 06/2017",
             "IMG": "../../../public/logo/BBS.png",
             "TITLE": "Berufsbildende Schulen des Landkreises Oldenburg",
             "SUBTITLE": "Staatlich geprüfte kaufmännische Assistentin - Schwerpunkt Informationsverarbeitung",
-            "CONTENT": {
-                "0": "▪︎ Projekte planen, durchführen und betreuen",
-                "1": "▪︎ Anwendungssoftware und Datenbanksysteme entwickeln",
-                "2": "▪︎ Webanwendungen entwickeln und bereitstellen",
-                "3": "▪︎ IT-Systeme auswählen, betreuen und gestalten",
-                "4": "▪︎ Werteströme erfassen sowie Betriebsergebnis analysieren",
-                "5": "▪︎ Absatzprozesse/Beschaffungsprozesse bearbeiten, analysieren und bearbeiten"
-            }
+            "CONTENT": "▪︎ Projekte planen, durchführen und betreuen\n▪︎ Anwendungssoftware und Datenbanksysteme entwickeln\n▪︎ Webanwendungen entwickeln und bereitstellen\n▪︎ IT-Systeme auswählen, betreuen und gestalten\n▪︎ Werteströme erfassen sowie Betriebsergebnis analysieren\n▪︎ Absatzprozesse/Beschaffungsprozesse bearbeiten, analysieren und bearbeiten"
         },
         "OL": {
             "DATE": "10/2016 - 11/2016",
             "IMG": "../../../public/logo/OL.png",
             "TITLE": "Landkreis Oldenburg - Land Niedersachsen",
             "SUBTITLE": "IT-Assistent",
-            "CONTENT": {
-                "0": "▪︎ Austausch von PC-Hardware",
-                "1": "▪︎ Projektumsetzung 'PC-Tausch2016'",
-                "2": "▪︎ Aufbau/lnstandsetzung von Technik",
-                "3": "Umsetzung 'NetAlarm' - hausinternes Alarmierungssystem",
-                "4": "▪︎ allgemeine Anwendungsaktualisierung",
-                "5": "▪︎ Recherche zu Hard- und Softwareanfragen"
-            }
+            "CONTENT": "▪︎ Austausch von PC-Hardware\n▪︎ Projektumsetzung 'PC-Tausch2016'\n▪︎ Aufbau/lnstandsetzung von Technik\n▪︎ Umsetzung 'NetAlarm' - hausinternes Alarmierungssystem\n▪︎ allgemeine Anwendungsaktualisierung\n▪︎ Recherche zu Hard- und Softwareanfragen"
         },
         "WWS": {
             "DATE": "08/2017 - 06/2018",
             "IMG": "../../../public/logo/WWS.png",
             "TITLE": "Wilhelm Wagenfeldschule",
             "SUBTITLE": "Fachhochschulreife, Gestaltung - Schwerpunkt Kunst, Design und Medien",
-            "CONTENT": {
-                "0": " ▪︎ Farbdramaturgie",
-                "1": "▪︎ Gestaltungstechnik",
-                "2": "▪︎ Zeichenlehre",
-                "3": "▪︎ Storyboard",
-                "4": "▪︎ Kameraperspektiven",
-                "5": "▪︎ Kamerabewegungen"
-            }
+            "CONTENT": "▪︎ Farbdramaturgie\n▪︎ Gestaltungstechnik\n▪︎ Zeichenlehre\n▪︎ Storyboard\n▪︎ Kameraperspektiven & Bewegungen"
 
         },
         "HSB": {
@@ -65,28 +43,14 @@
             "IMG": "../../../public/logo/HSB.png",
             "TITLE": "Hochschule Bremen",
             "SUBTITLE": "Bachelor of Science - Internationaler Studiengang Medieninformatik",
-            "CONTENT": {
-                "0": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen",
-                "1": "▪︎ Mensch-Computer-Interaktion",
-                "2": "▪︎ Datenbankbasierte Web-Anwendungen",
-                "3": "▪︎ Motion Design",
-                "4": "▪︎ Game Design",
-                "5": "▪︎ Interaktive Datenvisualisierung"
-            }
+            "CONTENT": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen\n▪︎ Mensch-Computer-Interaktion\n▪︎ Datenbankbasierte Web-Anwendungen\n▪︎ Motion Design\n▪︎ Game Design\n▪︎ Interaktive Datenvisualisierung"
         },
         "RB": {
             "DATE": "10/2019 - 08/2020",
             "IMG": "../../../public/logo/RB.png",
             "TITLE": "Radio Bremen",
             "SUBTITLE": "Bachelorprojekt 'Zphere' mit Bremedia",
-            "CONTENT": {
-                "0": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen",
-                "1": "▪︎ Mensch-Computer-Interaktion",
-                "2": "▪︎ Datenbankbasierte Web-Anwendungen",
-                "3": "▪︎ Motion Design",
-                "4": "▪︎ Game Design",
-                "5": "▪︎ Interaktive Datenvisualisierung"
-            },
+            "CONTENT": "▪︎ ",
             "SKILL": {
                 "0": "../../../public/Skill/LogoReact.png",
                 "1": "../../../public/Skill/node.png",
@@ -107,28 +71,15 @@
             "IMG": "../../../public/logo/EATHAPPY.png",
             "TITLE": "EAT HAPPY GROUP",
             "SUBTITLE": "Promotionsspezialist",
-            "CONTENT": {
-                "0": "Promotion und  Marketing",
-                "1": "Unterstützung des Teams",
-                "2": "Vertiebsorte",
-                "3": "▪︎ Bremen",
-                "4": "▪︎ Vechta",
-                "5": "▪︎ Wildeshausen"
-            }
+            "CONTENT": "Promotion und  Marketing\n\nVertiebsorte\n▪︎ Bremen\n▪︎ Vechta\n▪︎ Wildeshausen"
+
         },
         "28APPS": {
             "DATE": "05/2021 - 07/2022",
             "IMG": "../../../public/logo/28APPS.png",
             "TITLE": "28Apps Software GmbH",
             "SUBTITLE": "Software Entwickler",
-            "CONTENT": {
-                "0": "Werkstudent",
-                "1": "praxissemester praktikum ",
-                "2": "▪︎ Web- und Softwareentwicklung ",
-                "3": "▪︎ Pflegen der Projekte ",
-                "4": "▪︎ Wartung von responsive Design",
-                "5": "▪︎ Erweiterungen von Funktionalitäten"
-            },
+            "CONTENT": "Werkstudent davor Praktikum im Praxissemester\n\n▪︎ Web- und Softwareentwicklung \n▪︎ Pflegen der Projekte\n▪︎ Wartung von responsive Design\n▪︎ Erweiterungen von Funktionalitäten",
             "SKILL": {
                 "0": "../../../public/Skill/vue.png",
                 "1": "../../../public/Skill/TypeScript.png",
@@ -150,28 +101,14 @@
             "IMG": "../../../public/logo/SEOULTECH.png",
             "TITLE": "Seoul National University of Science and Technology",
             "SUBTITLE": "Auslandssemester",
-            "CONTENT": {
-                "0": "Aktivitäten und Verbände: Kendo club ",
-                "1": "▪︎ Koreanisch Sprachkurs",
-                "2": "▪︎ Design Research ",
-                "3": "▪︎ Computer Programming ",
-                "4": "▪︎ Mobile UX Experience Design ",
-                "5": "▪︎ Figma"
-            }
+            "CONTENT": "Aktivitäten: Kendo Club\n\n▪︎ Koreanisch Sprachkurs\n▪︎ Design Research\n▪︎ Computer Programming\n▪︎ Mobile UX Experience Design \n▪︎ Figma"
         },
         "NEW": {
             "DATE": "",
             "IMG": "../../../public/logo/.png",
             "TITLE": "",
             "SUBTITLE": "",
-            "CONTENT": {
-                "0": "▪︎",
-                "1": "",
-                "2": "▪︎ ",
-                "3": "▪︎ ",
-                "4": "▪︎ ",
-                "5": "▪︎ "
-            },
+            "CONTENT": "▪︎",
             "SKILL": {
                 "0": "",
                 "1": "",
@@ -192,78 +129,160 @@
         }
     },
     "PROJECT": {
-        "INTRODUCTION": " Im Studium konnte ich mein Wissen in den Bereichen Mathematik und Informatik erweitern und vertiefen. Zum Beispiel habe ich kleine Systeme in verschiedenen Projekten programmiert. Dazu gehören bereits auch eigene Websites und browserbasierte Spiele entwickelt.",
+        "INTRODUCTION": " Im Studium konnte ich mein Wissen in den Bereichen Informatik und Design erweitern und vertiefen. Zum Beispiel habe ich kleine Systeme in verschiedenen Projekten programmiert. Dazu gehören bereits auch eigene Websites und browserbasierte Spiele entwickelt.",
         "LASTMINUTE": {
             "TITLE": "last minute",
-            "TOOLTIP": "browserbasiertes Klickspiel",
-            "DESCRIPTION": "",
+            "TOOLTIP": "browserbasiertes Point-and-Click-Adventure",
+            "DESCRIPTION": "Im ersten Semester wurde grundlegend auf HTML, CSS und JavaScript ein webbasiertes Spiel entwickelt, das Point-and-Click-Adventure „Last Minute!“.\n\nIn diesen Spiel handelt es um ein Student, der gestresst in den letzten Schritten seiner Bachelorarbeit steckt. Dabei unterstützt der Spieler dem Protagonisten, um die Bachelorarbeit erfolgreich seinem Professor abzugeben. \n\nIn Zusammenarbeit mit Moumita Ahmad, Lars Obist und Yuliya Litvin",
             "TECH": {
-                "0": ""
-            }
-
+                "0": "../../../public/Skill/LogoHTML.png",
+                "1": "../../../public/Skill/LogoCSS.png",
+                "2": "../../../public/Skill/LogoJS.png",
+                "TOOLTIP": {
+                    "0": "HTML",
+                    "1": "CSS",
+                    "2": "JavaScript"
+                }
+            },
+            "IMG": ["../../../public/Project/Last Minute/1.png", "../../../public/Project/Last Minute/2.png", "../../../public/Project/Last Minute/3.png", "../../../public/Project/Last Minute/4.png", "../../../public/Project/Last Minute/5.png"],
+            "VIDEO": "../../../public/Project/Last Minute/video.mp4"
         },
         "LAGOM": {
             "TITLE": "lagom",
             "TOOLTIP": "Datenbankbasierte Webanwendung",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "In diesem Projekt handelt es sich um einen digitalen Bullet Journal, der jedem Benuzter ein individuelles Workspace bietet, in dem dieser sich sein Leben strukturieren kann. Somit kann er sich Erinnerungen anlegen, ToDo-Listen erstellen, ein Tagebuchführen, sich Ziele setzen und Termine in seinen Kalender eintragen. Um unseren Nutzer zudem täglich zu motivieren findet er bei jedem erneutem Neuladen der Seite einen anderen motivierenden Spruch auf seiner Workspace-Page und auch immer wieder drei neue Bilder in seiner Galerie. \nFür die Umsetzung des Projekts wurde zunächst für jede Entität (wie z. B. Kalendar) eine Tabelle mit den entsprechenden Attributen mit Hilfe von der MySQL Workbench in der Datenbank erstellt. \n\nIn Zusammenarbeit mit Yuliya Litvin & Lars Obist",
             "TECH": {
-                "0": ""
-            }
+                "0": "../../../public/Skill/Angular.png",
+                "1": "../../../public/Skill/node.png",
+                "2": "../../../public/Skill/Typescript.png",
+                "3": "../../../public/Skill/mysql.png",
+                "TOOLTIP": {
+                    "0": "Angular",
+                    "1": "Node",
+                    "2": "TypeScript",
+                    "3": "MySQL"
+                }
+            },
+            "IMG": ["../../../public/Project/LAGOM/1.png", "../../../public/Project/LAGOM/2.png", "../../../public/Project/LAGOM/3.png", "../../../public/Project/LAGOM/4.png", "../../../public/Project/LAGOM/5.png"]
         },
         "THROWBACK": {
             "TITLE": "throwback",
             "TOOLTIP": "browserbasiertes Jump n' Run",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "Im zweiten Semester wurde grundlegend auf HTML, CSS, JavaScript und dem Game Framework Phaser 3 ein webbasiertes Spiel entwickelt, das Jump ´n Run „Throwback“.\n\nIn diesen Spiel wird der Spieler zurück in die Vergangenheit geschickt. Dabei muss er Hindernisse des jeweiligen Jahrzehnts ausweichen. Ob die Behauptung „Früher war alles besser“ wahr ist, wird sich zeigen.\n\nIn Zusammenarbeit mit Moumita Ahmad, Lars Obist und Yuliya Litvin",
             "TECH": {
-                "0": ""
-            }
+                "0": "../../../public/Skill/LogoHTML.png",
+                "1": "../../../public/Skill/LogoCSS.png",
+                "2": "../../../public/Skill/LogoJS.png",
+                "3": "../../../public/Skill/phaser.png",
+                "TOOLTIP": {
+                    "0": "HTML",
+                    "1": "CSS",
+                    "2": "JavaScript",
+                    "3": "Phaser"
+                }
+            },
+            "IMG": ["../../../public/Project/Throwback/1.png", "../../../public/Project/Throwback/2.png", "../../../public/Project/Throwback/3.png", "../../../public/Project/Throwback/4.png"],
+            "VIDEO": "../../../public/Project/Throwback/video.mp4"
         },
         "ZPHERE": {
             "TITLE": "zphere",
             "TOOLTIP": "Webapp in zusammenarbeit mit Radio Bremen",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "In einer Welt, in der die großen Mainstream-Sportarten of;t im Rampenlicht stehen, gibt es unzählige unterrepräsentierte Sportarten, die genauso auf;regend und lohnenswert sind. \n \nHier kommt unsere App für unterrepräsentierte Sportarten ins Spiel, um die Breite und Vielfalt der Sportwelt zu feiern und zu fördern. \n\nIn Kooperation mit Radio Bremen und Bremedia wurde die Sportplattform Zphere entwickelt, um alle Sportfreunde einen Safe Space zu geben. \nEntwicklerteammitglieder: Tabea Schuster, Lars Obist, Yuliya Litvin, Simon Dannemann",
             "TECH": {
-                "0": ""
-            }
+                "0": "../../../public/Skill/LogoReact.png",
+                "1": "../../../public/Skill/node.png",
+                "2": "../../../public/Skill/MariaDB.png",
+                "3": "../../../public/Skill/xd.png",
+                "TOOLTIP": {
+                    "0": "React",
+                    "1": "Node",
+                    "2": "MariaDB",
+                    "3": "Adobe XD"
+                }
+            },
+            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
+            "VIDEO": "../../../public/Project/zphere/4.mp4"
         },
         "SURVIVAL": {
             "TITLE": "Survival of the fittest",
             "TOOLTIP": "Motion Video",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "Gesundheit ist unser wertvollster Besitz und wird von unseren Gewohnheiten beeinflusst. \nIn diesem Erklärvideo werden dir drei entscheidende Schritte vorstellt, um ein gesundes Leben zu führen. Diese Schritte bilden das Fundament für dein Wohlbefinden und deine Lebensqualität: Ernährung, Bewegung und Ruhe. \n\nIndem du dich diesen drei Schlüsselelementen widmest, kannst du nicht nur deine physische Gesundheit verbessern, sondern auch dein allgemeines Wohlbefinden steigern. Lass uns gemeinsam eintauchen und herausfinden, wie du mit diesen grundlegenden Prinzipien einen gesunden Lebensstil erreichen kannst. \n\nIn Zusammenarbeit mit Yuliya Litvin",
             "TECH": {
-                "0": ""
+                "0": "../../../public/Skill/ae.png",
+                "1": "../../../public/Skill/pr.png",
+                "TOOLTIP": {
+                    "0": "After Effects",
+                    "1": "Premiere Pro"
+                }
             }
         },
         "MYANIMELIST": {
             "TITLE": "MyAnimeList",
             "TOOLTIP": "Bachelorthesis über Redesign",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "In unserer digitalen Welt sind Websites ein bedeutsames Hilfsmittel für Unternehmen, Organisationen und Einzelpersonen. Einerseits um ihre Präsenz im Internet zu etablieren und ihre Zielgruppe zu erreichen. Anderseits um Informationen zu vermitteln und auszutauschen. \nEine gut gestaltete Website kann nicht nur die Sichtbarkeit und Reputation einer Marke verbessern, sondern auch die Nutzbarkeit und damit auch die Zufriedenheit der Kunden steigern. \nDa sich die Technologien und Benutzerbedürfnisse jedoch ständig weiterentwickelt, ist es notwendig, Websites regelmäßig zu überarbeiten und den zeitgemäßen Standards anzupassen.",
             "TECH": {
-                "0": ""
+                "0": "../../../public/Skill/vue.png",
+                "1": "../../../public/Skill/vite.png",
+                "2": "../../../public/Skill/vuetify.svg",
+                "3": "../../../public/Skill/figma.png",
+                "4": "../../../public/Skill/i18n.svg",
+                "5": "../../../public/Skill/Typescript.png",
+                "6": "../../../public/Skill/node.png",
+                "7": "../../../public/Skill/sass.png",
+                "TOOLTIP": {
+                    "0": "Vue",
+                    "1": "Vite",
+                    "2": "Vuetify",
+                    "3": "figma",
+                    "4": "i18n",
+                    "5": "TypeScript",
+                    "6": "Node",
+                    "7": "SASS"
+                }
             }
         },
         "INTERNET": {
             "TITLE": "Internet Worldwide",
             "TOOLTIP": "Interaktive Datenvisualierung",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "Jeder kennt es, Jeder nutzt es. In der heutigen Gesellschaft ist es nicht mehr möglich ohne damit zuleben. Ob Privat oder im Gewerbe, für jeden ist es unersetzbar. Mit einem einzigen Klick kriegt man, das was benötigt wird. \n\nDas Internet. \n\nViele Technologien haben dazu beigetragen, dass es alltäglich genutzt wird. Weltweit verwenden Billionen von Menschen das Internet, fürs Surfen, Streaming oder Social Media auf verschiedenen Geräten. Es bietet unbegrenzte Informationen und Daten für jeden an. \n\nAuf dieser Website wird eine interaktive Datenvisualisierung über das Internet umgesetzt. Internet ist ein Thema welches jeder kennt. Ein Thema mit dem jeder verbunden ist. So sollte dieses alltägliche Hilfsmittel in verschiedene Grafiken zum Analysieren und Interagieren dargestellt werden.",
             "TECH": {
-                "0": ""
+                "0": "../../../public/Skill/LogoHTML.png",
+                "1": "../../../public/Skill/LogoCSS.png",
+                "2": "../../../public/Skill/LogoJS.png",
+                "3": "../../../public/Skill/json.png",
+                "TOOLTIP": {
+                    "0": "HTML",
+                    "1": "CSS",
+                    "2": "JavaScript",
+                    "3": "JSON"
+                }
             }
         },
         "EATABROAD": {
             "TITLE": "eatabroad",
             "TOOLTIP": "Website",
-            "DESCRIPTION": "",
+            "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. \n\n Mit diesen Gedanken wurde ein Konzept festgelegt, gefolgt von Designprozessen. Auf Adobe XD wurde ein UI-Prototyp entwickelt, dieser wurde zu einem Browser lauffähigen Prototyp entwickelt. \n\neatabroad wurde im Team mit Lars Obist entwickelt",
             "TECH": {
-                "0": ""
-            }
+                "0": "../../../public/Skill/LogoHTML.png",
+                "1": "../../../public/Skill/LogoCSS.png",
+                "2": "../../../public/Skill/LogoJS.png",
+                "TOOLTIP": {
+                    "0": "HTML",
+                    "1": "CSS",
+                    "2": "JavaScript"
+                }
+            },
+            "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"]
         },
         "NEW": {
             "TITLE": "",
             "TOOLTIP": "",
             "DESCRIPTION": "",
             "TECH": {
-                "0": ""
+                "0": "../../../public/Skill/....png",
+                "TOOLTIP": {
+                    "0": ""
+                }
             }
         }
     },

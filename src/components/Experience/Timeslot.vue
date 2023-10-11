@@ -15,16 +15,8 @@ defineProps<{ props: string }>()
                </v-col>
                </v-row>
      <v-row class="px-3">
-          <!-- <v-col></v-col> -->
           <v-col>
-          <v-card-text>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.0') }} <br>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.1') }} <br>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.2') }} <br>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.3') }} <br>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.4') }} <br>
-               {{ $t('EXPERIENCE.'+ props +'.CONTENT.5') }} <br>
-          </v-card-text>
+          <v-card-text>{{ $t('EXPERIENCE.'+ props +'.CONTENT') }}</v-card-text>
      </v-col>
      </v-row>
      <v-row  height="130" v-if="props=='RB'||props=='28APPS'">

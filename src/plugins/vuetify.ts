@@ -22,7 +22,7 @@ const vuetify = createVuetify({
                          textPrimary:'#000',
                          textSecondary:'#535353',
                          genre:'D1D1D6',
-                         review:'#F2F2F2',
+                         detail:'#F2F2F2',
                          cube:'#FFFFFF',
                          background:'#FAF9F6',
                     }
@@ -35,7 +35,7 @@ const vuetify = createVuetify({
                          textPrimary:'#FAF9F6',
                          textSecondary:'#D5D5D5',
                          genre:'424242',
-                         review:'#131313',
+                         detail:'#131313',
                          cube:'#2222222',
                          background:'#303030',
                     }

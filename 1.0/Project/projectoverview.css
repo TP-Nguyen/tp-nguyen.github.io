@@ -18,7 +18,7 @@
     height: 200px;
     margin: -100px;
     overflow: hidden;
-    transform: rotate(45deg);
+    
     transition: .5s;
     opacity: .5;
     border: 1px gray solid;

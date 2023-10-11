@@ -3,8 +3,7 @@ import Timeslot from './Timeslot.vue'
 </script>
 <template>
   <div align="center">
-  <h1 class="my-5" >No one knows what the future holds <br>
-    Thats why the future is unlimited and potential is infinite </h1>
+  <h1 class="my-5">{{ $t('EXPERIENCE.QUOTE') }}</h1>
 <v-sheet align="center" color="#fff" width="40" height="40" class="dot"></v-sheet>
 <div class="line-up"></div>
 <div class="line"></div>
@@ -127,9 +126,10 @@ import Timeslot from './Timeslot.vue'
   z-index: 1;
 }
 .line {
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   border: 1px solid #fff ;
-  width: 278px;
+  width: 1000px;
+  // width: 290px;
 }
 .line-up {
   // transform: translate(-50%, -50%);

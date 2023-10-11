@@ -3,19 +3,14 @@
           <v-sheet class="text-center pa-4 my-4" color="background"
                :width="1040">
                <img />
-               <p>
-                    {{ $t('ABOUTME.INTRODUCTION') }} <br><br>
-                    {{ $t('ABOUTME.CURRENTSTATUS') }}<br><br>
-                    {{ $t('ABOUTME.AFTERWORDS') }}<br><br>
-                    {{ $t('ABOUTME.LOOKAROUND') }}<br>
-                    {{ $t('ABOUTME.CATCH') }}
-               </p>
+               {{ $t('ABOUTME.INTRODUCTION') }}
           </v-sheet>
 
 
      </section>
 </template>
 <script lang="ts">
+
 </script>
 <style lang="scss" scoped>
 section {
