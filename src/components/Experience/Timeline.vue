@@ -2,13 +2,44 @@
 import Timeslot from './Timeslot.vue'
 </script>
 <template>
+  <section id="experience">
   <div align="center">
-  <h1 class="my-5">{{ $t('EXPERIENCE.QUOTE') }}</h1>
-<v-sheet align="center" color="#fff" width="40" height="40" class="dot"></v-sheet>
-<div class="line-up"></div>
-<div class="line"></div>
+  <h1 v-motion-fade-visible class="my-5">{{ $t('EXPERIENCE.QUOTE') }}</h1>
+<v-sheet align="center" width="40" height="40" class="dot"></v-sheet>
+<div v-motion
+        :initial="{
+          opacity: 0,
+          }"
+        :visible="{
+          opacity: 1,
+          
+          transition: {
+            delay: 200,
+          },
+        }" class="line-up"></div>
+<div v-motion
+        :initial="{
+          opacity: 0,
+          }"
+        :visible="{
+          opacity: 1,
+          
+          transition: {
+            delay: 400,
+          },
+        }" class="line"></div>
 </div>
-  <v-timeline align="start" line-color="#fff" line-inset="15">
+  <v-timeline v-motion
+        :initial="{
+          opacity: 0,
+          }"
+        :visible="{
+          opacity: 1,
+          
+          transition: {
+            delay: 600,
+          },
+        }" align="start" line-color="#fff" line-inset="15">
     <!-- <v-timeline-item>
       <template v-slot:icon>
         <v-avatar class="dot" rounded="0" color="secondary">
@@ -24,18 +55,31 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="secondary">
+        <v-avatar class="dot" rounded="0">
         </v-avatar>
       </template>      
-      <template v-slot:opposite>
+      <template  v-slot:opposite>
         {{ $t('EXPERIENCE.SEOULTECH.DATE') }}
       </template>
+      <!-- <div v-motion
+        :initial="{
+          opacity: 0,
+          x: 50}"
+        :visible="{
+          opacity: 1,
+          x: 0,
+          transition: {
+            delay: 200,
+          },
+        }"> -->
       <Timeslot props="SEOULTECH" />
+    <!-- </div> -->
     </v-timeline-item>
+  
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="primary">
+        <v-avatar class="dot" rounded="0">
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -48,7 +92,7 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="primary">
+        <v-avatar class="dot" rounded="0" >
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -61,7 +105,7 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="primary">
+        <v-avatar class="dot" rounded="0" >
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -73,7 +117,7 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="secondary">
+        <v-avatar class="dot" rounded="0" >
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -84,7 +128,7 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="secondary">
+        <v-avatar class="dot" rounded="0">
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -95,7 +139,7 @@ import Timeslot from './Timeslot.vue'
     
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="primary">
+        <v-avatar class="dot" rounded="0">
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -106,7 +150,7 @@ import Timeslot from './Timeslot.vue'
 
     <v-timeline-item>
       <template v-slot:icon>
-        <v-avatar class="dot" rounded="0" color="secondary">
+        <v-avatar class="dot" rounded="0" >
         </v-avatar>
       </template>
       <template v-slot:opposite>
@@ -117,13 +161,20 @@ import Timeslot from './Timeslot.vue'
   </v-timeline>
   <!-- <v-sheet align="center" width="500" class="line"></v-sheet> -->
   <!-- <v-divider class="border-opacity-50" inset></v-divider> -->
+</section>
 </template>
 <script lang="ts"></script>
 <style lang="scss" scoped>
+#experience{
+  padding: 40vh 0;
+
+}
 .dot {
   transform: translate(-50%, -50%);
   transform: rotate(45deg);
   z-index: 1;
+  background-color: dodgerblue;
+  animation: colorchange 5s linear infinite;
 }
 .line {
   // transform: translate(-50%, -50%);
@@ -133,9 +184,11 @@ import Timeslot from './Timeslot.vue'
 }
 .line-up {
   // transform: translate(-50%, -50%);
-  border: 1px solid #fff ;
+  // border: 1px solid #fff ;
   height: 100px;
   width: 0px;
+  border: 1px solid dodgerblue;
+  animation: colorchange 5s linear infinite;
 }
 
 </style>

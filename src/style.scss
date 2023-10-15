@@ -1,5 +1,50 @@
 :root {
     font-family: Inter, system-ui, Avenir, Arial, sans-serif;
     background-color: rgba(var(--v-theme-background));
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    scroll-snap-type: y mandatory;
+    overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.snap-stop {
+    scroll-snap-stop: always;
+    scroll-snap-align: none;
+}
+
+.snap {
+    scroll-snap-align: start;
+}
+
+.snap-end {
+    scroll-snap-align: end;
+}
+
+section {
     white-space: pre-line;
+}
+
+button {
+    color: dodgerblue;
+    animation: colorchange 5s linear infinite;
+}
+
+@keyframes colorchange {
+    0%,
+    100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(130deg);
+    }
 }

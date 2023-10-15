@@ -2,21 +2,19 @@
        <div class="navi">
         <v-tabs
         v-model="tab"
-        color="deep-purple-accent-4"
         align-tabs="end"
         grow
-        @click="scrollToSection('aboutme')"
   >
-  <v-tab href="aboutme" >
+  <v-tab href="#aboutme" >
       {{ $t('GENERAL.ABOUTME') }}
     </v-tab>
-    <v-tab href="experience">
+    <v-tab href="#experience">
       {{ $t('GENERAL.EXPERIENCE') }}
     </v-tab>    
-    <v-tab href="project">
+    <v-tab href="#project">
       {{ $t('GENERAL.PROJECT') }}
     </v-tab>    
-    <v-tab href="aboutme">
+    <v-tab href="#contact">
       {{ $t('GENERAL.CONTACT') }}
     </v-tab>
   </v-tabs>
@@ -27,7 +25,8 @@
 <style lang="scss" scoped>
 .navi {
   position: sticky;
-  background-color: rgba(var(--v-theme-background));
+  background: rgba(0, 0, 0, .8);
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
   top: 0;
   z-index: 10;
 }

@@ -24,12 +24,17 @@ const props = defineProps({
                     <v-row class="mb-2" v-if="type!='SURVIVAL'&& type!='LASTMINUTE'&& type!='EATABROAD'">
                     <Skill :img="$t('PROJECT.' + type +  '.TECH.3')" :tooltip="$t('PROJECT.'+ type +'.TECH.TOOLTIP.3')"/></v-row>
                </v-col>
-               <v-col class="pt-0"><v-card-text class="pt-0">{{$t('PROJECT.' + type +  '.DESCRIPTION')}}</v-card-text>
-                    <v-card-subtitle></v-card-subtitle>
+               <v-col class="pt-0">
+                    <section>
+                    <v-card-text class="pt-0">{{$t('PROJECT.' + type +  '.DESCRIPTION')}}</v-card-text>
                     <v-sheet v-if="type=='SURVIVAL'" color="black">
                          <iframe class="video" width="650" height="350" src="https://player.vimeo.com/video/432306020?h=be32ed5782" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </v-sheet>
                     <Slider v-if="type!='SURVIVAL'" :type="type"/>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.DOCU').length > 1" block class="my-3" :href="$t('PROJECT.' + type +  '.DOCU')" target="_blank">{{$t('GENERAL.DOCU')}}</v-btn>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.GITHUB').length > 1" block class="my-3" target="_blank">github</v-btn>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.LIVE').length > 1" block class="my-3" target="_blank">Live DEMO</v-btn>
+               </section>
                </v-col>
                <v-col cols="2" class="d-flex align-start flex-column mb-2">
                     <v-row class="mb-2" v-if="type=='MYANIMELIST'">

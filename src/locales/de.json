@@ -3,11 +3,14 @@
         "LASTNAME": "Nguyen",
         "FIRSTNAME": "Phuong Thao",
         "ADDRESS": " Bargloyer Heide 43\n27793 Wildeshausen",
+        "EMAIL": "phuongthao.nguyen@live.de",
+        "LINKEDIN": "https://www.linkedin.com/in/tp-nguyen/",
         "EXPERIENCE": "Erfahrung",
         "PROJECT": "Projekt",
         "CONTACT": "Kontakt",
         "ABOUTME": "Über mich",
-        "NGUYEN": "nʏʁn"
+        "NGUYEN": "nʏʁn",
+        "DOCU": "Dokumentation"
 
     },
     "ABOUTME": {
@@ -22,6 +25,7 @@
             "TITLE": "Berufsbildende Schulen des Landkreises Oldenburg",
             "SUBTITLE": "Staatlich geprüfte kaufmännische Assistentin - Schwerpunkt Informationsverarbeitung",
             "CONTENT": "▪︎ Projekte planen, durchführen und betreuen\n▪︎ Anwendungssoftware und Datenbanksysteme entwickeln\n▪︎ Webanwendungen entwickeln und bereitstellen\n▪︎ IT-Systeme auswählen, betreuen und gestalten\n▪︎ Werteströme erfassen sowie Betriebsergebnis analysieren\n▪︎ Absatzprozesse/Beschaffungsprozesse bearbeiten, analysieren und bearbeiten"
+
         },
         "OL": {
             "DATE": "10/2016 - 11/2016",
@@ -34,7 +38,7 @@
             "DATE": "08/2017 - 06/2018",
             "IMG": "../../../public/logo/WWS.png",
             "TITLE": "Wilhelm Wagenfeldschule",
-            "SUBTITLE": "Fachhochschulreife, Gestaltung - Schwerpunkt Kunst, Design und Medien",
+            "SUBTITLE": "Fachhochschulreife Fachrichtung Gestaltung - Schwerpunkt Kunst, Design und Medien",
             "CONTENT": "▪︎ Farbdramaturgie\n▪︎ Gestaltungstechnik\n▪︎ Zeichenlehre\n▪︎ Storyboard\n▪︎ Kameraperspektiven & Bewegungen"
 
         },
@@ -50,7 +54,7 @@
             "IMG": "../../../public/logo/RB.png",
             "TITLE": "Radio Bremen",
             "SUBTITLE": "Bachelorprojekt 'Zphere' mit Bremedia",
-            "CONTENT": "▪︎ ",
+            "CONTENT": "▪︎ Zielgruppenanalyse \n▪︎ Konkurrenzanalyse \n▪︎ Corporate Design \n▪︎ Implementierung",
             "SKILL": {
                 "0": "../../../public/Skill/LogoReact.png",
                 "1": "../../../public/Skill/node.png",
@@ -182,7 +186,8 @@
                 }
             },
             "IMG": ["../../../public/Project/Throwback/1.png", "../../../public/Project/Throwback/2.png", "../../../public/Project/Throwback/3.png", "../../../public/Project/Throwback/4.png"],
-            "VIDEO": "../../../public/Project/Throwback/video.mp4"
+            "VIDEO": "../../../public/Project/Throwback/video.mp4",
+            "DOCU": "../../../public/Project/Throwback/Throwback_Doku.pdf"
         },
         "ZPHERE": {
             "TITLE": "zphere",
@@ -201,7 +206,8 @@
                 }
             },
             "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
-            "VIDEO": "../../../public/Project/zphere/4.mp4"
+            "VIDEO": "../../../public/Project/zphere/4.mp4",
+            "DOCU": "../../../public/Project/zphere/zphere_Doku.pdf"
         },
         "SURVIVAL": {
             "TITLE": "Survival of the fittest",
@@ -239,7 +245,9 @@
                     "6": "Node",
                     "7": "SASS"
                 }
-            }
+            },
+            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
+            "DOCU": "../../../public/Project/MAL/MAL_Doku.pdf"
         },
         "INTERNET": {
             "TITLE": "Internet Worldwide",
@@ -256,7 +264,9 @@
                     "2": "JavaScript",
                     "3": "JSON"
                 }
-            }
+            },
+            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
+            "DOCU": "../../../public/Project/Internet/INTERNET_Dokumentation.pdf"
         },
         "EATABROAD": {
             "TITLE": "eatabroad",

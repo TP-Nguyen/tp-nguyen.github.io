@@ -9,12 +9,13 @@ import ProjectView from './components/Project/ProjectView.vue'
 </script>
 
 <template>
-  <Intro/>
-  <!-- <Topbar/> -->
-  <Description />
-  <Timeline/>
-  <ProjectView/>
-  <Contact/>
+  <Intro class="snap snap-stop"/>
+  <Topbar class="snap snap-stop"/>
+  <!-- <div class="space snap snap-stop"></div> -->
+  <Description class="snap"/>
+  <Timeline class="snap"/>
+  <ProjectView class="snap"/>
+  <Contact class="snap-end" />
 
 </template>
 
@@ -22,4 +23,7 @@ import ProjectView from './components/Project/ProjectView.vue'
 </script>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+.space{
+  height: 100vh;
+}
 </style>
