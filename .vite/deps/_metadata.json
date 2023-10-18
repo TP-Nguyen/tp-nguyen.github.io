@@ -1,0 +1,77 @@
+{
+  "hash": "76ae7be4",
+  "browserHash": "0e116c28",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "018364cf",
+      "needsInterop": false
+    },
+    "@vueuse/motion": {
+      "src": "../../node_modules/@vueuse/motion/dist/index.mjs",
+      "file": "@vueuse_motion.js",
+      "fileHash": "177d9f7a",
+      "needsInterop": false
+    },
+    "vue-i18n": {
+      "src": "../../node_modules/vue-i18n/dist/vue-i18n.esm-bundler.js",
+      "file": "vue-i18n.js",
+      "fileHash": "9429fe2b",
+      "needsInterop": false
+    },
+    "vuetify": {
+      "src": "../../node_modules/vuetify/lib/framework.mjs",
+      "file": "vuetify.js",
+      "fileHash": "46ad219b",
+      "needsInterop": false
+    },
+    "vuetify/components": {
+      "src": "../../node_modules/vuetify/lib/components/index.mjs",
+      "file": "vuetify_components.js",
+      "fileHash": "75745b54",
+      "needsInterop": false
+    },
+    "vuetify/directives": {
+      "src": "../../node_modules/vuetify/lib/directives/index.mjs",
+      "file": "vuetify_directives.js",
+      "fileHash": "def59c3e",
+      "needsInterop": false
+    },
+    "vuetify/iconsets/fa": {
+      "src": "../../node_modules/vuetify/lib/iconsets/fa.mjs",
+      "file": "vuetify_iconsets_fa.js",
+      "fileHash": "63c3dd1d",
+      "needsInterop": false
+    },
+    "vuetify/lib/iconsets/mdi": {
+      "src": "../../node_modules/vuetify/lib/iconsets/mdi.mjs",
+      "file": "vuetify_lib_iconsets_mdi.js",
+      "fileHash": "e50adba5",
+      "needsInterop": false
+    },
+    "vuetify/iconsets/md": {
+      "src": "../../node_modules/vuetify/lib/iconsets/md.mjs",
+      "file": "vuetify_iconsets_md.js",
+      "fileHash": "7f7c3073",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TO6GH2SC": {
+      "file": "chunk-TO6GH2SC.js"
+    },
+    "chunk-CZCLF533": {
+      "file": "chunk-CZCLF533.js"
+    },
+    "chunk-IZPV4N4X": {
+      "file": "chunk-IZPV4N4X.js"
+    },
+    "chunk-JBYAEPPU": {
+      "file": "chunk-JBYAEPPU.js"
+    },
+    "chunk-DABAD5JF": {
+      "file": "chunk-DABAD5JF.js"
+    }
+  }
+}
