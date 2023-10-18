@@ -1,5 +1,5 @@
 <template>
-       <v-parallax class="changeColor"
+       <v-parallax id="top" class="changeColor"
     src="/public/logoTPN.svg"
   >
     <div class="d-flex flex-column fill-height justify-center align-center text-white">

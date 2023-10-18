@@ -30,10 +30,12 @@ const props = defineProps({
                     <v-sheet v-if="type=='SURVIVAL'" color="black">
                          <iframe class="video" width="650" height="350" src="https://player.vimeo.com/video/432306020?h=be32ed5782" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </v-sheet>
-                    <Slider v-if="type!='SURVIVAL'" :type="type"/>
+                    <Slider v-if="type!='SURVIVAL'&& type!='MYANIMELIST'" :type="type"/>
+                    <iframe v-if="type=='MYANIMELIST'" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="650" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIKyKA9rHgxSKHfd3DPR99n%2FMAL%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DoxncHpV8ka9Cb8pj-1" allowfullscreen></iframe>
                     <v-btn v-if="$tm('PROJECT.' + type +  '.DOCU').length > 1" block class="my-3" :href="$t('PROJECT.' + type +  '.DOCU')" target="_blank">{{$t('GENERAL.DOCU')}}</v-btn>
-                    <v-btn v-if="$tm('PROJECT.' + type +  '.GITHUB').length > 1" block class="my-3" target="_blank">github</v-btn>
-                    <v-btn v-if="$tm('PROJECT.' + type +  '.LIVE').length > 1" block class="my-3" target="_blank">Live DEMO</v-btn>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.GITHUB').length > 1" block class="my-3" :href="$t('PROJECT.' + type +  '.GITHUB')" target="_blank">{{$t('GENERAL.CODE')}}</v-btn>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.LIVE').length > 1" block class="my-3" :href="$t('PROJECT.' + type +  '.LIVE')" target="_blank">{{$t('GENERAL.DEMO')}}</v-btn>
+                    <v-btn v-if="$tm('PROJECT.' + type +  '.FIGMA').length > 1" block class="my-3" :href="$t('PROJECT.' + type +  '.FIGMA')" target="_blank">{{$t('GENERAL.FIGMA')}}</v-btn>
                </section>
                </v-col>
                <v-col cols="2" class="d-flex align-start flex-column mb-2">
@@ -50,11 +52,6 @@ const props = defineProps({
           <br>
      </v-card>
    </template>
-<script lang="ts">
-export default{
-     
-}
-</script>
 <style lang="scss">
 .video{
      border: 0px;

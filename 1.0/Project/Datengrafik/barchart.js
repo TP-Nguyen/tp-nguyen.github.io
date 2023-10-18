@@ -91,7 +91,7 @@ async function getdailyData() {
     const ys = [];
     const zs = [];
 
-    const response = await fetch('./Datengrafik/data/daily-hours-spent-with-digital-media-per-adult-user.csv');
+    const response = await fetch('./data/daily-hours-spent-with-digital-media-per-adult-user.csv');
     const daily_data = await response.text();
 
     const table = daily_data.split('\n').slice(1);

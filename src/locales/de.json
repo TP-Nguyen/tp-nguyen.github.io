@@ -10,12 +10,18 @@
         "CONTACT": "Kontakt",
         "ABOUTME": "Über mich",
         "NGUYEN": "nʏʁn",
-        "DOCU": "Dokumentation"
+        "DOCU": "Dokumentation",
+        "FIGMA": "UI Design",
+        "CODE": "Source Code",
+        "DEMO": "Live Demo",
+        "CV": "Klicken, um mein Lebenslauf zuerhalten"
 
     },
     "ABOUTME": {
         "INTRO": "Ein Entwickler realisiert im Team alle Informations- und Kommunikationslösungen \nund vernetzt die verschiedenen Hardware- und Softwarekomponenten zu komplexen Systemen.",
-        "INTRODUCTION": "Hey! Mein Name ist Phuong Thao Nguyen.\nAn der Hochschule Bremen studierte ich den Internationalen Studiengang Medieninformatik. Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.\nAufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein Wissen genutzt und erweitert.\n\nSieh dich mal etwas um. \nHier kannst du unter anderem etwas über meine Fähigkeiten und Projekte erfahren."
+        "GREETING": "Hey Moin!\n ",
+        "NAME": "Mein Name ist Phuong Thao Nguyen.",
+        "INTRODUCTION": "An der Hochschule Bremen studierte ich den Internationalen Studiengang Medieninformatik. Zuvor schloss ich eine schulische Ausbildung als Kaufmännische Assistentin mit dem Schwerpunkt Informationsverarbeitung erfolgreich ab.\nAufgrund meiner Erfahrung im Bereich Informatik und Gestaltung konnte ich mir viele Kompetenzen aneignen. Dazu zählen unter anderen fundierte Kenntnisse über Programmierung sowie Digitale Medien. An vielen Projekten habe ich mein Wissen genutzt und erweitert.\n\nAuf der Webseite kannst du ein tieferen Eindruck erhalten. \nHier kannst du unter anderem etwas über meine Fähigkeiten und Projekte erfahren. \n Aber genug von mir – schau dich gerne um und lass mich wissen, wenn du Fragen hast oder einfach nur moin sagen möchtest. Ich freue mich auf den Austausch!"
     },
     "EXPERIENCE": {
         "QUOTE": "No one knows what the future holds\nThats why the future is unlimited and potential is infinite",
@@ -149,7 +155,9 @@
                 }
             },
             "IMG": ["../../../public/Project/Last Minute/1.png", "../../../public/Project/Last Minute/2.png", "../../../public/Project/Last Minute/3.png", "../../../public/Project/Last Minute/4.png", "../../../public/Project/Last Minute/5.png"],
-            "VIDEO": "../../../public/Project/Last Minute/video.mp4"
+            "VIDEO": "../../../public/Project/Last Minute/video.mp4",
+            "GITHUB": "https://github.com/TP-Nguyen/Last-Minute",
+            "LIVE": "../../../1.0/Project/LastMinute/index.html"
         },
         "LAGOM": {
             "TITLE": "lagom",
@@ -167,7 +175,8 @@
                     "3": "MySQL"
                 }
             },
-            "IMG": ["../../../public/Project/LAGOM/1.png", "../../../public/Project/LAGOM/2.png", "../../../public/Project/LAGOM/3.png", "../../../public/Project/LAGOM/4.png", "../../../public/Project/LAGOM/5.png"]
+            "IMG": ["../../../public/Project/LAGOM/1.png", "../../../public/Project/LAGOM/2.png", "../../../public/Project/LAGOM/3.png", "../../../public/Project/LAGOM/4.png", "../../../public/Project/LAGOM/5.png"],
+            "GITHUB": "https://github.com/TP-Nguyen/Lagom"
         },
         "THROWBACK": {
             "TITLE": "throwback",
@@ -187,12 +196,14 @@
             },
             "IMG": ["../../../public/Project/Throwback/1.png", "../../../public/Project/Throwback/2.png", "../../../public/Project/Throwback/3.png", "../../../public/Project/Throwback/4.png"],
             "VIDEO": "../../../public/Project/Throwback/video.mp4",
-            "DOCU": "../../../public/Project/Throwback/Throwback_Doku.pdf"
+            "DOCU": "../../../public/Project/Throwback/Throwback_Doku.pdf",
+            "GITHUB": "https://github.com/TP-Nguyen/Throwback",
+            "LIVE": "../../../1.0/Project/Throwback/index.html"
         },
         "ZPHERE": {
             "TITLE": "zphere",
             "TOOLTIP": "Webapp in zusammenarbeit mit Radio Bremen",
-            "DESCRIPTION": "In einer Welt, in der die großen Mainstream-Sportarten of;t im Rampenlicht stehen, gibt es unzählige unterrepräsentierte Sportarten, die genauso auf;regend und lohnenswert sind. \n \nHier kommt unsere App für unterrepräsentierte Sportarten ins Spiel, um die Breite und Vielfalt der Sportwelt zu feiern und zu fördern. \n\nIn Kooperation mit Radio Bremen und Bremedia wurde die Sportplattform Zphere entwickelt, um alle Sportfreunde einen Safe Space zu geben. \nEntwicklerteammitglieder: Tabea Schuster, Lars Obist, Yuliya Litvin, Simon Dannemann",
+            "DESCRIPTION": "In einer Welt, in der die großen Mainstream-Sportarten oft im Rampenlicht stehen, gibt es unzählige unterrepräsentierte Sportarten, die genauso aufregend und lohnenswert sind. \n \nHier kommt unsere App für unterrepräsentierte Sportarten ins Spiel, um die Breite und Vielfalt der Sportwelt zu feiern und zu fördern. \n\nIn Kooperation mit Radio Bremen und Bremedia wurde die Sportplattform Zphere entwickelt, um alle Sportfreunde einen Safe Space zu geben. \nTeammitglieder: Tabea Schuster, Lars Obist, Yuliya Litvin, Simon Dannemann",
             "TECH": {
                 "0": "../../../public/Skill/LogoReact.png",
                 "1": "../../../public/Skill/node.png",
@@ -207,7 +218,8 @@
             },
             "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
             "VIDEO": "../../../public/Project/zphere/4.mp4",
-            "DOCU": "../../../public/Project/zphere/zphere_Doku.pdf"
+            "DOCU": "../../../public/Project/zphere/zphere_Doku.pdf",
+            "GITHUB": "https://github.com/TP-Nguyen/zphere"
         },
         "SURVIVAL": {
             "TITLE": "Survival of the fittest",
@@ -246,8 +258,10 @@
                     "7": "SASS"
                 }
             },
-            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
-            "DOCU": "../../../public/Project/MAL/MAL_Doku.pdf"
+            "IMG": ["../../../public/Project/MAL/1.jpg", "../../../public/Project/MAL/2.jpg", "../../../public/Project/MAL/3.jpg", "../../../public/Project/MAL/4.jpg", "../../../public/Project/MAL/5.png", "../../../public/Project/MAL/6.png", "../../../public/Project/MAL/7.png", "../../../public/Project/MAL/8.png"],
+            "DOCU": "../../../public/Project/MAL/MAL_Doku.pdf",
+            "GITHUB": "https://github.com/TP-Nguyen/MAL-Redesign",
+            "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1"
         },
         "INTERNET": {
             "TITLE": "Internet Worldwide",
@@ -265,13 +279,15 @@
                     "3": "JSON"
                 }
             },
-            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
-            "DOCU": "../../../public/Project/Internet/INTERNET_Dokumentation.pdf"
+            "IMG": ["../../../public/Project/Internet/1.png", "../../../public/Project/Internet/2.png", "../../../public/Project/Internet/3.png", "../../../public/Project/Internet/4.png", "../../../public/Project/Internet/5.png", "../../../public/Project/Internet/6.png"],
+            "DOCU": "../../../public/Project/Internet/INTERNET_Dokumentation.pdf",
+            "GITHUB": "https://github.com/TP-Nguyen/Internet",
+            "LIVE": "../../../1.0/Project/Datenvisiualisierung.html"
         },
         "EATABROAD": {
             "TITLE": "eatabroad",
             "TOOLTIP": "Website",
-            "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. \n\n Mit diesen Gedanken wurde ein Konzept festgelegt, gefolgt von Designprozessen. Auf Adobe XD wurde ein UI-Prototyp entwickelt, dieser wurde zu einem Browser lauffähigen Prototyp entwickelt. \n\neatabroad wurde im Team mit Lars Obist entwickelt",
+            "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. \n\n Mit diesen Gedanken wurde ein Konzept festgelegt, gefolgt von Designprozessen. Auf Adobe XD wurde ein UI-Prototyp entwickelt, dieser wurde zu einem Browser lauffähigen Prototyp entwickelt. \n\nIn Zusammenarbeit mit Lars Obist",
             "TECH": {
                 "0": "../../../public/Skill/LogoHTML.png",
                 "1": "../../../public/Skill/LogoCSS.png",
@@ -282,7 +298,9 @@
                     "2": "JavaScript"
                 }
             },
-            "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"]
+            "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"],
+            "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
+            "LIVE": "../../../1.0/Project/eatabroard/index.html"
         },
         "NEW": {
             "TITLE": "",

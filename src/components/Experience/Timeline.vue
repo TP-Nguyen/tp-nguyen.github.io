@@ -166,7 +166,7 @@ import Timeslot from './Timeslot.vue'
 <script lang="ts"></script>
 <style lang="scss" scoped>
 #experience{
-  padding: 40vh 0;
+  padding: 40vh 0 0 0;
 
 }
 .dot {
