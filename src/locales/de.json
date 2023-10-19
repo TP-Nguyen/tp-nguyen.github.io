@@ -252,13 +252,13 @@
             "DESCRIPTION": "In unserer digitalen Welt sind Websites ein bedeutsames Hilfsmittel für Unternehmen, Organisationen und Einzelpersonen. Einerseits um ihre Präsenz im Internet zu etablieren und ihre Zielgruppe zu erreichen. Anderseits um Informationen zu vermitteln und auszutauschen. \nEine gut gestaltete Website kann nicht nur die Sichtbarkeit und Reputation einer Marke verbessern, sondern auch die Nutzbarkeit und damit auch die Zufriedenheit der Kunden steigern. \nDa sich die Technologien und Benutzerbedürfnisse jedoch ständig weiterentwickelt, ist es notwendig, Websites regelmäßig zu überarbeiten und den zeitgemäßen Standards anzupassen.",
             "TECH": {
                 "0": "../../src/assets/Skill/vue.png",
-                "1": "./src/assets/Skill/vite.png",
+                "1": "~src/assets/Skill/vite.png",
                 "2": "../../assets/Skill/vuetify.svg",
                 "3": "./assets/Skill/figma.png",
                 "4": "../assets/Skill/i18n.svg",
-                "5": "../../src/assets/Skill/Typescript.png",
-                "6": "../../src/assets/Skill/node.png",
-                "7": "../../src/assets/Skill/sass.png",
+                "5": "src/assets/Skill/Typescript.png",
+                "6": "@/src/assets/Skill/node.png",
+                "7": "/assets/Skill/sass.png",
                 "TOOLTIP": {
                     "0": "Vue",
                     "1": "Vite",
