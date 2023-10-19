@@ -257,7 +257,7 @@
                 "3": "./assets/Skill/figma.png",
                 "4": "../assets/Skill/i18n.svg",
                 "5": "src/assets/Skill/Typescript.png",
-                "6": "@/src/assets/Skill/node.png",
+                "6": "~/src/assets/Skill/node.png",
                 "7": "/assets/Skill/sass.png",
                 "TOOLTIP": {
                     "0": "Vue",

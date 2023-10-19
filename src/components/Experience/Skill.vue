@@ -5,7 +5,7 @@
                v-bind="props" 
                color="cube" 
                width="130" height="130">
-                    <img  :src="img">
+                    <img  :src="require(props.img)">
                </v-card>
           </template>
      </v-tooltip>
