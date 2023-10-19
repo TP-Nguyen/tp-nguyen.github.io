@@ -7,7 +7,7 @@
   >
   <!-- <v-tab hide-slider href="#top" >
 
-    <v-img class="ma-2" max-width="30px" src="../../assets/logoTPN.svg"/>
+    <img class="ma-2" max-width="30px" src="../../assets/logoTPN.svg"/>
   </v-tab> -->
   <v-tab hide-slider href="#aboutme" >
       {{ $t('GENERAL.ABOUTME') }}

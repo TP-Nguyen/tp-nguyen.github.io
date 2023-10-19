@@ -18,7 +18,7 @@ const props = defineProps({
        >
          <v-carousel-item v-for="(slide, i) in  $tm('PROJECT.'+ props.type +'.IMG')" :key="i">
            <v-sheet height="100%">
-               <v-img  height="100%" :src="slide" class="ma-0"></v-img>
+               <img :src="slide" class="ma-0">
                  
              <div class="d-flex fill-height justify-center align-center">
              </div>
@@ -32,3 +32,10 @@ const props = defineProps({
     name: 'Slider',
   }
   </script>
+  <style lang="scss" scoped>
+  img{
+    height: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  </style>

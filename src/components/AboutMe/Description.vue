@@ -3,24 +3,24 @@
           <v-sheet v-motion-fade-visible class="text-left pa-4 my-4" color="background"
                :width="1040">
                <v-row>
-                    <v-col cols="3">
-                    <v-img class="profilIMG" src="./src/assets/profil.jpg"/>
+                    <v-col cols="4">
+                    <img class="profilIMG" src="../../assets/profil.jpg"/>
                          <v-col>
                               <v-row>
                                    <v-col>
                                         <a >
-                              <v-img src="./src/assets/skill/vscode.png"/></a>
+                              <img src="../../assets/skill/vscode.png"/></a>
                                    </v-col><v-col>
                                         <a >
-                              <v-img src="./src/assets/skill/figma.png"/></a>
+                              <img src="../../assets/skill/figma.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="./src/assets/skill/LogoGithub.png"/></a>
+                              <img src="../../assets/skill/LogoGithub.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="./src/assets/skill/postman.png"/> </a></v-col>
+                              <img src="../../assets/skill/postman.png"/> </a></v-col>
                               </v-row> 
                          </v-col>
                          <v-col></v-col>
@@ -55,11 +55,11 @@ export default{
      overflow: hidden;
 }
 .profilIMG{
-     width: 500px;
+     width: 300px;
      border-radius: 10px;
 }
 a{
-     .v-img{
+     img{
      max-height: 30px;
      width: 30px;
      // filter: grayscale(100);
