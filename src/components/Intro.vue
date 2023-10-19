@@ -1,5 +1,5 @@
 <template>
-  <v-parallax id="top" class="changeColor" src="./src/assets/logoTPN.svg">
+  <v-parallax id="top" class="changeColor" src="../../src/assets/logoTPN.svg">
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
       <h1 v-motion-fade-visible-once class="text-h1 font-weight-thin mb-4">
         {{ $t('GENERAL.LASTNAME') }} {{ $t('GENERAL.FIRSTNAME') }}
