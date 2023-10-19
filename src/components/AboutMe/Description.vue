@@ -4,23 +4,23 @@
                :width="1040">
                <v-row>
                     <v-col cols="4">
-                    <img class="profilIMG" src="src/assets/profil.jpg"/>
+                    <img class="profilIMG" :src="require('src/assets/profil.jpg')"/>
                          <v-col>
                               <v-row>
                                    <v-col>
                                         <a >
-                              <img src="src/assets/skill/vscode.png"/></a>
+                              <img :src="require('src/assets/skill/vscode.png')"/></a>
                                    </v-col><v-col>
                                         <a >
-                              <img src="src/assets/skill/figma.png"/></a>
+                              <img :src="require('src/assets/skill/figma.png')"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <img src="src/assets/skill/LogoGithub.png"/></a>
+                              <img :src="require('src/assets/skill/LogoGithub.png')"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <img src="src/assets/skill/postman.png"/> </a></v-col>
+                              <img :src="require('../../assets/skill/postman.png')"/> </a></v-col>
                               </v-row> 
                          </v-col>
                          <v-col></v-col>
