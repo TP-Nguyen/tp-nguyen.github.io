@@ -4,38 +4,23 @@
                :width="1040">
                <v-row>
                     <v-col cols="3">
-                    <v-img class="profilIMG" src="../../assets/profil.jpg"/>
-                         <!-- <v-col>     
-                              <v-row>
-                                   <v-col>
-                                        <a :href="$t('GENERAL.LINKEDIN')">
-                              <v-img src="../../assets/icon/linkedin.svg"/></a>
-                                   </v-col>
-                                   <v-col>
-                                        <a :href="$t('GENERAL.LINKEDIN')">
-                              <v-img src="../../assets/skill/LogoGithub.png"/></a>
-                                   </v-col>
-                                   <v-col>
-                                        <a href="mailto:phuongthao.nguyen@live.de">
-                              <v-img src="../../assets/icon/mail.svg"/> </a></v-col>
-                              </v-row> 
-                         </v-col> -->
+                    <v-img class="profilIMG" src="./src/assets/profil.jpg"/>
                          <v-col>
                               <v-row>
                                    <v-col>
                                         <a >
-                              <v-img src="../../assets/skill/vscode.png"/></a>
+                              <v-img src="./src/assets/skill/vscode.png"/></a>
                                    </v-col><v-col>
                                         <a >
-                              <v-img src="../../assets/skill/figma.png"/></a>
+                              <v-img src="./src/assets/skill/figma.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="../../assets/skill/LogoGithub.png"/></a>
+                              <v-img src="./src/assets/skill/LogoGithub.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="../../assets/skill/postman.png"/> </a></v-col>
+                              <v-img src="./src/assets/skill/postman.png"/> </a></v-col>
                               </v-row> 
                          </v-col>
                          <v-col></v-col>
