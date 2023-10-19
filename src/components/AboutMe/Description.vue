@@ -16,11 +16,11 @@
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <img src="../../assets/Skill//LogoGithub.png"/></a>
+                              <img src="../../assets/Skill/LogoGithub.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <img src="../../assets/Skill//postman.png"/> </a></v-col>
+                              <img src="../../assets/Skill/postman.png"/> </a></v-col>
                               </v-row> 
                          </v-col>
                          <v-col></v-col>
