@@ -154,8 +154,8 @@
                     "2": "JavaScript"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/Last Minute/1.png", "../../assets/ProjectCover/Last Minute/2.png", "../../assets/ProjectCover/Last Minute/3.png", "../../assets/ProjectCover/Last Minute/4.png", "../../assets/ProjectCover/Last Minute/5.png"],
-            "VIDEO": "../../assets/ProjectCover/Last Minute/video.mp4",
+            "IMG": ["Last Minute/1.png", "Last Minute/2.png", "Last Minute/3.png", "Last Minute/4.png", "Last Minute/5.png"],
+            "VIDEO": "Last Minute/video.mp4",
             "GITHUB": "https://github.com/TP-Nguyen/Last-Minute",
             "LIVE": "../../../1.0/ProjectCover/LastMinute/index.html",
             "FIGMA": "",
@@ -177,7 +177,7 @@
                     "3": "MySQL"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/LAGOM/1.png", "../../assets/ProjectCover/LAGOM/2.png", "../../assets/ProjectCover/LAGOM/3.png", "../../assets/ProjectCover/LAGOM/4.png", "../../assets/ProjectCover/LAGOM/5.png"],
+            "IMG": ["LAGOM/1.png", "LAGOM/2.PNG", "LAGOM/3.png", "LAGOM/4.PNG", "LAGOM/5.PNG"],
             "GITHUB": "https://github.com/TP-Nguyen/Lagom",
             "LIVE": "",
             "FIGMA": "",
@@ -199,9 +199,9 @@
                     "3": "Phaser"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/Throwback/1.png", "../../assets/ProjectCover/Throwback/2.png", "../../assets/ProjectCover/Throwback/3.png", "../../assets/ProjectCover/Throwback/4.png"],
-            "VIDEO": "../../assets/ProjectCover/Throwback/video.mp4",
-            "DOCU": "../../assets/ProjectCover/Throwback/Throwback_Doku.pdf",
+            "IMG": ["Throwback/1.png", "Throwback/2.png", "Throwback/3.png", "Throwback/4.png"],
+            "VIDEO": "Throwback/video.mp4",
+            "DOCU": "Throwback/Throwback_Doku.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/Throwback",
             "LIVE": "../../../1.0/ProjectCover/Throwback/index.html",
             "FIGMA": ""
@@ -222,9 +222,9 @@
                     "3": "Adobe XD"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/zphere/1.png", "../../assets/ProjectCover/zphere/2.png", "../../assets/ProjectCover/zphere/3.png"],
-            "VIDEO": "../../assets/ProjectCover/zphere/4.mp4",
-            "DOCU": "../../assets/ProjectCover/zphere/zphere_Doku.pdf",
+            "IMG": ["zphere/1.png", "zphere/2.png", "zphere/3.png"],
+            "VIDEO": "zphere/4.mp4",
+            "DOCU": "zphere/zphere_Doku.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/zphere",
             "LIVE": "",
             "FIGMA": ""
@@ -270,8 +270,8 @@
                     "7": "SASS"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/MAL/1.jpg", "../../assets/ProjectCover/MAL/2.jpg", "../../assets/ProjectCover/MAL/3.jpg", "../../assets/ProjectCover/MAL/4.jpg", "../../assets/ProjectCover/MAL/5.png", "../../assets/ProjectCover/MAL/6.png", "../../assets/ProjectCover/MAL/7.png", "../../assets/ProjectCover/MAL/8.png"],
-            "DOCU": "../../assets/ProjectCover/MAL/MAL_Doku.pdf",
+            "IMG": ["MAL/1.jpg", "MAL/2.jpg", "MAL/3.jpg", "MAL/4.jpg", "MAL/5.jpg", "MAL/6.jpg", "MAL/7.jpg", "MAL/8.jpg"],
+            "DOCU": "MAL/MAL_Doku.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/MAL-Redesign",
             "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1",
             "LIVE": ""
@@ -292,8 +292,8 @@
                     "3": "JSON"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/Internet/1.png", "../../assets/ProjectCover/Internet/2.png", "../../assets/ProjectCover/Internet/3.png", "../../assets/ProjectCover/Internet/4.png", "../../assets/ProjectCover/Internet/5.png", "../../assets/ProjectCover/Internet/6.png"],
-            "DOCU": "../../assets/ProjectCover/Internet/INTERNET_Dokumentation.pdf",
+            "IMG": ["Internet/1.PNG", "Internet/2.PNG", "Internet/3.PNG", "Internet/4.PNG", "Internet/5.PNG", "Internet/6.PNG"],
+            "DOCU": "Internet/INTERNET_Dokumentation.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/Internet",
             "LIVE": "../../../1.0/ProjectCover/Datenvisiualisierung.html"
         },
@@ -311,7 +311,7 @@
                     "2": "JavaScript"
                 }
             },
-            "IMG": ["../../assets/ProjectCover/eatabroard/eatabroadStartseite.png", "../../assets/ProjectCover/eatabroard/eatabroadTitel.png", "../../assets/ProjectCover/eatabroard/eatabroadInhalt.png", "../../assets/ProjectCover/eatabroard/eatabroadMobile.png"],
+            "IMG": ["eatabroard/eatabroadStartseite.png", "eatabroard/eatabroadTitel.png", "eatabroard/eatabroadInhalt.png", "eatabroard/eatabroadMobile.png"],
             "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
             "LIVE": "../../../1.0/ProjectCover/eatabroard/index.html",
             "FIGMA": "",

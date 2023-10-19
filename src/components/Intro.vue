@@ -1,5 +1,5 @@
 <template>
-  <v-parallax id="top" class="changeColor" src="../../src/assets/logoTPN.svg">
+  <v-parallax id="top" class="changeColor" :src="imageSrc">
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
       <h1  class="text-h1 font-weight-thin mb-4">
         {{ $t('GENERAL.LASTNAME') }} {{ $t('GENERAL.FIRSTNAME') }}
@@ -14,7 +14,11 @@
 <script lang="ts">
 
 export default {
-  name: 'Intro'
+  name: 'Intro', computed: {
+      imageSrc(){
+               return new URL(`../../src/assets/logoTPN.svg`, import.meta.url).href;
+          }
+    }
 }
 </script>
 <style lang="scss" scoped>

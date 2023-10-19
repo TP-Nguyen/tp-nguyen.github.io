@@ -1,9 +1,3 @@
-<script setup lang="ts">
-const props = defineProps({
-     type: String
-});
-</script>
-
 <template>
 
      <v-card outlined color="cube" class="rounded-lg">
@@ -16,9 +10,9 @@ const props = defineProps({
          next-icon="arrowRightIcon"
          cycle
        >
-         <v-carousel-item v-for="(slide, i) in  $tm('PROJECT.'+ props.type +'.IMG')" :key="i">
-           <v-sheet height="100%">
-               <img :src="slide" class="ma-0">
+         <v-carousel-item v-for="(slide, i) in  $tm('PROJECT.'+ type +'.IMG')" :key="i">
+           <v-sheet height="100%" class="d-flex fill-height justify-center align-center">
+               <img :src="imageSrc(slide)" class="ma-0">
                  
              <div class="d-flex fill-height justify-center align-center">
              </div>
@@ -30,6 +24,13 @@ const props = defineProps({
    <script lang="ts">
    export default {
     name: 'Slider',
+    props:{
+      type: String
+    }, methods: {
+      imageSrc(slide:any){
+               return new URL(`../../assets/ProjectCover/${slide}`, import.meta.url).href;
+          }
+    },
   }
   </script>
   <style lang="scss" scoped>
@@ -38,4 +39,5 @@ const props = defineProps({
     max-width: 600px;
     margin: 0 auto;
   }
+
   </style>
