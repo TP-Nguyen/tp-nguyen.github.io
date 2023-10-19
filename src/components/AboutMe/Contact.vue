@@ -1,15 +1,15 @@
 <template>
      <section id="contact"  class="d-flex justify-center align-center mt-10" >
-          <img max-width="100px" src="./src/assets/logoTPN.svg"/>
+          <img max-width="100px" src="../../assets/logoTPN.svg"/>
           <v-sheet class="pa-4 my-4" color="transparent" :width="1040">
                <v-row>
                <v-col cols="1">
                     <a :href="$t('GENERAL.LINKEDIN')">
-                    <img src="./src/assets/icon/linkedin.svg"/></a>
+                    <img src="../../assets/icon/linkedin.svg"/></a>
                     <a :href="$t('GENERAL.LINKEDIN')">
-                    <img src="./src/assets/Skill/LogoGithub.png"/></a>
+                    <img src="../../assets/Skill/LogoGithub.png"/></a>
                     <a href="mailto:phuongthao.nguyen@live.de">
-                    <img src="./src/assets/icon/mail.svg"/> </a>
+                    <img src="../../assets/icon/mail.svg"/> </a>
                </v-col>
                <v-col align-self="center">
                     <a href="./src/assets/CV_Nguyen.pdf" target="_blank">{{ $t('GENERAL.CV') }}</a>
