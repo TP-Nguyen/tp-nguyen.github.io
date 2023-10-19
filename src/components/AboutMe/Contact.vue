@@ -1,28 +1,18 @@
 <template>
      <section id="contact"  class="d-flex justify-center align-center mt-10" >
-          <v-img max-width="100px" src="../../../public/logoTPN.svg"/>
+          <v-img max-width="100px" src="../../assets/logoTPN.svg"/>
           <v-sheet class="pa-4 my-4" color="transparent" :width="1040">
                <v-row>
-               <!-- <v-col><v-img max-width="100px" src="../../../public/smile.jpg"/></v-col>
-               
-                         <v-col>{{ $t('GENERAL.LASTNAME') }}
-               {{ $t('GENERAL.FIRSTNAME') }} <br>
-               {{ $t('GENERAL.ADDRESS') }}</v-col> -->
-               
                <v-col cols="1">
-                    <!-- <v-row>
-                              <v-col></v-col>
-                              <v-col></v-col>
-                         </v-row> -->
                     <a :href="$t('GENERAL.LINKEDIN')">
-                    <v-img src="../../../public/icon/linkedin.svg"/></a>
+                    <v-img src="../../assets/icon/linkedin.svg"/></a>
                     <a :href="$t('GENERAL.LINKEDIN')">
-                    <v-img src="../../../public/skill/LogoGithub.png"/></a>
+                    <v-img src="../../assets/Skill/LogoGithub.png"/></a>
                     <a href="mailto:phuongthao.nguyen@live.de">
-                    <v-img src="../../../public/icon/mail.svg"/> </a>
+                    <v-img src="../../assets/icon/mail.svg"/> </a>
                </v-col>
                <v-col align-self="center">
-                    <a href="../../../public/CV_Nguyen.pdf" target="_blank">{{ $t('GENERAL.CV') }}</a>
+                    <a href="../../assets/CV_Nguyen.pdf" target="_blank">{{ $t('GENERAL.CV') }}</a>
                </v-col>
           </v-row>
           <span class="d-flex justify-center text-center">© 2023 Nguyen Phuong Thao</span>

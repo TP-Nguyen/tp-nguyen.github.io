@@ -81,7 +81,7 @@ import ProjectDetails from './ProjectDetails.vue'
                                    <template v-slot:activator="{ props }"><v-card v-bind="props" class="d-flex align-center"
                                              @click="openDialog(), typeDetail = 'SURVIVAL'" :height="300" :width="670">
                                              <img :width="670"
-                                                  src="../../../public/Project/survival/survival.png" /></v-card></template></v-tooltip></v-row>
+                                                  src="../../assets/ProjectCover/survival.png" /></v-card></template></v-tooltip></v-row>
                     </v-col>
                     <v-col v-motion :initial="{
                          opacity: 0, y: 50,
