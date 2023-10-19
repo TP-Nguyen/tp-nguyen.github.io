@@ -21,9 +21,7 @@
                               </v-row> 
                          </v-col> -->
                          <v-col>
-                              <v-tooltip text="Entwicklungstools" location="bottom">
-                                   <template v-slot:activator="{ props }">
-                                        <v-row>
+                              <v-row>
                                    <v-col>
                                         <a >
                               <v-img src="../../../public/skill/vscode.png"/></a>
@@ -39,8 +37,6 @@
                                         <a >
                               <v-img src="../../../public/skill/postman.png"/> </a></v-col>
                               </v-row> 
-                                   </template>
-                              </v-tooltip>
                          </v-col>
                          <v-col></v-col>
                     </v-col>

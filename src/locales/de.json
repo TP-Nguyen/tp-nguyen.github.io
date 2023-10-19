@@ -157,7 +157,9 @@
             "IMG": ["../../../public/Project/Last Minute/1.png", "../../../public/Project/Last Minute/2.png", "../../../public/Project/Last Minute/3.png", "../../../public/Project/Last Minute/4.png", "../../../public/Project/Last Minute/5.png"],
             "VIDEO": "../../../public/Project/Last Minute/video.mp4",
             "GITHUB": "https://github.com/TP-Nguyen/Last-Minute",
-            "LIVE": "../../../1.0/Project/LastMinute/index.html"
+            "LIVE": "../../../1.0/Project/LastMinute/index.html",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "LAGOM": {
             "TITLE": "lagom",
@@ -176,7 +178,10 @@
                 }
             },
             "IMG": ["../../../public/Project/LAGOM/1.png", "../../../public/Project/LAGOM/2.png", "../../../public/Project/LAGOM/3.png", "../../../public/Project/LAGOM/4.png", "../../../public/Project/LAGOM/5.png"],
-            "GITHUB": "https://github.com/TP-Nguyen/Lagom"
+            "GITHUB": "https://github.com/TP-Nguyen/Lagom",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "THROWBACK": {
             "TITLE": "throwback",
@@ -198,7 +203,8 @@
             "VIDEO": "../../../public/Project/Throwback/video.mp4",
             "DOCU": "../../../public/Project/Throwback/Throwback_Doku.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/Throwback",
-            "LIVE": "../../../1.0/Project/Throwback/index.html"
+            "LIVE": "../../../1.0/Project/Throwback/index.html",
+            "FIGMA": ""
         },
         "ZPHERE": {
             "TITLE": "zphere",
@@ -219,7 +225,9 @@
             "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
             "VIDEO": "../../../public/Project/zphere/4.mp4",
             "DOCU": "../../../public/Project/zphere/zphere_Doku.pdf",
-            "GITHUB": "https://github.com/TP-Nguyen/zphere"
+            "GITHUB": "https://github.com/TP-Nguyen/zphere",
+            "LIVE": "",
+            "FIGMA": ""
         },
         "SURVIVAL": {
             "TITLE": "Survival of the fittest",
@@ -232,7 +240,11 @@
                     "0": "After Effects",
                     "1": "Premiere Pro"
                 }
-            }
+            },
+            "GITHUB": "",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "MYANIMELIST": {
             "TITLE": "MyAnimeList",
@@ -261,7 +273,8 @@
             "IMG": ["../../../public/Project/MAL/1.jpg", "../../../public/Project/MAL/2.jpg", "../../../public/Project/MAL/3.jpg", "../../../public/Project/MAL/4.jpg", "../../../public/Project/MAL/5.png", "../../../public/Project/MAL/6.png", "../../../public/Project/MAL/7.png", "../../../public/Project/MAL/8.png"],
             "DOCU": "../../../public/Project/MAL/MAL_Doku.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/MAL-Redesign",
-            "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1"
+            "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1",
+            "LIVE": ""
         },
         "INTERNET": {
             "TITLE": "Internet Worldwide",
@@ -300,7 +313,9 @@
             },
             "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"],
             "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
-            "LIVE": "../../../1.0/Project/eatabroard/index.html"
+            "LIVE": "../../../1.0/Project/eatabroard/index.html",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "NEW": {
             "TITLE": "",
@@ -311,7 +326,11 @@
                 "TOOLTIP": {
                     "0": ""
                 }
-            }
+            },
+            "GITHUB": "",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         }
     },
     "PROGRAMM": {

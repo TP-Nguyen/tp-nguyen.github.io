@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import Skill from './Skill.vue'
+import { defineComponent } from 'vue';
+defineComponent({
+          name:'Timeslot'
+     });
 defineProps<{ props: string }>()
 </script>
 <template>
@@ -94,11 +98,7 @@ defineProps<{ props: string }>()
           </v-row>
      </v-sheet>
 </template>
+
 <script lang="ts">
-// export default{
-//      props:{
-//           props:String,
-//      }
-// }
+
 </script>
-<style lang="scss" scoped></style>

@@ -16,15 +16,19 @@ const props = defineProps({
          next-icon="arrowRightIcon"
          cycle
        >
-         <v-carousel-item v-for="(slide, i) in  $tm('PROJECT.'+ type +'.IMG')" :key="i">
+         <v-carousel-item v-for="(slide, i) in  $tm('PROJECT.'+ props.type +'.IMG')" :key="i">
            <v-sheet height="100%">
                <v-img  height="100%" :src="slide" class="ma-0"></v-img>
                  
              <div class="d-flex fill-height justify-center align-center">
-               <!-- <div class="text-h2"></div> -->
              </div>
            </v-sheet>
          </v-carousel-item>
        </v-carousel>
      </v-card>
    </template>
+   <script lang="ts">
+   export default {
+    name: 'Slider',
+  }
+  </script>

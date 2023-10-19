@@ -1,8 +1,7 @@
 <template>
      <section id="contact"  class="d-flex justify-center align-center mt-10" >
           <v-img max-width="100px" src="../../../public/logoTPN.svg"/>
-          <v-sheet  class="pa-4 my-4" color="transparent"
-               :width="1040">
+          <v-sheet class="pa-4 my-4" color="transparent" :width="1040">
                <v-row>
                <!-- <v-col><v-img max-width="100px" src="../../../public/smile.jpg"/></v-col>
                
@@ -31,7 +30,9 @@
      </section>
 </template>
 <script lang="ts">
-
+     export default{
+          name:'Contact'
+     }
 </script>
 <style lang="scss" scoped>
 section {

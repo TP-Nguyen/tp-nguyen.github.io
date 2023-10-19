@@ -1,6 +1,3 @@
-<script setup lang="ts">
-import App from '../../App.vue'
-</script>
 <template>
        <div class="navi">
         <v-tabs
@@ -29,6 +26,9 @@ import App from '../../App.vue'
        </div>
    </template>
 <script lang="ts">
+export default{
+  name: 'Topbar',
+}
 </script>
 <style lang="scss" scoped>
 .navi {

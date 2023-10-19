@@ -14,8 +14,10 @@
 </template>
 
 <script lang="ts">
-
-</script>  
+     export default{
+          name:'Intro'
+     }
+</script>
 <style lang="scss" scoped>
     .changeColor{
       animation: colorchange 5s linear infinite;
