@@ -5,17 +5,24 @@
                v-bind="props" 
                color="cube" 
                width="130" height="130">
-                    <img  :src="require(props.img)">
+                    <img  :src="imageSrc">
                </v-card>
           </template>
      </v-tooltip>
 </template>
 <script lang="ts">
+
 export default {
      props: {
           img: String,
           tooltip: String,
+     },
+     computed: {
+          imageSrc() {
+               return new URL(`../../assets/Skill/${this.img}`, import.meta.url).href;
+          }
      }
+     
 }
 </script>
 <style lang="scss" scoped>

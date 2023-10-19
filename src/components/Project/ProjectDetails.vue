@@ -30,8 +30,8 @@ const props = defineProps({
                     <v-sheet v-if="props.type=='SURVIVAL'" color="black">
                          <iframe class="video" width="650" height="350" src="https://player.vimeo.com/video/432306020?h=be32ed5782" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </v-sheet>
-                    <Slider v-if="props.type!='SURVIVAL'&& props.type!='MYANIMELIST'" :type="props.type"/>
-                    <iframe v-if="props.type=='MYANIMELIST'" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="650" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIKyKA9rHgxSKHfd3DPR99n%2FMAL%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DoxncHpV8ka9Cb8pj-1" allowfullscreen></iframe>
+                    <Slider v-if="props.type!='SURVIVAL'" :type="props.type"/>
+                    <!--&& props.type!='MYANIMELIST' <iframe v-if="props.type=='MYANIMELIST'" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="650" height="350" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIKyKA9rHgxSKHfd3DPR99n%2FMAL%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DoxncHpV8ka9Cb8pj-1" allowfullscreen></iframe> -->
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.DOCU')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.DOCU')" target="_blank">{{$t('GENERAL.DOCU')}}</v-btn>
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.GITHUB')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.GITHUB')" target="_blank">{{$t('GENERAL.CODE')}}</v-btn>
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.LIVE')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.LIVE')" target="_blank">{{$t('GENERAL.DEMO')}}</v-btn>

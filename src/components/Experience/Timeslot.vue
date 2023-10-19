@@ -4,14 +4,12 @@ import { defineComponent } from 'vue';
 defineComponent({
      name: 'Timeslot'
 });
-defineProps<{ props: string }>()
 </script>
 <template>
      <v-sheet class="pb-5" color="background" max-width="800">
           <v-row>
                <v-col cols="1" class="pt-0">
-                    <!-- <v-avatar class="mt-3 mx-5" :image="$t('EXPERIENCE.' + props + '.IMG')"></v-avatar> -->
-                    <img class="avatar mt-3 mx-5" :src="$t('EXPERIENCE.' + props + '.IMG')">
+                    <v-avatar class="mt-3 mx-5" :image="imageSrc"></v-avatar>
                </v-col>
                <v-col class="pt-0">
                     <v-card-title class="py-0">{{ $t('EXPERIENCE.' + props + '.TITLE') }}</v-card-title>
@@ -100,7 +98,17 @@ defineProps<{ props: string }>()
 </template>
 
 <script lang="ts">
-
+export default {
+     props: {
+          props: String,
+     },
+     computed: {
+          imageSrc() {
+               return new URL(`../../assets/logo/${this.props}.png`, import.meta.url).href;
+          }
+     }
+     
+}
 </script>
 <style lang="scss" scoped>
 .avatar{
