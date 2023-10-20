@@ -282,7 +282,8 @@
             "IMG": ["../../../public/Project/Internet/1.png", "../../../public/Project/Internet/2.png", "../../../public/Project/Internet/3.png", "../../../public/Project/Internet/4.png", "../../../public/Project/Internet/5.png", "../../../public/Project/Internet/6.png"],
             "DOCU": "../../../public/Project/Internet/INTERNET_Dokumentation.pdf",
             "GITHUB": "https://github.com/TP-Nguyen/Internet",
-            "LIVE": "../../../1.0/Project/Datenvisiualisierung.html"
+            "LIVE": "../../../1.0/Project/Datenvisiualisierung.html",
+            "FIGMA": ""
         },
         "EATABROAD": {
             "TITLE": "eatabroad",
@@ -300,7 +301,8 @@
             },
             "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"],
             "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
-            "LIVE": "../../../1.0/Project/eatabroard/index.html"
+            "LIVE": "../../../1.0/Project/eatabroard/index.html",
+            "FIGMA": ""
         },
         "NEW": {
             "TITLE": "",
