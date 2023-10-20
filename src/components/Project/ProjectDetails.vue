@@ -35,7 +35,8 @@ const props = defineProps({
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.DOCU')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.DOCU')" target="_blank">{{$t('GENERAL.DOCU')}}</v-btn>
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.GITHUB')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.GITHUB')" target="_blank">{{$t('GENERAL.CODE')}}</v-btn>
                     <v-btn v-if="$tm('PROJECT.' + props.type +  '.LIVE')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.LIVE')" target="_blank">{{$t('GENERAL.DEMO')}}</v-btn>
-                    <v-btn v-if="$tm('PROJECT.' + props.type +  '.FIGMA')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.FIGMA')" target="_blank">{{$t('GENERAL.FIGMA')}}</v-btn>
+                    <!--<v-btn v-if="$tm('PROJECT.' + props.type +  '.FIGMA')!== ''" block class="my-3" :href="$t('PROJECT.' + props.type +  '.FIGMA')" target="_blank">{{$t('GENERAL.FIGMA')}}</v-btn>-->
+                    <v-btn v-if="props.type =='MYANIMELIST'" block class="my-3" :href="$t('PROJECT.' + props.type +  '.FIGMA')" target="_blank">{{$t('GENERAL.FIGMA')}}</v-btn>
                </section>
                </v-col>
                <v-col cols="2" class="d-flex align-start flex-column mb-2">
