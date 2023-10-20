@@ -295,7 +295,8 @@
             "IMG": ["Internet/1.PNG", "Internet/2.PNG", "Internet/3.PNG", "Internet/4.PNG", "Internet/5.PNG", "Internet/6.PNG"],
             "DOCU": "https://drive.google.com/file/d/1Aq8oebRzCqcsBolLfOJT0TyR2bNzQ_d7/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/Internet",
-            "LIVE": "https://tp-nguyen.github.io/Internet/"
+            "LIVE": "https://tp-nguyen.github.io/Internet/",
+            "FIGMA": ""
         },
         "EATABROAD": {
             "TITLE": "eatabroad",
