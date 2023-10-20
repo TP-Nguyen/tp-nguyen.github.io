@@ -14,7 +14,7 @@
                     <img src="../../assets/icon/mail.svg"/> </a>
                </v-col>
                <v-col align-self="center">
-                    <a href="../../assets/CV_Nguyen.pdf" target="_blank">{{ $t('GENERAL.CV') }}</a>
+                    <a href="https://drive.google.com/file/d/1qE7z0gxNRmBdI-hKD1V8wP268sDM7BZt/view?usp=share_link" target="_blank">{{ $t('GENERAL.CV') }}</a>
                </v-col>
           </v-row>
           <span class="d-flex justify-center text-center">© 2023 Nguyen Phuong Thao</span>

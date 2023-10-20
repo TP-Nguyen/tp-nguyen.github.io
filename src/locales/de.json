@@ -6,7 +6,7 @@
         "EMAIL": "phuongthao.nguyen@live.de",
         "LINKEDIN": "https://www.linkedin.com/in/tp-nguyen/",
         "EXPERIENCE": "Erfahrung",
-        "PROJECT": "Projekt",
+        "PROJECT": "Projekte",
         "CONTACT": "Kontakt",
         "ABOUTME": "Über mich",
         "NGUYEN": "nʏʁn",
@@ -14,7 +14,7 @@
         "FIGMA": "UI Design",
         "CODE": "Source Code",
         "DEMO": "Live Demo",
-        "CV": "Klicken, um mein Lebenslauf zuerhalten"
+        "CV": "Hier klicken, um mein Lebenslauf zu erhalten"
 
     },
     "ABOUTME": {
@@ -157,7 +157,7 @@
             "IMG": ["Last Minute/1.png", "Last Minute/2.png", "Last Minute/3.png", "Last Minute/4.png", "Last Minute/5.png"],
             "VIDEO": "Last Minute/video.mp4",
             "GITHUB": "https://github.com/TP-Nguyen/Last-Minute",
-            "LIVE": "../../../1.0/ProjectCover/LastMinute/index.html",
+            "LIVE": "https://tp-nguyen.github.io/Last-Minute/",
             "FIGMA": "",
             "DOCU": ""
         },
@@ -177,7 +177,7 @@
                     "3": "MySQL"
                 }
             },
-            "IMG": ["LAGOM/1.png", "LAGOM/2.PNG", "LAGOM/3.png", "LAGOM/4.PNG", "LAGOM/5.PNG"],
+            "IMG": ["LAGOM/1.PNG", "LAGOM/2.PNG", "LAGOM/3.png", "LAGOM/4.PNG", "LAGOM/5.PNG"],
             "GITHUB": "https://github.com/TP-Nguyen/Lagom",
             "LIVE": "",
             "FIGMA": "",
@@ -201,9 +201,9 @@
             },
             "IMG": ["Throwback/1.png", "Throwback/2.png", "Throwback/3.png", "Throwback/4.png"],
             "VIDEO": "Throwback/video.mp4",
-            "DOCU": "Throwback/Throwback_Doku.pdf",
+            "DOCU": "https://drive.google.com/file/d/1N4198bYXNsTc-o5jFOLWTMcQHyiHt41V/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/Throwback",
-            "LIVE": "../../../1.0/ProjectCover/Throwback/index.html",
+            "LIVE": "https://tp-nguyen.github.io/Throwback/",
             "FIGMA": ""
         },
         "ZPHERE": {
@@ -224,7 +224,7 @@
             },
             "IMG": ["zphere/1.png", "zphere/2.png", "zphere/3.png"],
             "VIDEO": "zphere/4.mp4",
-            "DOCU": "zphere/zphere_Doku.pdf",
+            "DOCU": "https://drive.google.com/file/d/1-LdaiHKot4pRlc299igEjvaaN6Fys8PF/view?usp=share_link",
             "GITHUB": "https://github.com/TP-Nguyen/zphere",
             "LIVE": "",
             "FIGMA": ""
@@ -271,7 +271,7 @@
                 }
             },
             "IMG": ["MAL/1.jpg", "MAL/2.jpg", "MAL/3.jpg", "MAL/4.jpg", "MAL/5.jpg", "MAL/6.jpg", "MAL/7.jpg", "MAL/8.jpg"],
-            "DOCU": "MAL/MAL_Doku.pdf",
+            "DOCU": "https://drive.google.com/file/d/1Tj4iA_yWK4EX6-9YSIhBKZ52PRNsbMbG/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/MAL-Redesign",
             "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1",
             "LIVE": ""
@@ -293,9 +293,9 @@
                 }
             },
             "IMG": ["Internet/1.PNG", "Internet/2.PNG", "Internet/3.PNG", "Internet/4.PNG", "Internet/5.PNG", "Internet/6.PNG"],
-            "DOCU": "Internet/INTERNET_Dokumentation.pdf",
+            "DOCU": "https://drive.google.com/file/d/1Aq8oebRzCqcsBolLfOJT0TyR2bNzQ_d7/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/Internet",
-            "LIVE": "../../../1.0/ProjectCover/Datenvisiualisierung.html"
+            "LIVE": "https://tp-nguyen.github.io/Internet/"
         },
         "EATABROAD": {
             "TITLE": "eatabroad",
@@ -313,7 +313,7 @@
             },
             "IMG": ["eatabroard/eatabroadStartseite.png", "eatabroard/eatabroadTitel.png", "eatabroard/eatabroadInhalt.png", "eatabroard/eatabroadMobile.png"],
             "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
-            "LIVE": "../../../1.0/ProjectCover/eatabroard/index.html",
+            "LIVE": "https://tp-nguyen.github.io/eatabroard/",
             "FIGMA": "",
             "DOCU": ""
         },
