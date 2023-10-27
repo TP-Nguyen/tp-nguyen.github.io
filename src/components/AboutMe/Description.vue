@@ -3,44 +3,25 @@
           <v-sheet v-motion-fade-visible class="text-left pa-4 my-4" color="background"
                :width="1040">
                <v-row>
-                    <v-col cols="3">
-                    <v-img class="profilIMG" src="../../../public/profil.jpg"/>
-                         <!-- <v-col>     
+                    <v-col cols="4">
+                    <img class="profilIMG" src="../../assets/profil.jpg"/>
+                         <v-col>
                               <v-row>
                                    <v-col>
-                                        <a :href="$t('GENERAL.LINKEDIN')">
-                              <v-img src="../../../public/icon/linkedin.svg"/></a>
-                                   </v-col>
-                                   <v-col>
-                                        <a :href="$t('GENERAL.LINKEDIN')">
-                              <v-img src="../../../public/skill/LogoGithub.png"/></a>
-                                   </v-col>
-                                   <v-col>
-                                        <a href="mailto:phuongthao.nguyen@live.de">
-                              <v-img src="../../../public/icon/mail.svg"/> </a></v-col>
-                              </v-row> 
-                         </v-col> -->
-                         <v-col>
-                              <v-tooltip text="Entwicklungstools" location="bottom">
-                                   <template v-slot:activator="{ props }">
-                                        <v-row>
-                                   <v-col>
                                         <a >
-                              <v-img src="../../../public/skill/vscode.png"/></a>
+                              <img src="../../assets/Skill/vscode.png"/></a>
                                    </v-col><v-col>
                                         <a >
-                              <v-img src="../../../public/skill/figma.png"/></a>
+                              <img src="../../assets/Skill/figma.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="../../../public/skill/LogoGithub.png"/></a>
+                              <img src="../../assets/Skill/LogoGithub.png"/></a>
                                    </v-col>
                                    <v-col>
                                         <a >
-                              <v-img src="../../../public/skill/postman.png"/> </a></v-col>
+                              <img src="../../assets/Skill/postman.png"/> </a></v-col>
                               </v-row> 
-                                   </template>
-                              </v-tooltip>
                          </v-col>
                          <v-col></v-col>
                     </v-col>
@@ -74,11 +55,11 @@ export default{
      overflow: hidden;
 }
 .profilIMG{
-     width: 500px;
+     width: 300px;
      border-radius: 10px;
 }
 a{
-     .v-img{
+     img{
      max-height: 30px;
      width: 30px;
      // filter: grayscale(100);

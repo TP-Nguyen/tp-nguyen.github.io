@@ -1,6 +1,3 @@
-<script setup lang="ts">
-import App from '../../App.vue'
-</script>
 <template>
        <div class="navi">
         <v-tabs
@@ -10,7 +7,7 @@ import App from '../../App.vue'
   >
   <!-- <v-tab hide-slider href="#top" >
 
-    <v-img class="ma-2" max-width="30px" src="../../../public/logoTPN.svg"/>
+    <img class="ma-2" max-width="30px" src="../../assets/logoTPN.svg"/>
   </v-tab> -->
   <v-tab hide-slider href="#aboutme" >
       {{ $t('GENERAL.ABOUTME') }}
@@ -29,6 +26,9 @@ import App from '../../App.vue'
        </div>
    </template>
 <script lang="ts">
+export default{
+  name: 'Topbar',
+}
 </script>
 <style lang="scss" scoped>
 .navi {

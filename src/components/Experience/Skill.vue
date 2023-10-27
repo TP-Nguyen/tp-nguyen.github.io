@@ -5,17 +5,27 @@
                v-bind="props" 
                color="cube" 
                width="130" height="130">
-                    <v-img max-width="60" :src="img"></v-img>
+                    <img  :src="imageSrc">
                </v-card>
           </template>
      </v-tooltip>
 </template>
 <script lang="ts">
+
 export default {
      props: {
           img: String,
           tooltip: String,
+     },
+     computed: {
+          imageSrc() {
+               return new URL(`../../assets/Skill/${this.img}`, import.meta.url).href;
+          }
      }
+     
 }
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img{
+     max-width: 60px
+}</style>

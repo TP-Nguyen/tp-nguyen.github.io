@@ -6,7 +6,7 @@
         "EMAIL": "phuongthao.nguyen@live.de",
         "LINKEDIN": "https://www.linkedin.com/in/tp-nguyen/",
         "EXPERIENCE": "Erfahrung",
-        "PROJECT": "Projekt",
+        "PROJECT": "Projekte",
         "CONTACT": "Kontakt",
         "ABOUTME": "Über mich",
         "NGUYEN": "nʏʁn",
@@ -14,7 +14,7 @@
         "FIGMA": "UI Design",
         "CODE": "Source Code",
         "DEMO": "Live Demo",
-        "CV": "Klicken, um mein Lebenslauf zuerhalten"
+        "CV": "Hier klicken, um mein Lebenslauf zu erhalten"
 
     },
     "ABOUTME": {
@@ -27,7 +27,7 @@
         "QUOTE": "No one knows what the future holds\nThats why the future is unlimited and potential is infinite",
         "BBS": {
             "DATE": "08/2015 - 06/2017",
-            "IMG": "../../../public/logo/BBS.png",
+            "IMG": "../../assets/logo/BBS.png",
             "TITLE": "Berufsbildende Schulen des Landkreises Oldenburg",
             "SUBTITLE": "Staatlich geprüfte kaufmännische Assistentin - Schwerpunkt Informationsverarbeitung",
             "CONTENT": "▪︎ Projekte planen, durchführen und betreuen\n▪︎ Anwendungssoftware und Datenbanksysteme entwickeln\n▪︎ Webanwendungen entwickeln und bereitstellen\n▪︎ IT-Systeme auswählen, betreuen und gestalten\n▪︎ Werteströme erfassen sowie Betriebsergebnis analysieren\n▪︎ Absatzprozesse/Beschaffungsprozesse bearbeiten, analysieren und bearbeiten"
@@ -35,14 +35,14 @@
         },
         "OL": {
             "DATE": "10/2016 - 11/2016",
-            "IMG": "../../../public/logo/OL.png",
+            "IMG": "../../assets/logo/OL.png",
             "TITLE": "Landkreis Oldenburg - Land Niedersachsen",
             "SUBTITLE": "IT-Assistent",
             "CONTENT": "▪︎ Austausch von PC-Hardware\n▪︎ Projektumsetzung 'PC-Tausch2016'\n▪︎ Aufbau/lnstandsetzung von Technik\n▪︎ Umsetzung 'NetAlarm' - hausinternes Alarmierungssystem\n▪︎ allgemeine Anwendungsaktualisierung\n▪︎ Recherche zu Hard- und Softwareanfragen"
         },
         "WWS": {
             "DATE": "08/2017 - 06/2018",
-            "IMG": "../../../public/logo/WWS.png",
+            "IMG": "../../assets/logo/WWS.png",
             "TITLE": "Wilhelm Wagenfeldschule",
             "SUBTITLE": "Fachhochschulreife Fachrichtung Gestaltung - Schwerpunkt Kunst, Design und Medien",
             "CONTENT": "▪︎ Farbdramaturgie\n▪︎ Gestaltungstechnik\n▪︎ Zeichenlehre\n▪︎ Storyboard\n▪︎ Kameraperspektiven & Bewegungen"
@@ -50,23 +50,23 @@
         },
         "HSB": {
             "DATE": "09/2018 - 09/2023",
-            "IMG": "../../../public/logo/HSB.png",
+            "IMG": "../../assets/logo/HSB.png",
             "TITLE": "Hochschule Bremen",
             "SUBTITLE": "Bachelor of Science - Internationaler Studiengang Medieninformatik",
             "CONTENT": "▪︎ Medieninformatik: Konzeption und Entwurf von Mediensystemen\n▪︎ Mensch-Computer-Interaktion\n▪︎ Datenbankbasierte Web-Anwendungen\n▪︎ Motion Design\n▪︎ Game Design\n▪︎ Interaktive Datenvisualisierung"
         },
         "RB": {
             "DATE": "10/2019 - 08/2020",
-            "IMG": "../../../public/logo/RB.png",
+            "IMG": "../../assets/logo/RB.png",
             "TITLE": "Radio Bremen",
             "SUBTITLE": "Bachelorprojekt 'Zphere' mit Bremedia",
             "CONTENT": "▪︎ Zielgruppenanalyse \n▪︎ Konkurrenzanalyse \n▪︎ Corporate Design \n▪︎ Implementierung",
             "SKILL": {
-                "0": "../../../public/Skill/LogoReact.png",
-                "1": "../../../public/Skill/node.png",
-                "2": "../../../public/Skill/MariaDB.png",
-                "3": "../../../public/Skill/xd.png",
-                "4": "../../../public/Skill/LogoGithub.png",
+                "0": "LogoReact.png",
+                "1": "node.png",
+                "2": "MariaDB.png",
+                "3": "xd.png",
+                "4": "LogoGithub.png",
                 "TOOLTIP": {
                     "0": "React",
                     "1": "Node",
@@ -78,7 +78,7 @@
         },
         "EATHAPPY": {
             "DATE": "07/2019 - 09/2020",
-            "IMG": "../../../public/logo/EATHAPPY.png",
+            "IMG": "../../assets/logo/EATHAPPY.png",
             "TITLE": "EAT HAPPY GROUP",
             "SUBTITLE": "Promotionsspezialist",
             "CONTENT": "Promotion und  Marketing\n\nVertiebsorte\n▪︎ Bremen\n▪︎ Vechta\n▪︎ Wildeshausen"
@@ -86,16 +86,16 @@
         },
         "28APPS": {
             "DATE": "05/2021 - 07/2022",
-            "IMG": "../../../public/logo/28APPS.png",
+            "IMG": "../../assets/logo/28APPS.png",
             "TITLE": "28Apps Software GmbH",
             "SUBTITLE": "Software Entwickler",
             "CONTENT": "Werkstudent davor Praktikum im Praxissemester\n\n▪︎ Web- und Softwareentwicklung \n▪︎ Pflegen der Projekte\n▪︎ Wartung von responsive Design\n▪︎ Erweiterungen von Funktionalitäten",
             "SKILL": {
-                "0": "../../../public/Skill/vue.png",
-                "1": "../../../public/Skill/TypeScript.png",
-                "2": "../../../public/Skill/Jira.png",
-                "3": "../../../public/Skill/Git.png",
-                "4": "../../../public/Skill/sass.png",
+                "0": "vue.png",
+                "1": "Typescript.png",
+                "2": "Jira.png",
+                "3": "Git.png",
+                "4": "sass.png",
                 "TOOLTIP": {
                     "0": "Vue",
                     "1": "TypeScript",
@@ -108,14 +108,14 @@
         },
         "SEOULTECH": {
             "DATE": "02/2022 - 06/2022",
-            "IMG": "../../../public/logo/SEOULTECH.png",
+            "IMG": "../../assets/logo/SEOULTECH.png",
             "TITLE": "Seoul National University of Science and Technology",
             "SUBTITLE": "Auslandssemester",
             "CONTENT": "Aktivitäten: Kendo Club\n\n▪︎ Koreanisch Sprachkurs\n▪︎ Design Research\n▪︎ Computer Programming\n▪︎ Mobile UX Experience Design \n▪︎ Figma"
         },
         "NEW": {
             "DATE": "",
-            "IMG": "../../../public/logo/.png",
+            "IMG": "../../assets/logo/.png",
             "TITLE": "",
             "SUBTITLE": "",
             "CONTENT": "▪︎",
@@ -145,29 +145,31 @@
             "TOOLTIP": "browserbasiertes Point-and-Click-Adventure",
             "DESCRIPTION": "Im ersten Semester wurde grundlegend auf HTML, CSS und JavaScript ein webbasiertes Spiel entwickelt, das Point-and-Click-Adventure „Last Minute!“.\n\nIn diesen Spiel handelt es um ein Student, der gestresst in den letzten Schritten seiner Bachelorarbeit steckt. Dabei unterstützt der Spieler dem Protagonisten, um die Bachelorarbeit erfolgreich seinem Professor abzugeben. \n\nIn Zusammenarbeit mit Moumita Ahmad, Lars Obist und Yuliya Litvin",
             "TECH": {
-                "0": "../../../public/Skill/LogoHTML.png",
-                "1": "../../../public/Skill/LogoCSS.png",
-                "2": "../../../public/Skill/LogoJS.png",
+                "0": "LogoHTML.png",
+                "1": "LogoCSS.png",
+                "2": "LogoJS.png",
                 "TOOLTIP": {
                     "0": "HTML",
                     "1": "CSS",
                     "2": "JavaScript"
                 }
             },
-            "IMG": ["../../../public/Project/Last Minute/1.png", "../../../public/Project/Last Minute/2.png", "../../../public/Project/Last Minute/3.png", "../../../public/Project/Last Minute/4.png", "../../../public/Project/Last Minute/5.png"],
-            "VIDEO": "../../../public/Project/Last Minute/video.mp4",
+            "IMG": ["Last Minute/1.png", "Last Minute/2.png", "Last Minute/3.png", "Last Minute/4.png", "Last Minute/5.png"],
+            "VIDEO": "Last Minute/video.mp4",
             "GITHUB": "https://github.com/TP-Nguyen/Last-Minute",
-            "LIVE": "../../../1.0/Project/LastMinute/index.html"
+            "LIVE": "https://tp-nguyen.github.io/Last-Minute/",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "LAGOM": {
             "TITLE": "lagom",
             "TOOLTIP": "Datenbankbasierte Webanwendung",
             "DESCRIPTION": "In diesem Projekt handelt es sich um einen digitalen Bullet Journal, der jedem Benuzter ein individuelles Workspace bietet, in dem dieser sich sein Leben strukturieren kann. Somit kann er sich Erinnerungen anlegen, ToDo-Listen erstellen, ein Tagebuchführen, sich Ziele setzen und Termine in seinen Kalender eintragen. Um unseren Nutzer zudem täglich zu motivieren findet er bei jedem erneutem Neuladen der Seite einen anderen motivierenden Spruch auf seiner Workspace-Page und auch immer wieder drei neue Bilder in seiner Galerie. \nFür die Umsetzung des Projekts wurde zunächst für jede Entität (wie z. B. Kalendar) eine Tabelle mit den entsprechenden Attributen mit Hilfe von der MySQL Workbench in der Datenbank erstellt. \n\nIn Zusammenarbeit mit Yuliya Litvin & Lars Obist",
             "TECH": {
-                "0": "../../../public/Skill/Angular.png",
-                "1": "../../../public/Skill/node.png",
-                "2": "../../../public/Skill/Typescript.png",
-                "3": "../../../public/Skill/mysql.png",
+                "0": "Angular.png",
+                "1": "node.png",
+                "2": "Typescript.png",
+                "3": "mysql.png",
                 "TOOLTIP": {
                     "0": "Angular",
                     "1": "Node",
@@ -175,18 +177,21 @@
                     "3": "MySQL"
                 }
             },
-            "IMG": ["../../../public/Project/LAGOM/1.png", "../../../public/Project/LAGOM/2.png", "../../../public/Project/LAGOM/3.png", "../../../public/Project/LAGOM/4.png", "../../../public/Project/LAGOM/5.png"],
-            "GITHUB": "https://github.com/TP-Nguyen/Lagom"
+            "IMG": ["LAGOM/1.PNG", "LAGOM/2.PNG", "LAGOM/3.png", "LAGOM/4.PNG", "LAGOM/5.PNG"],
+            "GITHUB": "https://github.com/TP-Nguyen/Lagom",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "THROWBACK": {
             "TITLE": "throwback",
             "TOOLTIP": "browserbasiertes Jump n' Run",
             "DESCRIPTION": "Im zweiten Semester wurde grundlegend auf HTML, CSS, JavaScript und dem Game Framework Phaser 3 ein webbasiertes Spiel entwickelt, das Jump ´n Run „Throwback“.\n\nIn diesen Spiel wird der Spieler zurück in die Vergangenheit geschickt. Dabei muss er Hindernisse des jeweiligen Jahrzehnts ausweichen. Ob die Behauptung „Früher war alles besser“ wahr ist, wird sich zeigen.\n\nIn Zusammenarbeit mit Moumita Ahmad, Lars Obist und Yuliya Litvin",
             "TECH": {
-                "0": "../../../public/Skill/LogoHTML.png",
-                "1": "../../../public/Skill/LogoCSS.png",
-                "2": "../../../public/Skill/LogoJS.png",
-                "3": "../../../public/Skill/phaser.png",
+                "0": "LogoHTML.png",
+                "1": "LogoCSS.png",
+                "2": "LogoJS.png",
+                "3": "phaser.png",
                 "TOOLTIP": {
                     "0": "HTML",
                     "1": "CSS",
@@ -194,21 +199,22 @@
                     "3": "Phaser"
                 }
             },
-            "IMG": ["../../../public/Project/Throwback/1.png", "../../../public/Project/Throwback/2.png", "../../../public/Project/Throwback/3.png", "../../../public/Project/Throwback/4.png"],
-            "VIDEO": "../../../public/Project/Throwback/video.mp4",
-            "DOCU": "../../../public/Project/Throwback/Throwback_Doku.pdf",
+            "IMG": ["Throwback/1.png", "Throwback/2.png", "Throwback/3.png", "Throwback/4.png"],
+            "VIDEO": "Throwback/video.mp4",
+            "DOCU": "https://drive.google.com/file/d/1N4198bYXNsTc-o5jFOLWTMcQHyiHt41V/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/Throwback",
-            "LIVE": "../../../1.0/Project/Throwback/index.html"
+            "LIVE": "https://tp-nguyen.github.io/Throwback/",
+            "FIGMA": ""
         },
         "ZPHERE": {
             "TITLE": "zphere",
             "TOOLTIP": "Webapp in zusammenarbeit mit Radio Bremen",
             "DESCRIPTION": "In einer Welt, in der die großen Mainstream-Sportarten oft im Rampenlicht stehen, gibt es unzählige unterrepräsentierte Sportarten, die genauso aufregend und lohnenswert sind. \n \nHier kommt unsere App für unterrepräsentierte Sportarten ins Spiel, um die Breite und Vielfalt der Sportwelt zu feiern und zu fördern. \n\nIn Kooperation mit Radio Bremen und Bremedia wurde die Sportplattform Zphere entwickelt, um alle Sportfreunde einen Safe Space zu geben. \nTeammitglieder: Tabea Schuster, Lars Obist, Yuliya Litvin, Simon Dannemann",
             "TECH": {
-                "0": "../../../public/Skill/LogoReact.png",
-                "1": "../../../public/Skill/node.png",
-                "2": "../../../public/Skill/MariaDB.png",
-                "3": "../../../public/Skill/xd.png",
+                "0": "LogoReact.png",
+                "1": "node.png",
+                "2": "MariaDB.png",
+                "3": "xd.png",
                 "TOOLTIP": {
                     "0": "React",
                     "1": "Node",
@@ -216,37 +222,43 @@
                     "3": "Adobe XD"
                 }
             },
-            "IMG": ["../../../public/Project/zphere/1.png", "../../../public/Project/zphere/2.png", "../../../public/Project/zphere/3.png"],
-            "VIDEO": "../../../public/Project/zphere/4.mp4",
-            "DOCU": "../../../public/Project/zphere/zphere_Doku.pdf",
-            "GITHUB": "https://github.com/TP-Nguyen/zphere"
+            "IMG": ["zphere/1.png", "zphere/2.png", "zphere/3.png"],
+            "VIDEO": "zphere/4.mp4",
+            "DOCU": "https://drive.google.com/file/d/1-LdaiHKot4pRlc299igEjvaaN6Fys8PF/view?usp=share_link",
+            "GITHUB": "https://github.com/TP-Nguyen/zphere",
+            "LIVE": "",
+            "FIGMA": ""
         },
         "SURVIVAL": {
             "TITLE": "Survival of the fittest",
             "TOOLTIP": "Motion Video",
             "DESCRIPTION": "Gesundheit ist unser wertvollster Besitz und wird von unseren Gewohnheiten beeinflusst. \nIn diesem Erklärvideo werden dir drei entscheidende Schritte vorstellt, um ein gesundes Leben zu führen. Diese Schritte bilden das Fundament für dein Wohlbefinden und deine Lebensqualität: Ernährung, Bewegung und Ruhe. \n\nIndem du dich diesen drei Schlüsselelementen widmest, kannst du nicht nur deine physische Gesundheit verbessern, sondern auch dein allgemeines Wohlbefinden steigern. Lass uns gemeinsam eintauchen und herausfinden, wie du mit diesen grundlegenden Prinzipien einen gesunden Lebensstil erreichen kannst. \n\nIn Zusammenarbeit mit Yuliya Litvin",
             "TECH": {
-                "0": "../../../public/Skill/ae.png",
-                "1": "../../../public/Skill/pr.png",
+                "0": "ae.png",
+                "1": "pr.png",
                 "TOOLTIP": {
                     "0": "After Effects",
                     "1": "Premiere Pro"
                 }
-            }
+            },
+            "GITHUB": "",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "MYANIMELIST": {
             "TITLE": "MyAnimeList",
             "TOOLTIP": "Bachelorthesis über Redesign",
             "DESCRIPTION": "In unserer digitalen Welt sind Websites ein bedeutsames Hilfsmittel für Unternehmen, Organisationen und Einzelpersonen. Einerseits um ihre Präsenz im Internet zu etablieren und ihre Zielgruppe zu erreichen. Anderseits um Informationen zu vermitteln und auszutauschen. \nEine gut gestaltete Website kann nicht nur die Sichtbarkeit und Reputation einer Marke verbessern, sondern auch die Nutzbarkeit und damit auch die Zufriedenheit der Kunden steigern. \nDa sich die Technologien und Benutzerbedürfnisse jedoch ständig weiterentwickelt, ist es notwendig, Websites regelmäßig zu überarbeiten und den zeitgemäßen Standards anzupassen.",
             "TECH": {
-                "0": "../../../public/Skill/vue.png",
-                "1": "../../../public/Skill/vite.png",
-                "2": "../../../public/Skill/vuetify.svg",
-                "3": "../../../public/Skill/figma.png",
-                "4": "../../../public/Skill/i18n.svg",
-                "5": "../../../public/Skill/Typescript.png",
-                "6": "../../../public/Skill/node.png",
-                "7": "../../../public/Skill/sass.png",
+                "0": "vue.png",
+                "1": "vite.png",
+                "2": "vuetify.svg",
+                "3": "figma.png",
+                "4": "i18n.svg",
+                "5": "Typescript.png",
+                "6": "node.png",
+                "7": "sass.png",
                 "TOOLTIP": {
                     "0": "Vue",
                     "1": "Vite",
@@ -258,20 +270,21 @@
                     "7": "SASS"
                 }
             },
-            "IMG": ["../../../public/Project/MAL/1.jpg", "../../../public/Project/MAL/2.jpg", "../../../public/Project/MAL/3.jpg", "../../../public/Project/MAL/4.jpg", "../../../public/Project/MAL/5.png", "../../../public/Project/MAL/6.png", "../../../public/Project/MAL/7.png", "../../../public/Project/MAL/8.png"],
-            "DOCU": "../../../public/Project/MAL/MAL_Doku.pdf",
+            "IMG": ["MAL/1.jpg", "MAL/2.jpg", "MAL/3.jpg", "MAL/4.jpg", "MAL/5.jpg", "MAL/6.jpg", "MAL/7.jpg", "MAL/8.jpg"],
+            "DOCU": "https://drive.google.com/file/d/1Tj4iA_yWK4EX6-9YSIhBKZ52PRNsbMbG/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/MAL-Redesign",
-            "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1"
+            "FIGMA": "https://www.figma.com/file/IKyKA9rHgxSKHfd3DPR99n/MAL?type=design&node-id=864%3A2784&mode=design&t=jL3KtAJh5U1gI2oT-1",
+            "LIVE": ""
         },
         "INTERNET": {
             "TITLE": "Internet Worldwide",
             "TOOLTIP": "Interaktive Datenvisualierung",
             "DESCRIPTION": "Jeder kennt es, Jeder nutzt es. In der heutigen Gesellschaft ist es nicht mehr möglich ohne damit zuleben. Ob Privat oder im Gewerbe, für jeden ist es unersetzbar. Mit einem einzigen Klick kriegt man, das was benötigt wird. \n\nDas Internet. \n\nViele Technologien haben dazu beigetragen, dass es alltäglich genutzt wird. Weltweit verwenden Billionen von Menschen das Internet, fürs Surfen, Streaming oder Social Media auf verschiedenen Geräten. Es bietet unbegrenzte Informationen und Daten für jeden an. \n\nAuf dieser Website wird eine interaktive Datenvisualisierung über das Internet umgesetzt. Internet ist ein Thema welches jeder kennt. Ein Thema mit dem jeder verbunden ist. So sollte dieses alltägliche Hilfsmittel in verschiedene Grafiken zum Analysieren und Interagieren dargestellt werden.",
             "TECH": {
-                "0": "../../../public/Skill/LogoHTML.png",
-                "1": "../../../public/Skill/LogoCSS.png",
-                "2": "../../../public/Skill/LogoJS.png",
-                "3": "../../../public/Skill/json.png",
+                "0": "LogoHTML.png",
+                "1": "LogoCSS.png",
+                "2": "LogoJS.png",
+                "3": "json.png",
                 "TOOLTIP": {
                     "0": "HTML",
                     "1": "CSS",
@@ -279,10 +292,11 @@
                     "3": "JSON"
                 }
             },
-            "IMG": ["../../../public/Project/Internet/1.png", "../../../public/Project/Internet/2.png", "../../../public/Project/Internet/3.png", "../../../public/Project/Internet/4.png", "../../../public/Project/Internet/5.png", "../../../public/Project/Internet/6.png"],
-            "DOCU": "../../../public/Project/Internet/INTERNET_Dokumentation.pdf",
+            "IMG": ["Internet/1.PNG", "Internet/2.PNG", "Internet/3.PNG", "Internet/4.PNG", "Internet/5.PNG", "Internet/6.PNG"],
+            "DOCU": "https://drive.google.com/file/d/1Aq8oebRzCqcsBolLfOJT0TyR2bNzQ_d7/view?usp=sharing",
             "GITHUB": "https://github.com/TP-Nguyen/Internet",
-            "LIVE": "../../../1.0/Project/Datenvisiualisierung.html",
+
+            "LIVE": "https://tp-nguyen.github.io/Internet/",
             "FIGMA": ""
         },
         "EATABROAD": {
@@ -290,68 +304,73 @@
             "TOOLTIP": "Website",
             "DESCRIPTION": "Manchmal lohnt es sich, von ausgetretenen Touristenpfaden abzuweichen und unbekannte Orte zu erkunden. Diese weniger bekannten Reiseziele bieten nicht nur eine Flucht vor den Massen, sondern auch die Gelegenheit, neue kulinarische Genüsse zu entdecken und sich in die lokale Kultur einzutauchen. \n\n Mit diesen Gedanken wurde ein Konzept festgelegt, gefolgt von Designprozessen. Auf Adobe XD wurde ein UI-Prototyp entwickelt, dieser wurde zu einem Browser lauffähigen Prototyp entwickelt. \n\nIn Zusammenarbeit mit Lars Obist",
             "TECH": {
-                "0": "../../../public/Skill/LogoHTML.png",
-                "1": "../../../public/Skill/LogoCSS.png",
-                "2": "../../../public/Skill/LogoJS.png",
+                "0": "LogoHTML.png",
+                "1": "LogoCSS.png",
+                "2": "LogoJS.png",
                 "TOOLTIP": {
                     "0": "HTML",
                     "1": "CSS",
                     "2": "JavaScript"
                 }
             },
-            "IMG": ["../../../public/Project/eatabroard/eatabroadStartseite.png", "../../../public/Project/eatabroard/eatabroadTitel.png", "../../../public/Project/eatabroard/eatabroadInhalt.png", "../../../public/Project/eatabroard/eatabroadMobile.png"],
+            "IMG": ["eatabroard/eatabroadStartseite.png", "eatabroard/eatabroadTitel.png", "eatabroard/eatabroadInhalt.png", "eatabroard/eatabroadMobile.png"],
             "GITHUB": "https://github.com/TP-Nguyen/eatabroard",
-            "LIVE": "../../../1.0/Project/eatabroard/index.html",
-            "FIGMA": ""
+            "LIVE": "https://tp-nguyen.github.io/eatabroard/",
+            "FIGMA": "",
+            "DOCU": ""
         },
         "NEW": {
             "TITLE": "",
             "TOOLTIP": "",
             "DESCRIPTION": "",
             "TECH": {
-                "0": "../../../public/Skill/....png",
+                "0": "....png",
                 "TOOLTIP": {
                     "0": ""
                 }
-            }
+            },
+            "GITHUB": "",
+            "LIVE": "",
+            "FIGMA": "",
+            "DOCU": ""
         }
     },
     "PROGRAMM": {
         "VUE": {
             "TITLE": "Vue.js",
-            "IMG": "../../../public/Skill/vue.png"
+            "IMG": "vue.png"
         },
         "TYPE": {
             "TITLE": "TypeScript",
-            "IMG": "../../../public/Skill/TypeScript.png"
+            "IMG": "TypeScript.png"
         },
         "GIT": {
             "TITLE": "Git",
-            "IMG": "../../../public/Skill/Git.png"
+            "IMG": "Git.png"
         },
         "SASS": {
             "TITLE": "SASS",
-            "IMG": "../../../public/Skill/sass.png"
+            "IMG": "sass.png"
         },
         "REACT": {
             "TITLE": "React",
-            "IMG": "../../../public/Skill/LogoReact.png"
+            "IMG": "LogoReact.png"
         },
         "NODE": {
             "TITLE": "Node",
-            "IMG": "../../../public/Skill/node.png"
+            "IMG": "node.png"
         },
         "XD": {
             "TITLE": "Adobe XD",
-            "IMG": "../../../public/Skill/xd.png"
+            "IMG": "xd.png"
         },
         "GITHUB": {
             "TITLE": "Github",
-            "IMG": "../../../public/Skill/LogoGithub.png"
+            "IMG": "LogoGithub.png"
         },
         "": {
             "TITLE": "",
-            "IMG": "../../../public/Skill/.png"
+            "IMG": ".png"
         }
     }
 }

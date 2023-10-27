@@ -4,10 +4,7 @@ import * as directives from 'vuetify/directives';
 import 'vuetify/styles';
 
 import { aliases, fa } from "vuetify/iconsets/fa";
-import { mdi } from "vuetify/lib/iconsets/mdi";
-// import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import { md } from 'vuetify/iconsets/md'
-// import { custom } from '../assets/customIcon'
 const vuetify = createVuetify({
      components,
      directives,
@@ -48,7 +45,6 @@ const vuetify = createVuetify({
           sets: {
                // custom,
             fa,
-            mdi,
             md,
           }
         },

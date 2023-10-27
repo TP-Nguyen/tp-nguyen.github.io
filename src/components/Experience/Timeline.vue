@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import Timeslot from './Timeslot.vue'
 </script>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+    name: 'Timeline',
+  })
+</script>
 <template>
   <section id="experience">
   <div align="center">
@@ -61,19 +67,8 @@ import Timeslot from './Timeslot.vue'
       <template  v-slot:opposite>
         {{ $t('EXPERIENCE.SEOULTECH.DATE') }}
       </template>
-      <!-- <div v-motion
-        :initial="{
-          opacity: 0,
-          x: 50}"
-        :visible="{
-          opacity: 1,
-          x: 0,
-          transition: {
-            delay: 200,
-          },
-        }"> -->
+
       <Timeslot props="SEOULTECH" />
-    <!-- </div> -->
     </v-timeline-item>
   
 
@@ -85,7 +80,7 @@ import Timeslot from './Timeslot.vue'
       <template v-slot:opposite>
         <Timeslot props="28APPS" />
       </template>
-      <div>
+      <div class="text-right">
         {{ $t('EXPERIENCE.28APPS.DATE') }}
       </div>
     </v-timeline-item>
@@ -111,7 +106,7 @@ import Timeslot from './Timeslot.vue'
       <template v-slot:opposite>
         <Timeslot props="EATHAPPY" />
       </template>
-      <div>{{ $t('EXPERIENCE.EATHAPPY.DATE') }}
+      <div class="text-right">{{ $t('EXPERIENCE.EATHAPPY.DATE') }}
       </div>
     </v-timeline-item>
 
@@ -134,7 +129,8 @@ import Timeslot from './Timeslot.vue'
       <template v-slot:opposite>
         <Timeslot props="WWS" />
       </template>
-      {{ $t('EXPERIENCE.WWS.DATE') }}
+      <div class="text-right">
+      {{ $t('EXPERIENCE.WWS.DATE') }}</div>
     </v-timeline-item>
     
     <v-timeline-item>
@@ -156,14 +152,15 @@ import Timeslot from './Timeslot.vue'
       <template v-slot:opposite>
         <Timeslot props="BBS" />
       </template>
-      {{ $t('EXPERIENCE.BBS.DATE') }}
+      <div class="text-right">
+      {{ $t('EXPERIENCE.BBS.DATE') }}</div>
     </v-timeline-item>
   </v-timeline>
   <!-- <v-sheet align="center" width="500" class="line"></v-sheet> -->
   <!-- <v-divider class="border-opacity-50" inset></v-divider> -->
 </section>
 </template>
-<script lang="ts"></script>
+
 <style lang="scss" scoped>
 #experience{
   padding: 40vh 0 0 0;
@@ -179,7 +176,7 @@ import Timeslot from './Timeslot.vue'
 .line {
   // transform: translate(-50%, -50%);
   border: 1px solid #fff ;
-  width: 1000px;
+  width: 1040px;
   // width: 290px;
 }
 .line-up {
