@@ -10,7 +10,7 @@ defineComponent({
           <v-row>
                <v-col cols="auto" lg="1" class="pt-0">
                     <v-avatar class="mt-3 mx-5" :image="imageSrc"></v-avatar>
-                    <span v-if="this.$vuetify.display.mobile">{{ $t('EXPERIENCE.'+props+'.DATE') }}</span>
+                    <span v-if="$vuetify.display.mobile">{{ $t('EXPERIENCE.'+props+'.DATE') }}</span>
                </v-col>
                <v-col class="pt-0">
                     <v-card-title class="py-0">{{ $t('EXPERIENCE.' + props + '.TITLE') }}</v-card-title>
