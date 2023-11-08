@@ -43,7 +43,7 @@ export default {
   transition: {
     delay: 600,
   },
-}" align="start" density="comfortable" line-color="#fff" line-inset="15" side="start">
+}" align="start" line-color="#fff" line-inset="15" side="start">
 
       <v-timeline-item>
         <template v-slot:icon>
