@@ -16,7 +16,7 @@ export default {
   name: 'Intro', 
   computed: {
       imageSrc(){
-               return new URL(`../../assets/logoTPN.svg`, import.meta.url).href;
+               return new URL(`../assets/image/logoTPN.svg`, import.meta.url).href;
           },
     }
 }
