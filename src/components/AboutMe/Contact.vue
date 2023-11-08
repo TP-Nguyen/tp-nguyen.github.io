@@ -3,11 +3,11 @@
           <img class="logo" src="../../assets/logoTPN.svg"/>
           <v-sheet class="pa-4 my-4" color="transparent" :width="1040">
                <v-row>
-               <v-col cols="1">
-                    <a :href="$t('GENERAL.LINKEDIN')"> 
+               <v-col cols="2">
+                    <a :href="$t('GENERAL.LINKEDIN')" target="_blank"> 
                     <img src="../../assets/icon/linkedin.svg"/></a>
                     <br>
-                    <a :href="$t('GENERAL.LINKEDIN')">
+                    <a :href="$t('GENERAL.GITHUB')" target="_blank">
                     <img src="../../assets/Skill/LogoGithub.png"/></a>
                     <br>
                     <a href="mailto:phuongthao.nguyen@live.de">

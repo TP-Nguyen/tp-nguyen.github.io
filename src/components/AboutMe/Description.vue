@@ -3,9 +3,8 @@
           <v-sheet v-motion-fade-visible class="text-left pa-4 my-4" color="background"
                :width="1040">
                <v-row>
-                    <v-col cols="4">
+                    <v-col cols="auto" lg="4" >
                     <img class="profilIMG" src="../../assets/profil.jpg"/>
-                         <v-col>
                               <v-row>
                                    <v-col>
                                         <a >
@@ -22,16 +21,15 @@
                                         <a >
                               <img src="../../assets/Skill/postman.png"/> </a></v-col>
                               </v-row> 
-                         </v-col>
-                         <v-col></v-col>
                     </v-col>
-                    <v-col cols="8">
-               <span class="text-h2">
-                         {{ $t('ABOUTME.GREETING') }}
-               </span><span class="text-h4">
-                         {{ $t('ABOUTME.NAME') }} <br>
-               </span>
-               {{ $t('ABOUTME.INTRODUCTION') }}</v-col>
+                    <v-col cols="auto" lg="8">
+                         <span class="text-h2">
+                                   {{ $t('ABOUTME.GREETING') }}
+                         </span><span class="text-h4">
+                                   {{ $t('ABOUTME.NAME') }} <br>
+                         </span>
+                         {{ $t('ABOUTME.INTRODUCTION') }}
+                    </v-col>
                </v-row>
                
           </v-sheet>
@@ -50,7 +48,7 @@ export default{
 </script>
 <style lang="scss" scoped>
 #aboutme{
-     height: 100vh;
+     min-height: 100vh;
      width: 100vw;
      overflow: hidden;
 }

@@ -8,6 +8,16 @@ import { md } from 'vuetify/iconsets/md'
 const vuetify = createVuetify({
      components,
      directives,
+     display:{
+          // mobileBreakpoint: 'sm',
+          thresholds: {
+               xs: 0,
+               sm: 340,
+               md: 540,
+               lg: 800,
+               xl: 1280,
+          },
+     },
      theme: {
           defaultTheme: 'dark',
           themes: {
