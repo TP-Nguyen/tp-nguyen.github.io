@@ -1,10 +1,10 @@
 <template>
   <v-parallax id="top" class="changeColor" :src="imageSrc">
     <div class="d-flex flex-column fill-height justify-center align-center text-white">
-      <h1  class="text-h1 font-weight-thin mb-4">
+      <h1 class="text-h4 text-xl-h1 text-md-h3 text-lg-h2  font-weight-thin mb-4">
         {{ $t('GENERAL.LASTNAME') }} {{ $t('GENERAL.FIRSTNAME') }}
       </h1>
-      <h4  class="subheading">
+      <h4 class="subheading">
         {{ $t('ABOUTME.INTRO') }}
       </h4>
     </div>
@@ -12,18 +12,19 @@
 </template>
 
 <script lang="ts">
-
 export default {
-  name: 'Intro', computed: {
+  name: 'Intro', 
+  computed: {
       imageSrc(){
-               return new URL(`../../src/assets/logoTPN.svg`, import.meta.url).href;
-          }
+               return new URL(`../assets/image/logoTPN.svg`, import.meta.url).href;
+          },
     }
 }
 </script>
 <style lang="scss" scoped>
 .changeColor {
   animation: colorchange 5s linear infinite;
+  min-height: 100vh;
 }
 
 .subheading {

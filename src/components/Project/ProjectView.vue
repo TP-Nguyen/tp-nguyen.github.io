@@ -26,12 +26,12 @@ import ProjectDetails from './ProjectDetails.vue'
                          transition: {
                               delay: 200,
                          },
-                    }"> 
+                    }" class="d-flex justify-center"> 
                          <v-tooltip :text="$t('PROJECT.MYANIMELIST.TOOLTIP')" location="bottom">
                               <template v-slot:activator="{ props }">
                                    <v-card v-bind="props" class="d-flex justify-center align-center" color="#2E51A2"
-                                        :height="500" :width="1040" @click="openDialog(), typeDetail = 'MYANIMELIST'">
-                                        <img :height="400" src="../../assets/ProjectCover/myanimelist-logo.jpg" />
+                                        :max-height="500" :max-width="1040" :min-width="300" width="80vw" @click="openDialog(), typeDetail = 'MYANIMELIST'">
+                                        <img height="300" src="../../assets/ProjectCover/myanimelist-logo.jpg" />
                                    </v-card></template></v-tooltip></v-col>
                </v-row>
                <v-row>
@@ -42,13 +42,13 @@ import ProjectDetails from './ProjectDetails.vue'
                          transition: {
                               delay: 200,
                          },
-                    }">
+                    }" class="d-flex justify-center">
                     <v-tooltip :text="$t('PROJECT.ZPHERE.TOOLTIP')" location="bottom">
                               <template v-slot:activator="{ props }"><v-card v-bind="props" color="#000"
-                                        class="d-flex justify-center align-center" :height="300" :width="1040"
+                                        class="d-flex justify-center align-center py-3" :min-width="300" width="80vw" :max-height="300" :max-width="1040"
                                         @click="openDialog(), typeDetail = 'ZPHERE'">
                                         <!-- @click="showDetail = true, typeDetail = 'ZPHERE'"> -->
-                                        <img :height="250" src="../../assets/ProjectCover/zphere.png" />
+                                        <img :height="200" src="../../assets/ProjectCover/zphere.png" />
                                    </v-card></template></v-tooltip></v-col>
                </v-row>
                <v-row>
@@ -60,11 +60,11 @@ import ProjectDetails from './ProjectDetails.vue'
                               transition: {
                                    delay: 200,
                               },
-                         }">
+                         }" class="d-flex justify-center">
                          <v-tooltip :text="$t('PROJECT.LAGOM.TOOLTIP')" location="bottom">
                                    <template v-slot:activator="{ props }"><v-card v-bind="props"
                                              @click="openDialog(), typeDetail = 'LAGOM'"
-                                             class="d-flex justify-center align-center" :height="300" :width="670">
+                                             class="d-flex justify-center align-center" :height="300" :min-width="300" width="80vw" :max-width="670">
                                              <img :height="250"
                                                   src="../../assets/ProjectCover/lagomIcon.png" /></v-card>
                                    </template>
@@ -77,9 +77,9 @@ import ProjectDetails from './ProjectDetails.vue'
      transition: {
           delay: 200,
      },
-}" no-gutters class="mt-7"><v-tooltip :text="$t('PROJECT.SURVIVAL.TOOLTIP')" location="bottom">
+}"  no-gutters class="mt-7 d-flex justify-center"><v-tooltip :text="$t('PROJECT.SURVIVAL.TOOLTIP')" location="bottom">
                                    <template v-slot:activator="{ props }"><v-card v-bind="props" class="d-flex align-center"
-                                             @click="openDialog(), typeDetail = 'SURVIVAL'" :height="300" :width="670">
+                                             @click="openDialog(), typeDetail = 'SURVIVAL'" :height="300" :min-width="300" width="80vw" :max-width="670">
                                              <img :width="670"
                                                   src="../../assets/ProjectCover/survival.png" /></v-card></template></v-tooltip></v-row>
                     </v-col>
@@ -90,7 +90,7 @@ import ProjectDetails from './ProjectDetails.vue'
      transition: {
           delay: 200,
      },
-}" class="d-flex justify-end"><v-tooltip :text="$t('PROJECT.INTERNET.TOOLTIP')" location="bottom">
+}" class="d-flex justify-center justify-lg-end"><v-tooltip :text="$t('PROJECT.INTERNET.TOOLTIP')" location="bottom">
                               <template v-slot:activator="{ props }"><v-card v-bind="props" :height="630" :width="300"
                                         @click="openDialog(), typeDetail = 'INTERNET'">
                                         <img :height="630" :width="300"
@@ -104,20 +104,20 @@ import ProjectDetails from './ProjectDetails.vue'
           delay: 200,
      },
 }">
-                    <v-col class="d-flex justify-start"><v-tooltip :text="$t('PROJECT.LASTMINUTE.TOOLTIP')"
+                    <v-col class="d-flex justify-center justify-lg-start"><v-tooltip :text="$t('PROJECT.LASTMINUTE.TOOLTIP')"
                               location="bottom">
                               <template v-slot:activator="{ props }"><v-card v-bind="props" class="d-flex justify-center"
                                         color="#fff" :width="300" @click="openDialog(), typeDetail = 'LASTMINUTE'">
                                         <img :height="300" class="justify-center"
                                              src="../../assets/ProjectCover/Stressed.png" /></v-card></template></v-tooltip></v-col>
-                    <v-col class="d-flex justify-center"><v-tooltip :text="$t('PROJECT.THROWBACK.TOOLTIP')"
+                    <v-col class="d-flex justify-center justify-lg-center"><v-tooltip :text="$t('PROJECT.THROWBACK.TOOLTIP')"
                               location="bottom">
                               <template v-slot:activator="{ props }"><v-card v-bind="props" class="d-flex justify-center"
                                         color="#1B1A16" :height="300" :width="300"
                                         @click="openDialog(), typeDetail = 'THROWBACK'">
                                         <img :height="300"
                                              src="../../assets/ProjectCover/ThrowbackDeckblatt.jpg" /></v-card></template></v-tooltip></v-col>
-                    <v-col class="d-flex justify-end"><v-tooltip :text="$t('PROJECT.EATABROAD.TOOLTIP')" location="bottom">
+                    <v-col class="d-flex justify-center justify-lg-end"><v-tooltip :text="$t('PROJECT.EATABROAD.TOOLTIP')" location="bottom">
                               <template v-slot:activator="{ props }"><v-card v-bind="props" class="d-flex align-center"
                                         color="#fff" :height="300" :width="300"
                                         @click="openDialog(), typeDetail = 'EATABROAD'">

@@ -6,10 +6,11 @@ defineComponent({
 });
 </script>
 <template>
-     <v-sheet class="pb-5" color="background" max-width="800">
+     <v-sheet class="pb-5 text-break" color="background" max-width="800" width="70vw">
           <v-row>
-               <v-col cols="1" class="pt-0">
+               <v-col cols="auto" lg="1" class="pt-0">
                     <v-avatar class="mt-3 mx-5" :image="imageSrc"></v-avatar>
+                    <span v-if="$vuetify.display.mobile">{{ $t('EXPERIENCE.'+props+'.DATE') }}</span>
                </v-col>
                <v-col class="pt-0">
                     <v-card-title class="py-0">{{ $t('EXPERIENCE.' + props + '.TITLE') }}</v-card-title>
@@ -115,5 +116,8 @@ export default {
      height: 40px;
      width: 40px;
      border-radius: 30px;
+}
+.text-break{
+     // word-wrap: break-word
 }
 </style>

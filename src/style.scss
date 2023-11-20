@@ -1,12 +1,14 @@
 :root {
     font-family: "Montserrat-Regular", "Montserrat", system-ui, Arial, sans-serif;
     background-color: rgba(var(--v-theme-background));
+    overflow-x: hidden;
 }
 
 html {
     width: 100vw;
     scroll-behavior: smooth;
     overflow-y: hidden;
+    overflow-x: hidden;
     // scroll-snap-type: y mandatory;
     // scroll-snap-type: y proximity;
     scroll-margin-top: 100vh;
